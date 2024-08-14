@@ -19,10 +19,10 @@
                     <div class="header-left">
                         <div class="logo">
                             <a href="{{url('/')}}" class="header-logo">
-                                <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                <img src="assets/img/logo/logooo.png" alt="logo-img" height="70px">
                             </a>
                             <a href="{{url('/')}}" class="header-logo-2">
-                                <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                <img src="assets/img/logo/logooo.png" alt="logo-img" height="70px">
                             </a>
                         </div>
                     </div>
