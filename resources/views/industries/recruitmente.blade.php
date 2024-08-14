@@ -225,7 +225,7 @@
             <div class="container">
                 <div class="page-heading">
                     <div class="page-header-left">
-                        <h1 class="wow fadeInUp" data-wow-delay=".3s">retailes</h1>
+                        <h1 class="wow fadeInUp" data-wow-delay=".3s">Recruitment</h1>
                         <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                             <li>
                                 <a href="{{url('/')}}">
@@ -236,7 +236,7 @@
                                 <i class="fa-regular fa-chevrons-right"></i>
                             </li>
                             <li>
-                                retailes
+                                Recruitment
                             </li>
                         </ul>
                     </div>
@@ -290,7 +290,7 @@
                                         <img src="assets/img/about/video-img.jpg" alt="video-img">
                                         <div class="video-box">
                                             <span class="button-text wow fadeInUp">
-                                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                                <a href="https://youtu.be/tCwNDJ-7QR0?si=MUkzOuMPIaZy61IU" class="video-btn ripple video-popup">
                                                     <i class="fa-solid fa-play"></i>
                                                 </a>
                                             </span>
@@ -353,7 +353,7 @@
                                     <img src="assets/img/hosting/icon-3.png" alt="img">
                                 </div>
                                 <div class="thumb">
-                                    <img src="assets/img/gym-man.png" alt="img">
+                                    <img src="{{asset('assets\img\testimonial\automotive1.png')}}">
                                 </div>
                             </div>
                         </div>

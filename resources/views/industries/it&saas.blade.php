@@ -273,8 +273,8 @@
                                 Dedicated Starter Plan - 12 months for $49/month
                             </span>
                             <h1 class="wow fadeInUp" data-wow-delay=".3s">
-                                Education <br>
-                                Student Intake with Respond.io
+                                IT & SaaS<br>
+                                Crack the communication code
                                 
                             </h1>
                             <div class="hero-list-items wow fadeInUp" aria-errormessage=".5s">

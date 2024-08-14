@@ -60,13 +60,13 @@ class MasterController extends Controller
     }
     // ===============================
     //industries
-    public function Education()
+    public function education()
     {
-        return view('industries.education');
+        return view('industries.educatione');
     }
-    public function Ecommerce()
+    public function ecommerce()
     {
-        return view('industries.ecommerce');
+        return view('industries.ecommerces');
     }
     public function retail()
     {
@@ -84,4 +84,26 @@ class MasterController extends Controller
     {
         return view('industries.healthcares');
     }
+    public function recruitment()
+    {
+        return view('industries.recruitmente');
+    }
+    public function itsaas()
+    {
+        return view('industries.it&saas');
+    }
+    public function other()
+    {
+        return view('industries.others');
+    }
+
+    //service
+     // ===============================
+
+     public function software_consultant()
+     {
+         return view('service.software_consultantes');
+     }
+
+
 }

@@ -237,7 +237,7 @@
                         </ul>
                     </div>
                     <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
-                        <img src="assets/img/breadcrumb.png" alt="img">
+                        <img src="assets/img/icon_banner/ecomerce_icon.png" alt="img">
                     </div>
                 </div>
             </div>

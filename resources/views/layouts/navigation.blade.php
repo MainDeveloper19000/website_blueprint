@@ -86,7 +86,7 @@
                                                                         <img src="{{asset('assets/img/menu-icon/edu_icon.png')}}" alt="img" height="35px" height="35px">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="{{route('industries.education')}}">  Education</a></h6>
+                                                                        <h6><a href="{{route('industries.educatione')}}">  Education</a></h6>
                                                                         <p>
                                                                             Student Intake with Respond.io
                                                                         </p>
@@ -99,7 +99,7 @@
                                                                         <img src="{{asset('assets/img/menu-icon/icon_ecomerce.png')}}" alt="img" height="35px" height="35px">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="{{route('industries.ecommerce')}}">  Ecommerce</a></h6>
+                                                                        <h6><a href="{{route('industries.ecommerces')}}">  Ecommerce</a></h6>
                                                                         <p>
                                                                             Close More with Chat Commerce
                                                                         </p>
@@ -165,7 +165,7 @@
                                                                         <img src="{{asset('assets/img/menu-icon/icon_Recruitment.png')}}" alt="img" height="35px" height="35px">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="service.html">Recruitment</a></h6>
+                                                                        <h6><a href="{{route('industries.recruitmente')}}">  Recruitment</a></h6>
                                                                         <p>
                                                                             Get the job done over chat
                                                                         </p>
@@ -178,7 +178,7 @@
                                                                         <img src="{{asset('assets/img/menu-icon/icon_saas.png')}}" alt="img" height="35px" height="35px">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="#">IT & SaaS</a></h6>
+                                                                        <h6><a href="{{route('industries.it&saas')}}">  IT & SaaS</a></h6>
                                                                         <p>
                                                                             Crack the communication code
                                                                         </p>
@@ -191,7 +191,7 @@
                                                                         <img src="{{asset('assets/img/menu-icon/icon_Other.png')}}" alt="img" height="35px" height="35px">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="#">Other</a></h6>
+                                                                        <h6><a href="{{route('industries.others')}}">  Other</a></h6>
                                                                         <p>
                                                                            More Experience!
                                                                         </p>
@@ -238,7 +238,7 @@
                                                                             alt="img">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="#">Software Consultant</a></h6>
+                                                                        <h6><a href="{{route('service.software_consultantes')}}">  Software Consultant</a></h6>
                                                                         <p>
                                                                             About hostech
                                                                         </p>

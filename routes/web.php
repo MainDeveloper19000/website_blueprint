@@ -34,12 +34,18 @@ route::controller(MasterController::class)->group(function(){
     route::get('/contact','contacts')->name('help_center.contact');
 
     //industries
-    route::get('/Education','Education')->name('industries.education');
-    route::get('/Ecommerce','Ecommerce')->name('industries.ecommerce');
+    route::get('/education','education')->name('industries.educatione');
+    route::get('/ecommerce','ecommerce')->name('industries.ecommerces');
     route::get('/retail','retail')->name('industries.retailes');
     route::get('/hospitality','hospitality')->name('industries.hospital');
     route::get('/automotive','automotive')->name('industries.automotives');
     route::get('/healthcare','healthcare')->name('industries.healthcares');
+    route::get('/recruitment','recruitment')->name('industries.recruitmente');
+    route::get('/itsaas','itsaas')->name('industries.it&saas');
+    route::get('/other','other')->name('industries.others');
+
+    //service
+    route::get('/software_consultant','software_consultant')->name('service.software_consultantes');
     
 });
 
