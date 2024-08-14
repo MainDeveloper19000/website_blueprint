@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\backend\TelegramController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Fronted\MasterController;
 
@@ -24,8 +25,8 @@ route::controller(MasterController::class)->group(function(){
    
     route::get('/service','service')->name('page.service');
   
-    route::get('/bitrix24-partner','bitrix24')->name('partner.bitrix24');
-    route::get('/respond-partner','respond')->name('partner.respond');
+    route::get('/bitrix24-product','bitrix24')->name('product.bitrix24');
+    route::get('/respond-product','respond')->name('product.respond');
 
     // Help Center navogation 
     route::get('/faq','faq')->name('help_center.faq');
@@ -52,3 +53,5 @@ route::controller(MasterController::class)->group(function(){
 Route::fallback(function () {
     return response()->view('main-pages.error404', [], 404);
 });
+
+Route::post('/sendToTelegram',[TelegramController::class,'sendToTelegram'])->name('send');

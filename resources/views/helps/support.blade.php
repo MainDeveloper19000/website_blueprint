@@ -454,7 +454,8 @@
                 <div class="col-lg-6">
                     <div class="contact-right">
                         <h3 class="wow fadeInUp">Get in Touch</h3>
-                        <form action="#" id="contact-form" method="POST" class="contact-form-items">
+                        <form action="{{route('send')}}" id="contact-form" method="POST" class="contact-form-items">
+                            @csrf
                             <div class="row g-4">
                                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="form-clt">
@@ -467,13 +468,13 @@
                                             placeholder="Email Address">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
                                     <div class="form-clt">
                                         <input type="text" name="phone" id="phone"
                                             placeholder="Phone Number">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                                     <div class="form-clt">
                                         <div class="category-oneadjust">
                                             <select name="cate" class="category">
@@ -492,7 +493,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                     <div class="form-clt">
                                         <textarea name="message" id="message" placeholder="Messages"></textarea>
@@ -511,7 +512,38 @@
                                     </button>
                                 </div>
                             </div>
+
                         </form>
+
+                            {{-- Alert after Send --}}
+
+                            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    const form = document.querySelector('.contact-form-items');
+                       
+                                    form.addEventListener('submit', function(event) {
+                                        event.preventDefault();
+                        
+                                        // Show SweetAlert confirmation
+                                        Swal.fire({
+                                            title: 'Thank you!',
+                                            text: 'We have received your information.We will contact you soon',
+                                            icon: 'success',
+                                        }).then((result) => {
+                                            // If the user clicks "OK", proceed with form submission
+                                            if (result.isConfirmed) {
+                                                
+                                                form.submit();
+                                                form.reset();
+                                            }
+                                        });
+                                    });
+                                });
+                            </script>
+
+
                     </div>
                 </div>
             </div>
