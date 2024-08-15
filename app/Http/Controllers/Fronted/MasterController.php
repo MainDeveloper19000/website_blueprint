@@ -105,5 +105,15 @@ class MasterController extends Controller
          return view('service.software_consultantes');
      }
 
+      //partner
+     // ===============================
+     public function bitrix24_partner()
+     {
+         return view('partnerships.bitrix24');
+     }
+     public function respond_partner()
+     {
+         return view('partnerships.respond');
+     }
 
 }

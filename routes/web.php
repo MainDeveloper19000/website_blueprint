@@ -47,6 +47,13 @@ route::controller(MasterController::class)->group(function(){
     //service
     route::get('/software_consultant','software_consultant')->name('service.software_consultantes');
     
+
+
+
+    //partnerships
+    route::get('/bitrix24_partner','bitrix24_partner')->name('partnerships.bitrix24');
+    route::get('/respond_partner','respond_partner')->name('partnerships.respond');
+    
 });
 
 Route::fallback(function () {
