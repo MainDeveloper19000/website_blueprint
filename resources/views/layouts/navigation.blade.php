@@ -1,5 +1,5 @@
 <header class="header-section-1">
-    <div class="header-top">
+    {{-- <div class="header-top">
         <div class="container">
             <div class="header-top-wrapper">
                 <ul class="list">
@@ -11,7 +11,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div id="header-sticky" class="header-1">
         <div class="container">
             <div class="mega-menu-wrapper">
@@ -19,10 +19,10 @@
                     <div class="header-left">
                         <div class="logo">
                             <a href="{{url('/')}}" class="header-logo">
-                                <img src="assets/img/logo/logooo.png" alt="logo-img" height="70px">
+                                <img src="assets/img/logo/lolo.png" alt="logo-img" height="70px">
                             </a>
                             <a href="{{url('/')}}" class="header-logo-2">
-                                <img src="assets/img/logo/logooo.png" alt="logo-img" height="70px">
+                                <img src="assets/img/logo/lolo.png" alt="logo-img" height="70px">
                             </a>
                         </div>
                     </div>
