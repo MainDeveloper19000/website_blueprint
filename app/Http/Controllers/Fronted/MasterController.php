@@ -104,6 +104,28 @@ class MasterController extends Controller
      {
          return view('service.software_consultantes');
      }
+     public function service_center()
+     {
+         return view('service.service_centers');
+     }
+     public function it_maintanance()
+     {
+        return view('service.it_maintanances');
+     }
+     public function crm_training()
+     {
+        return view('service.crm_train');
+     }
+     public function onboarding_program()
+     {
+        return view('service.onboarding_programe');
+     }
+     public function other_service()
+     {
+        return view('service.other_servic');
+     }
+     
+     
 
       //partner
      // ===============================

@@ -254,7 +254,7 @@
             <div class="container">
                 <div class="page-heading">
                     <div class="page-header-left">
-                        <h1 class="wow fadeInUp" data-wow-delay=".3s">Bitrix Gold Partner</h1>
+                        <h1 class="wow fadeInUp" data-wow-delay=".3s">Mais produtividade e <br>desempenho<br> na sua empresa</h1>
                         <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                             <li>
                                 <a href="index.html">
@@ -270,7 +270,7 @@
                         </ul>
                     </div>
                     <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
-                        <img src="assets/img/breadcrumb.png" alt="img">
+                        <img src="{{asset('assets/img/bitrix24/bitrix24.png')}}">
                     </div>
                 </div>
             </div>
@@ -290,9 +290,9 @@
                                     <img src="assets/img/about/shape.png" alt="img">
                                 </div>
                                 <div class="about-image-1 wow fadeInLeft" data-wow-delay=".3s">
-                                    <img src="assets/img/about/01.jpg" alt="img">
+                                    <img src="{{asset('assets/img/bitrix24/flying.webp')}}">
                                     <div class="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                        <img src="assets/img/about/02.png" alt="img">
+                                        <img src="{{asset('assets/img/bitrix24/header.png')}}">
                                     </div>
                                 </div>
                             </div>
@@ -300,11 +300,12 @@
                         <div class="col-lg-6">
                             <div class="about-content">
                                 <div class="section-title">
-                                    <span class="wow fadeInUp">ABOUT US</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Choose a Website Hosting Partner Right Now.</h2>
+                                    <span class="wow fadeInUp">EMPOWERMENT</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">B24 Club</h2>
                                 </div>
                                 <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    There are many variations of passages of Lorem Ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                    A comunidade de educação e networking sobre Bitrix24. Na comunidade você terá acesso aos cursos, conteúdos exclusivos, aulas ao vivo e semanais, estudos de caso e muito mais!
+Não importa que você está começando a usar o Bitrix24 ou já tem experiência: no B24 Club você encontra tudo o que precisa para explorar ao máximo a plataforma de gestão!
                                 </p>
                                 <div class="about-counter-items">
                                     <div class="counter-items wow fadeInUp" data-wow-delay=".3s">

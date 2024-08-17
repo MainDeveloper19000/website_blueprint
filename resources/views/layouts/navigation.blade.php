@@ -255,7 +255,7 @@
                                                                             alt="img">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="#">Service Center</a></h6>
+                                                                        <h6><a href="{{route('service.service_centers')}}">  Service Center</a></h6>
                                                                         <p>
                                                                             Excellent Offer
                                                                         </p>
@@ -269,7 +269,7 @@
                                                                             alt="img">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="dedicated-hosting.html">IT Maintanance</a></h6>
+                                                                        <h6><a href="{{route('service.it_maintanances')}}">  IT Maintanance</a></h6>
                                                                         <p>
                                                                             Flexible Plans
                                                                         </p>
@@ -283,7 +283,7 @@
                                                                             alt="img">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="#">CRM Training</a>
+                                                                        <h6><a href="{{route('service.crm_train')}}">  CRM Training</a></h6>
                                                                         </h6>
                                                                         <p>
                                                                             Flexible Plans
@@ -298,7 +298,7 @@
                                                                             alt="img">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="#">Onboarding Program</a></h6>
+                                                                        <h6><a href="{{route('service.onboarding_programe')}}">  Onboarding Program</a></h6>
                                                                         <p>
                                                                             Best Provider
                                                                         </p>
@@ -312,7 +312,7 @@
                                                                             alt="img">
                                                                     </div>
                                                                     <div class="content">
-                                                                        <h6><a href="cloud-hosting.html">Other Service</a></h6>
+                                                                        <h6><a href="{{route('service.other_servic')}}">  Other Service</a></h6>
                                                                         <p>
                                                                             Worldwide Data Center
                                                                         </p>

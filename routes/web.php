@@ -48,10 +48,12 @@ route::controller(MasterController::class)->group(function(){
 
     //service
     route::get('/software_consultant','software_consultant')->name('service.software_consultantes');
+    route::get('/service_center','service_center')->name('service.service_centers');
+    route::get('/it_maintanance','it_maintanance')->name('service.it_maintanances');
+    route::get('/crm_training','crm_training')->name('service.crm_train');
+    route::get('/onboarding_program','onboarding_program')->name('service.onboarding_programe');
+    route::get('/other_service','other_service')->name('service.other_servic');
     
-
-
-
     //partnerships
     route::get('/bitrix24_partner','bitrix24_partner')->name('partnerships.bitrix24');
     route::get('/respond_partner','respond_partner')->name('partnerships.respond');
