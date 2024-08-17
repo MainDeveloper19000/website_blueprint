@@ -19,10 +19,10 @@
                     <div class="header-left">
                         <div class="logo">
                             <a href="{{url('/')}}" class="header-logo">
-                                <img src="assets/img/logo/lolo.png" alt="logo-img" height="70px">
+                                <img src="assets/img/logo/logogogogo.png" alt="logo-img" height="70px">
                             </a>
                             <a href="{{url('/')}}" class="header-logo-2">
-                                <img src="assets/img/logo/lolo.png" alt="logo-img" height="70px">
+                                <img src="assets/img/logo/logogogogo.png" alt="logo-img" height="70px">
                             </a>
                         </div>
                     </div>
@@ -347,8 +347,8 @@
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="#Bitirx24 Gold Partner">Bitirx24 Gold Partner</a></li>
-                                                <li><a href="#Respond.io Gold Partner">Respond.io Gold Partner</a></li>                           
+                                                <li><a href="{{route('partnerships.bitrix24')}}">  Bitirx24 Gold Partner</a></li>
+                                                <li><a href="{{route('partnerships.respond')}}">Respond.io Gold Partner</a></li>                           
                                             </ul>
                                         </li>
                                         <li>

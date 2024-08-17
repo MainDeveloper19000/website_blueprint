@@ -285,7 +285,7 @@
                             Everything You Need to Growth Up Your Business
                         </span>
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">
-                            Blue Print Technology And Bussiness Consulting
+                            BluePrint Technology And Bussiness Consulting
                         </h1>
                         <h6 class="wow fadeInUp" data-wow-delay=".5s">Unlimited storage, unmetered bandwidth,
                             unbeatable hosting. <br> This gator’s got ya covered.</h6>

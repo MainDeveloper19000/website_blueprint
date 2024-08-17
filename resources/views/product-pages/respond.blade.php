@@ -274,7 +274,7 @@
                     <div class="hero-content">
                         <span class="sub-text-2 wow fadeInUp">
                             <img src="assets/img/hero/activity.png" alt="img" class="me-2">
-                            Bussiness Development Sofware
+                            Bussiness Development Software
                         </span>
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">
                           Respond.io Your ultimate workspace.
