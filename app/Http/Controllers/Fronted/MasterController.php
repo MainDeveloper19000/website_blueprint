@@ -21,7 +21,7 @@ class MasterController extends Controller
 
     public function respond()
     {
-        return view('product-pages.bitrix24');
+        return view('product-pages.respond');
     }
 
     // ===============================

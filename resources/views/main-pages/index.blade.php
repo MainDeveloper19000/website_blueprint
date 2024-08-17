@@ -294,7 +294,7 @@
                                 data-wow-delay=".7s">
                                 Start Free <i class="fas fa-long-arrow-alt-right"></i>
                             </a>
-                            <div class="author-content wow fadeInUp" data-wow-delay=".9s;">
+                            {{-- <div class="author-content wow fadeInUp" data-wow-delay=".9s;">
                                 <img src="assets/img/hero/author-img.png" alt="author-img">
                                 <div class="content">
                                     <div class="star">
@@ -306,13 +306,13 @@
                                     </div>
                                     <p class="text-white">450+ reviews</p>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
                     <div class="hero-image">
-                        <img src="assets/img/hero/hero-llustration.png" alt="img">
+                        <img src="assets/img/hero/image_icon1.png" alt="img" width="800px" >
                     </div>
                 </div>
             </div>

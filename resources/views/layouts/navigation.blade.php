@@ -19,10 +19,10 @@
                     <div class="header-left">
                         <div class="logo">
                             <a href="{{url('/')}}" class="header-logo">
-                                <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                <img src="assets/img/logo/logooo.png" alt="logo-img" height="70px">
                             </a>
                             <a href="{{url('/')}}" class="header-logo-2">
-                                <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                <img src="assets/img/logo/logooo.png" alt="logo-img" height="70px">
                             </a>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                                                                     
                                                             </div>
                                                             <div class="content">
-                                                                <h6><a href="{{route('partner.bitrix24')}}">Bitrix24</a></h6>
+                                                                <h6><a href="{{route('product.bitrix24')}}">Bitrix24</a></h6>
                                                                 <p>
                                                                     Bitrix24. Your ultimate workspace.
                                                                 </p>
@@ -61,7 +61,7 @@
                                                                 <img src="assets/img/menu-icon/respond.png" alt="img"  height="35px" height="35px" >
                                                             </div>
                                                             <div class="content">
-                                                                <h6><a href="{{route('partner.respond')}}"> Respond.io</a></h6>
+                                                                <h6><a href="{{route('product.respond')}}"> Respond.io</a></h6>
                                                                 <p>
                                                                     AI-Powered Customer Conversation.
                                                                 </p>
@@ -204,22 +204,25 @@
                                                 </li>
                                             </ul>
                                         </li>
+
+
+                                        {{-- navigation for mobile-menu --}}
+
+
                                         <li class="has-dropdown active d-xl-none">
-                                            <a href="team.html" class="border-none">
-                                                Pages
+                                            <a href="{{url('/')}}" class="border-none">
+                                                Home
+                                                <i class="fas fa-angle-down"></i>
+                                            </a>
+                                        </li>
+                                        <li class="has-dropdown active d-xl-none">
+                                            <a href="#" class="border-none">
+                                                Products
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="{{url('/about')}}">About Us</a></li>
-                                                <li><a href="black-friday.html">Black Friday</a></li>
-                                                <li><a href="affiliate.html">Affiliate</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="pricing-2.html">Pricing Package</a></li>
-                                                <li><a href="data-center.html">Data Center</a></li>
-                                                <li><a href="service.html">Services</a></li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="404.html">Error Pages</a></li>
+                                                <li><a href="{{route('product.bitrix24')}}">Bitrix 24</a></li>
+                                                <li><a href="{{route('product.respond')}}">Respond.io</a></li>
                                             </ul>
                                         </li>
                                         <li class="has-dropdown menu-thumb">
@@ -323,20 +326,23 @@
                                         </li>
                                         <li class="has-dropdown active d-xl-none">
                                             <a href="team.html" class="border-none">
-                                                Hosting
+                                                Industries
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="share-hosting.html">Share Hosting</a></li>
-                                                <li><a href="reseller-hosting.html">Reseller Hosting</a></li>
-                                                <li><a href="dedicated-hosting.html">Dedicated Hosting</a></li>
-                                                <li><a href="vps-hosting.html">VPS Hosting</a></li>
-                                                <li><a href="wordpress-hosting.html">WordPress Hosting</a></li>
-                                                <li><a href="cloud-hosting.html">Cloud Hosting</a></li>
+                                                <li><a href="{{route('industries.educatione')}}">Education</a></li>
+                                                <li><a href="{{route('industries.ecommerces')}}">Ecommerce</a></li>
+                                                <li><a href="{{route('industries.retailes')}}">Retail</a></li>
+                                                <li><a href="{{route('industries.hospital')}}">Hospital</a></li>
+                                                <li><a href="{{route('industries.automotives')}}">Automotive</a></li>
+                                                <li><a href="{{route('industries.healthcares')}}">Healthcare</a></li>
+                                                <li><a href="{{route('industries.recruitmente')}}">Recruitment</a></li>
+                                                <li><a href="{{route('industries.it&saas')}}">IT&SaaS</a></li>
+                                                <li><a href="{{route('industries.others')}}">Other</a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="news.html">
+                                            <a href="#">
                                                 Partnerships
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
@@ -358,15 +364,16 @@
                                             </ul>
                                         </li>
                                     </ul>
+                                    {{-- End --}}
                                 </nav>
                             </div>
                         </div>
-                        {{-- <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a>
+                        {{-- <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a> --}}
                         <div class="header__hamburger d-xl-block my-auto">
                             <div class="sidebar__toggle">
                                 <i class="fas fa-bars"></i>
                             </div>
-                        </div> --}}
+                        </div>
                         <div class="header-button">
                             <a href="{{route('help_center.contact')}}" class="theme-btn">
                                 get Started
