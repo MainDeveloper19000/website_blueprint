@@ -29,6 +29,7 @@ route::controller(MasterController::class)->group(function(){
     route::get('/respond-product','respond')->name('product.respond');
 
     // Help Center navogation 
+    
     route::get('/faq','faq')->name('help_center.faq');
     route::get('/about','about_us')->name('help_center.about');
     route::get('/support','support')->name('help_center.support');

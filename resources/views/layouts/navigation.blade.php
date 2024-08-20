@@ -1,5 +1,5 @@
 <header class="header-section-1">
-    <div class="header-top">
+    {{-- <div class="header-top">
         <div class="container">
             <div class="header-top-wrapper">
                 <ul class="list">
@@ -11,7 +11,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div id="header-sticky" class="header-1">
         <div class="container">
             <div class="mega-menu-wrapper">
@@ -19,10 +19,10 @@
                     <div class="header-left">
                         <div class="logo">
                             <a href="{{url('/')}}" class="header-logo">
-                                <img src="assets/img/logo/logooo.png" alt="logo-img" height="70px">
+                                <img src="assets/img/logo/logogogogo.png" alt="logo-img" height="70px">
                             </a>
                             <a href="{{url('/')}}" class="header-logo-2">
-                                <img src="assets/img/logo/logooo.png" alt="logo-img" height="70px">
+                                <img src="assets/img/logo/logogogogo.png" alt="logo-img" height="70px">
                             </a>
                         </div>
                     </div>
@@ -36,12 +36,12 @@
                                                 Home
                                             </a>                                  
                                         </li>
-                                        {{-- <li class="has-dropdown active menu-thumb">
+                                        <li class="has-dropdown active menu-thumb">
                                             <a href="#">
                                                 Products
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
-                                            <ul class="submenu has-homemenu has-menu-home">
+                                            {{-- <ul class="submenu has-homemenu has-menu-home">
                                                 <li class="border-none">
                                                     <div class="homemenu-items">
                                                         <div class="homemenu-list">
@@ -70,7 +70,7 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </li> --}}
+                                        </li>
                                         <li class="has-dropdown menu-thumb">
                                             <a href="#">
                                                 Industries
@@ -205,6 +205,7 @@
                                             </ul>
                                         </li>
 
+
                                         {{-- navigation for mobile-menu --}}
                                         
                                         <li class="has-dropdown active d-xl-none">
@@ -213,16 +214,24 @@
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                         </li>
-                                        {{-- <li class="has-dropdown active d-xl-none">
+                                        <li class="has-dropdown active d-xl-none">
                                             <a href="#" class="border-none">
                                                 Products
                                                 <i class="fas fa-angle-down"></i>
+                                            </a> 
+                                            <a href="{{route('product.bitrix24')}}" class="border-none">
+                                                Bitrix24
+                                                <i class="fas fa-angle-down"></i>
                                             </a>
-                                            <ul class="submenu">
+                                            <a href="{{route('product.respond')}}" class="border-none">
+                                                Respond.io
+                                                <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            {{-- <ul class="submenu">
                                                 <li><a href="{{route('product.bitrix24')}}">Bitrix 24</a></li>
                                                 <li><a href="{{route('product.respond')}}">Respond.io</a></li>
                                             </ul>
-                                        </li> --}}
+                                        </li>
                                         <li class="has-dropdown menu-thumb">
                                             <a href="{{url('/')}}">
                                                 Service
@@ -321,8 +330,8 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li class="has-dropdown active d-xl-none">
+                                        </li> --}}
+                                        {{-- <li class="has-dropdown active d-xl-none">
                                             <a href="team.html" class="border-none">
                                                 Industries
                                                 <i class="fas fa-angle-down"></i>
@@ -338,7 +347,7 @@
                                                 <li><a href="{{route('industries.it&saas')}}">IT&SaaS</a></li>
                                                 <li><a href="{{route('industries.others')}}">Other</a></li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <a href="#">
                                                 Partnerships

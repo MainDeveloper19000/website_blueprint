@@ -18,35 +18,28 @@ class TelegramController extends Controller
             'message' => 'required|string|max:250',
         ]);
 
-
         $message = "=====================Support==================\n";
         $message .= "Name: " . $request->input('name') . "\n";
         $message .= "Email: " . $request->input('email') . "\n";
         $message .= "Phone: " . $request->input('phone') . "\n";
         $message .= "Message: " . $request->input('message');
-        
 
         $telegramBotToken = env('TELEGRAM_BOT_TOKEN');
-        $chatId = env('TELEGRAM_CHAT_ID');
+        $chatId = 1204310951;
 
-        try {
-            $response = Http::post("https://api.telegram.org/bot{$telegramBotToken}/sendMessage", [
-                'chat_id' => $chatId,
-                'text' => $message,
-            ]);
+        $response = Http::post("https://api.telegram.org/bot{$telegramBotToken}/sendMessage", [
+            'chat_id' => $chatId,
+            'text' => $message,
+        ]);
 
-            Log::info('Telegram Message Sent', ['request' => $message, 'response' => $response->json()]);
-
-            if ($response->successful()) {
-                return back()->with('success', 'Message sent to Telegram successfully!');
-            } else {
-                $errorMessage = $response->json('description', 'Failed to send message to Telegram.');
-                return back()->with('error', $errorMessage);
-            }
-        } catch (\Exception $e) {
-            Log::error('Telegram Message Sending Failed', ['error' => $e->getMessage()]);
-            return back()->with('error', 'An error occurred: ' . $e->getMessage());
+        if ($response->successful()) {
+            return back()->with('success', 'Message sent to Telegram successfully!');
+        } else {
+            $errorMessage = $response->json('description', 'Failed to send message to Telegram.');
+            return back()->with('error', $errorMessage);
         }
+
     }
+
 }
 
