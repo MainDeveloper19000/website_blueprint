@@ -382,7 +382,7 @@
                                             placeholder="Phone Number">
                                     </div>
                                 </div>
-                                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                                     <div class="form-clt">
                                         <div class="category-oneadjust">
                                             <select name="cate" class="category">
@@ -395,7 +395,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                </div> --}}
+                                </div>
                                 <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                     <div class="form-clt">
                                         <textarea name="message" id="message" placeholder="Messages"></textarea>

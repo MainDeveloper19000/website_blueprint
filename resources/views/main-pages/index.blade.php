@@ -86,11 +86,8 @@
         </div>
     </div>
     <div class="offcanvas__overlay"></div>
-
     <!-- Header Section Start -->
-
     @include('layouts.navigation')
-
     <!-- Modal Version 1 -->
     <div class="modal modal-common-wrap fade" id="exampleModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -284,11 +281,10 @@
                             <img src="assets/img/hero/activity.png" alt="img" class="me-2">
                             Everything You Need to Growth Up Your Business
                         </span>
-                        <h1 class="wow fadeInUp" data-wow-delay=".3s">
-                            BluePrint Technology And Bussiness Consulting
+                        <h1 class="wow fadeInUp" data-wow-delay=".3s" style="font-size: 48">
+                            Empower all Cambodian SMEs with Our Innovative Solutions
                         </h1>
-                        <h6 class="wow fadeInUp" data-wow-delay=".5s">Unlimited storage, unmetered bandwidth,
-                            unbeatable hosting. <br> This gator’s got ya covered.</h6>
+                        <h6 class="wow fadeInUp" data-wow-delay=".5s">Simplify Your Operations and Boost Efficiency</h6>
                         <div class="hero-author">
                             <a href="{{ url('/') }}" class="theme-btn bg-color-2 wow fadeInUp"
                                 data-wow-delay=".7s">

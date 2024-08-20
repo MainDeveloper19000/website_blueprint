@@ -271,8 +271,8 @@
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">
                             Bitrix24. Your ultimate workspace.
                         </h1>
-                        <a href="pricing.html" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
-                            view plan <i class="fas fa-long-arrow-alt-right"></i>
+                        <a href="https://www.bitrix24.com/create.php?p=17920951"; rel="noindex nofollow" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
+                            START FOR FREE <i class="fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
                 </div>

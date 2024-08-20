@@ -98,44 +98,44 @@ class MasterController extends Controller
     }
 
     //service
-     // ===============================
+    // ===============================
 
-     public function software_consultant()
-     {
-         return view('service.software_consultantes');
-     }
-     public function service_center()
-     {
-         return view('service.service_centers');
-     }
-     public function it_maintanance()
-     {
+    public function software_consultant()
+    {
+        return view('service.software_consultantes');
+    }
+    public function service_center()
+    {
+        return view('service.service_centers');
+    }
+    public function it_maintanance()
+    {
         return view('service.it_maintanances');
-     }
-     public function crm_training()
-     {
+    }
+    public function crm_training()
+    {
         return view('service.crm_train');
-     }
-     public function onboarding_program()
-     {
+    }
+    public function onboarding_program()
+    {
         return view('service.onboarding_programe');
-     }
-     public function other_service()
-     {
+    }
+    public function other_service()
+    {
         return view('service.other_servic');
-     }
-     
-     
+    }
 
-      //partner
-     // ===============================
-     public function bitrix24_partner()
-     {
-         return view('partnerships.bitrix24');
-     }
-     public function respond_partner()
-     {
-         return view('partnerships.respond');
-     }
+
+
+    //partner
+    // ===============================
+    public function bitrix24_partner()
+    {
+        return view('partnerships.bitrix24');
+    }
+    public function respond_partner()
+    {
+        return view('partnerships.respond');
+    }
 
 }
