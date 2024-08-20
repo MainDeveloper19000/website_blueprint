@@ -312,7 +312,6 @@
             </div>
         </section>
         
-
         <!-- Choose Us Section Start -->
         <section class="choose-us-section fix section-padding">
             <div class="container">
@@ -1127,6 +1126,6 @@
                 </div>
             </div>
         </div>
-
+       
         <!--<< Footer Section Start >>-->
         @include('layouts.footer')

@@ -36,7 +36,7 @@
                                                 Home
                                             </a>                                  
                                         </li>
-                                        <li class="has-dropdown active menu-thumb">
+                                        {{-- <li class="has-dropdown active menu-thumb">
                                             <a href="#">
                                                 Products
                                                 <i class="fas fa-angle-down"></i>
@@ -70,7 +70,7 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                         <li class="has-dropdown menu-thumb">
                                             <a href="#">
                                                 Industries
@@ -205,17 +205,15 @@
                                             </ul>
                                         </li>
 
-
                                         {{-- navigation for mobile-menu --}}
-
-
+                                        
                                         <li class="has-dropdown active d-xl-none">
                                             <a href="{{url('/')}}" class="border-none">
                                                 Home
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                         </li>
-                                        <li class="has-dropdown active d-xl-none">
+                                        {{-- <li class="has-dropdown active d-xl-none">
                                             <a href="#" class="border-none">
                                                 Products
                                                 <i class="fas fa-angle-down"></i>
@@ -224,7 +222,7 @@
                                                 <li><a href="{{route('product.bitrix24')}}">Bitrix 24</a></li>
                                                 <li><a href="{{route('product.respond')}}">Respond.io</a></li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                         <li class="has-dropdown menu-thumb">
                                             <a href="{{url('/')}}">
                                                 Service
