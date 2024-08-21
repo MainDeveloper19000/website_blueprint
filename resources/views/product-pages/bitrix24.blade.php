@@ -1,4 +1,5 @@
 @include('layouts.header')
+
 <body>
     <!-- Preloader Start -->
     @include('layouts.preload')
@@ -271,7 +272,8 @@
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">
                             Bitrix24. Your ultimate workspace.
                         </h1>
-                        <a href="https://www.bitrix24.com/create.php?p=17920951"; rel="noindex nofollow" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
+                        <a href="https://www.bitrix24.com/create.php?p=17920951"; rel="noindex nofollow"
+                            class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
                             START FOR FREE <i class="fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
@@ -528,7 +530,7 @@
                         </div>
                     </div>
 
-                  
+
 
                 </div>
             </div>
@@ -600,15 +602,12 @@
         <div class="container">
             <div class="feature-content-warpper margin-top-60">
                 <div class="row g-4 justify-content-between align-items-center">
-
-                    
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
                         <div class="feature-hosting-image">
                             <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/screens/tools/copilot/header-human-copilot.png.webp?1723037766385"
                                 alt="bitrix24copilot">
                         </div>
                     </div>
-                    
                     <div class="col-lg-6">
                         <div class="feature-hosting-content">
                             <div class="section-title">
@@ -617,7 +616,9 @@
                                 </h2>
                             </div>
                             <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                CoPilot is a powerful AI tool inside Bitrix24 designed to help you with mundane tasks and boost your creativity. Located conveniently throughout the product, CoPilot is always there when you need it.
+                                CoPilot is a powerful AI tool inside Bitrix24 designed to help you with mundane tasks
+                                and boost your creativity. Located conveniently throughout the product, CoPilot is
+                                always there when you need it.
                             </p>
                             <div class="list-items">
                                 <ul class="wow fadeInUp" data-wow-delay=".3s">
@@ -643,7 +644,6 @@
                                         <i class="far fa-check"></i>
                                         CoPilot in Tasks
                                     </li>
-                                    
                                 </ul>
                             </div>
                             {{-- <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i
@@ -651,12 +651,858 @@
                             </a> --}}
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
     </section>
     {{-- End Copilt --}}
+
+
+    {{-- start pricing --}}
+
+
+    <section class="pricing-section fix section-padding section-bg">
+        <div class="pricing-shape">
+            <img src="assets/img/pricing-shape.png" alt="img">
+        </div>
+        <div class="">
+            <div class="section-title text-center">
+                <span class="wow fadeInUp">Pricing Plans</span>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">Choose Awesome Plan for <br> your Needs</h2>
+            </div>
+            <div class="pricing-tab-header">
+                <div class="arrow-shape">
+                    <img src="assets/img/arrow.png" alt="img">
+                </div>
+                <ul class="nav" role="tablist">
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".3s" role="presentation">
+                        <a href="#monthly" data-bs-toggle="tab" class="nav-link active" aria-selected="true"
+                            role="tab">
+                            Monthly
+                        </a>
+                    </li>
+                    <li class="nav-item wow fadeInUp" data-wow-delay=".5s" role="presentation">
+                        <a href="#yearly" data-bs-toggle="tab" class="nav-link" aria-selected="false"
+                            role="tab" tabindex="-1">
+                            Yearly
+                        </a>
+                    </li>
+                </ul>
+                <div class="save-text">
+                    Save 25%
+                </div>
+            </div>
+            <div class="tab-content">
+                <div id="monthly" class="tab-pane fade show active" role="tabpanel">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Regular Plans</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div>
+                                    <h2>$99 <sub>/mo</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                </p>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB SSD Storage
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Weekly Backups
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Unlimited Free SSL
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24/7 system Monitoring
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Free Domain ($9.99 value)
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Dedicated IP Address
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            20+ Payment Methods
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Regular Plans</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div>
+                                    <h2>$99 <sub>/mo</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                </p>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB SSD Storage
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Weekly Backups
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Unlimited Free SSL
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24/7 system Monitoring
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Free Domain ($9.99 value)
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Dedicated IP Address
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            20+ Payment Methods
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="pricing-items style-2 active">
+                                <h6 class="top-text">Premium Plans</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div>
+                                    <h2>$59 <sub>/mo</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                </p>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB SSD Storage
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Weekly Backups
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Unlimited Free SSL
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24/7 system Monitoring
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Free Domain ($9.99 value)
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Dedicated IP Address
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            20+ Payment Methods
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Business</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div>
+                                    <h2>$39 <sub>/mo</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                </p>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB SSD Storage
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Weekly Backups
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Unlimited Free SSL
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24/7 system Monitoring
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Free Domain ($9.99 value)
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Dedicated IP Address
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            20+ Payment Methods
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="1s">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Cloud Startup</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div>
+                                    <h2>$29 <sub>/mo</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                </p>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB SSD Storage
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Weekly Backups
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Unlimited Free SSL
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24/7 system Monitoring
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Free Domain ($9.99 value)
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Dedicated IP Address
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            20+ Payment Methods
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="yearly" class="tab-pane fade" role="tabpanel">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-xl-2 col-lg-2 col-md-4">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Regular Plans</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div>
+                                    <h2>$99 <sub>/mo</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                </p>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB SSD Storage
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Weekly Backups
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Unlimited Free SSL
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24/7 system Monitoring
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Free Domain ($9.99 value)
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Dedicated IP Address
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            20+ Payment Methods
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4">
+                            <div class="pricing-items style-2 active">
+                                <h6 class="top-text">Premium Plans</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div>
+                                    <h2>$59 <sub>/mo</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                </p>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB SSD Storage
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Weekly Backups
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Unlimited Free SSL
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24/7 system Monitoring
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Free Domain ($9.99 value)
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Dedicated IP Address
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            20+ Payment Methods
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Business</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div>
+                                    <h2>$39 <sub>/mo</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                </p>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB SSD Storage
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Weekly Backups
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Unlimited Free SSL
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24/7 system Monitoring
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Free Domain ($9.99 value)
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Dedicated IP Address
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            20+ Payment Methods
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Cloud Startup</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div>
+                                    <h2>$29 <sub>/mo</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                </p>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB SSD Storage
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Weekly Backups
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Unlimited Free SSL
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24/7 system Monitoring
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Free Domain ($9.99 value)
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Dedicated IP Address
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            20+ Payment Methods
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Cloud Startup</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div>
+                                    <h2>$29 <sub>/mo</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                </p>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB SSD Storage
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Weekly Backups
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Unlimited Free SSL
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24/7 system Monitoring
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Free Domain ($9.99 value)
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            Dedicated IP Address
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li class="color-2">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                            20+ Payment Methods
+                                        </span>
+                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- brand-section --}}
+    <div class="brand-section pt-100 pb-0">
+        <div class="container">
+            <div class="swiper brand-slider bor-bottom pb-100 pt-0">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard1.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard2.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard3.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard4.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard5.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard6.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard7.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard8.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard9.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard10.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard11.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard12.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard13.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/integrate/Artboard14.png" alt="img" height="35">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--<< Footer Section Start >>-->
     @include('layouts.footer')
