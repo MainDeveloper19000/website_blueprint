@@ -1,5 +1,5 @@
 @include('layouts.header')
-<body>
+
     <!-- Preloader Start -->
     @include('layouts.preload')
     <!-- Preloader Start -->
@@ -528,8 +528,6 @@
                         </div>
                     </div>
 
-                  
-
                 </div>
             </div>
         </div>
@@ -658,5 +656,6 @@
         </div>
     </section>
     {{-- End Copilt --}}
+{{--End price --}}
     <!--<< Footer Section Start >>-->
     @include('layouts.footer')

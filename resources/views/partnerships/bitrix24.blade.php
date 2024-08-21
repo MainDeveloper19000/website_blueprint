@@ -324,28 +324,6 @@
                                 <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                                     We help organizations achieve their goals by offering fast solutions and consulting services for process automation and customer relationship management. We are the largest and experienced company in the Mongolian market as a certified Gold Partner. To date, we have successfully completed over 30 projects in various business sectors. We also integrate Bitrix24 with third-party systems based on our clients' requirements.
                                 </p>
-                                
-                                <div class="about-counter-items">
-                                    <div class="counter-items wow fadeInUp" data-wow-delay=".3s">
-                                        <h2><span class="count">50</span>k</h2>
-                                        <h6>Global Customers</h6>
-                                    </div>
-                                    <div class="counter-items ps-0 wow fadeInUp" data-wow-delay=".5s">
-                                        <h2><span class="count">98</span>%</h2>
-                                        <h6>Success Case</h6>
-                                    </div>
-                                    <div class="video-thumb wow fadeInUp" data-wow-delay=".7s">
-                                        <img src="{{asset('assets/img/bitrix24/bitrix-1.jpg')}}">
-                                        {{-- <img src="assets/img/about/video-img.jpg" alt="video-img"> --}}
-                                        <div class="video-box">
-                                            <span class="button-text wow fadeInUp">
-                                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                                    <i class="fa-solid fa-play"></i>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -683,31 +661,8 @@
             </div>
         </section>
 
-
-        <!-- certivicate -->
-        <section class="Error-section section-padding fix">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <div class="error-items">
-                            <div class="error-image wow fadeInUp" data-wow-delay=".3s">
-                                <img src="assets/img/404.png" alt="img">
-                            </div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".5s">
-                                <span>certificate</span>of bitrix24
-                            </h2>
-                            <p class="mb-3 wow fadeInUp" data-wow-delay=".6s">The page you are looking for does not exist</p>
-                            {{-- <a href="index.html" class="theme-btn wow fadeInUp" data-wow-delay=".7s">
-                                Back to home pages
-                                <i class="fa-solid fa-arrow-right-long"></i> --}}
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
          <!-- Choose Us Section Start -->
-        <section class="choose-us-section-2 pt-100 pb-100 margin-top-5">
+        {{-- <section class="choose-us-section-2 pt-100 pb-100 margin-top-5">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
@@ -764,12 +719,12 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <!-- Team Section Start -->
 
 
-        <section class="team-section fix section-padding">
+        {{-- <section class="team-section fix section-padding">
             <div class="container">
                 <div class="section-title text-center">
                     <span class="style-border wow fadeInUp">Our Expart</span>
@@ -859,10 +814,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <!-- Choose Us Section Start -->
-        <section class="choose-us-section fix section-padding bg-cover" style="background-image: url('assets/img/feature-bg.jpg');">
+        {{-- <section class="choose-us-section fix section-padding bg-cover" style="background-image: url('assets/img/feature-bg.jpg');">
             <div class="container">
                 <div class="section-title text-center">
                     <span class="style-border-white text-white wow fadeInUp">Why choose uS</span>
@@ -927,6 +882,60 @@
                                 <p>
                                     Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
+        <!-- Client Success Stories -->
+        <section class="cta-contact-section">
+            <div class="container">
+                <div class="cta-contact-wrapper mb-0">
+                    <div class="cta-contact-image wow fadeInUp">
+                        <img src="{{asset('assets/img/bitrix24/icon_userstory.png')}}">
+                    </div>
+                    <div class="section-title mb-0">
+                        <span class="white-text wow fadeInUp">Client Success</span>
+                        <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">Client Success Stories</h2>
+                        <span class="white-text wow fadeInUp">Our clients have seen significant improvements in their operations and customer relationships after working with us. For example, a retail company we worked with was able to streamline their inventory management and improve customer satisfaction by implementing our CRM solution. Another client, a financial services firm, saw a 20% increase in productivity after automating their internal processes.</span>
+                    </div>
+                    
+                    {{-- <a href="contact.html" class="theme-btn bg-color-2 mt-xl-5 wow fadeInUp" data-wow-delay=".5s">Talk to a Specialist <i class="fas 
+                        fa-long-arrow-alt-right"></i></a> --}}
+                </div>
+            </div>
+        </section>
+         <!-- Get Started Today -->
+         <section class="feature-hosting-section fix section-padding">
+            <div class="container">
+                <div class="feature-content-warpper style-2">
+                    <div class="row g-4 justify-content-between align-items-center">
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="feature-hosting-content">
+                                <div class="section-title">
+                                    <span class="wow fadeInUp">Get Started Today</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Get Started Today</h2>
+                                </div>
+                                <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                    Ready to take your business to the next level? Contact us today to learn more about our services and how we can help you achieve your goals. Our team of experts is here to provide you with the solutions you need to succeed in today's competitive market.
+                                </p>
+                                <br>
+                                <a href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Get Started <i class="fas fa-long-arrow-alt-right"></i> 
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="feature-hosting-image-2">
+                                <div class="icon-box-1">
+                                    <img src="assets/img/hosting/icon-1.png" alt="img">
+                                </div>
+                                <div class="icon-box-2">
+                                    <img src="assets/img/hosting/icon-3.png" alt="img">
+                                </div>
+                                <div class="thumb">
+                                    <img src="assets/img/gym-man.png" alt="img">
+                                </div>
                             </div>
                         </div>
                     </div>
