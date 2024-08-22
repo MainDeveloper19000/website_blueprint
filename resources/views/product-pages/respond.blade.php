@@ -495,68 +495,10 @@
         </div>
     </div> --}}
     <!-- Choose Us Section Start -->
-    <section class="choose-us-section-2 pt-100 pb-100 margin-top-5">
-        <div class="container">
-            {{-- <div class="row g-4">
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="choose-us-card-items mt-0">
-                        <div class="icon">
-                            <img src="assets/img/choose/safe-icon.png" alt="img">
-                        </div>
-                        <div class="content">
-                            <h3>Safe and Secured</h3>
-                            <p>
-                                Collaboratively formulate principle capital. Progressively evolve user revolutionary
-                                hosting services.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="choose-us-card-items mt-0">
-                        <div class="icon">
-                            <img src="assets/img/choose/bank-icon.png" alt="img">
-                        </div>
-                        <div class="content">
-                            <h3>Money-Back Guarantee</h3>
-                            <p>
-                                Collaboratively formulate principle capital. Progressively evolve user revolutionary
-                                hosting services.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="choose-us-card-items mt-0">
-                        <div class="icon">
-                            <img src="assets/img/choose/secured-icon.png" alt="img">
-                        </div>
-                        <div class="content">
-                            <h3>Safe and Secured</h3>
-                            <p>
-                                Collaboratively formulate principle capital. Progressively evolve user revolutionary
-                                hosting services.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                    <div class="choose-us-card-items mt-0">
-                        <div class="icon">
-                            <img src="assets/img/choose/support-icon.png" alt="img">
-                        </div>
-                        <div class="content">
-                            <h3>Dedicated Support</h3>
-                            <p>
-                                Collaboratively formulate principle capital. Progressively evolve user revolutionary
-                                hosting services.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
-        </div>
-    </section>
+
+    {{-- brand-section --}}
+    
+
     <!--  Section Start Pricing-->
     <section class="pricing-section fix section-padding section-bg">
         <div class="pricing-shape">
