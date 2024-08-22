@@ -1059,9 +1059,7 @@
                 <div class="row g-4 justify-content-center">
                     <div class="col-xl-8 col-lg-10 col-md-12 wow fadeInUp" data-wow-delay=".2s">
                         <div class="feature-card-items text-center">
-                            
                                 <img src="assets/img/activecontact.png" alt="img" style="width: 100px;">
-                            
                             <div class="content mt-3 text-center">
                                 <h3>Why Monthly Active Contacts?</h3>
                                 <p>Monthly Active Contacts are contacts that have sent or received a message over the month. We believe our pricing should reflect the value we deliver to you. Chats with contacts are opportunities to increase sales and Monthly Active Contact pricing ensures you only pay for the contacts you talk to.
