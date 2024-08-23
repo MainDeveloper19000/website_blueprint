@@ -1,4 +1,5 @@
 @include('layouts.header')
+
 <body>
     <!-- Preloader Start -->
 
@@ -65,7 +66,7 @@
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="contact.html" class="theme-btn text-center">
+                            <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="theme-btn text-center">
                                 Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
@@ -497,7 +498,7 @@
     <!-- Choose Us Section Start -->
 
     {{-- brand-section --}}
-    
+
 
     <!--  Section Start Pricing-->
     <section class="pricing-section fix section-padding section-bg">
@@ -605,7 +606,7 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
                                         Start 7 Days Trial
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -683,7 +684,7 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
                                         Start 7 Days Trial
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -752,7 +753,7 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
                                         Book a Demo
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -834,7 +835,7 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
                                         Start 7 Days Trial
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -912,7 +913,7 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
                                         Start 7 Days Trial
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -981,7 +982,7 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
                                         Book a Demo
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -991,125 +992,88 @@
                     </div>
                 </div>
             </div>
-        </div>       
+        </div>
     </section>
-    {{-- <br>
-    <hr>
-    <section class="feature-section">
+
+
+
+    {{-- brand-section --}}
+    <div class="brand-section pt-100 pb-0">
         <div class="container">
-            <div class="feature-wrapper-2">
-                <div class="row g-4 justify-content-center">
-                    <div class="col-xl-8 col-lg-10 col-md-12 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="feature-card-items text-center">
-                            
-                                <img src="assets/img/activecontact.png" alt="img" style="width: 100px;">
-                            
-                            <div class="content mt-3 text-center">
-                                <h3>Why Monthly Active Contacts?</h3>
-                                <p>Monthly Active Contacts are contacts that have sent or received a message over the month. We believe our pricing should reflect the value we deliver to you. Chats with contacts are opportunities to increase sales and Monthly Active Contact pricing ensures you only pay for the contacts you talk to.
-                                    <br>
-                                    Monthly Active Contact pricing starts with the Growth plan, designed for businesses looking to increase leads and close more deals without additional staff. This encourages us to focus on features like Respond AI, broadcasting, and workflows to help you achieve these goals.
-                                </p>
-                            </div>
+            <div class="swiper brand-slider bor-bottom pb-100 pt-0">
+                <div class="section-title text-center">
+                    <span class="wow fadeInUp">Respond.io integrations</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Connect to the Tools <br> You Love</h2>
+                    <p>Powerful apps and integrations to acquire, engage and retain more customers with respond.io.</p>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard1.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard2.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard3.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard4.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard5.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard6.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard7.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard8.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard9.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard10.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard11.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard12.png" alt="img" height="35">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/respond/Artboard13.png" alt="img" height="35">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> --}}
-    <!-- Faq Section Start -->
-    {{-- <section class="faq-section fix section-padding pt-0">
-        <div class="container">
-            <div class="faq-wrapper">
-                <div class="row g-4">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="faq-image">
-                            <img src="assets/img/faq.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="faq-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">FAQ’S</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                    Prioritize Your Site’s Safety and Security
-                                </h2>
-                            </div>
-                            <div class="faq-accordion mt-4 mt-md-0">
-                                <div class="accordion" id="accordion">
-                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                        <h5 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true"
-                                                aria-controls="faq1">
-                                                How to Install WordPress theme on cPanel?
-                                            </button>
-                                        </h5>
-                                        <div id="faq1" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordion">
-                                            <div class="accordion-body">
-                                                Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
-                                                semper odio. Mauris et mollis quam. Nullam fringilla erat id ante
-                                                commodo sodales. In maximus ultrices euismod. Vivamus porta justo ex.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
-                                        <h5 class="accordion-header">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                                                Do you have Custom Hosting Service?
-                                            </button>
-                                        </h5>
-                                        <div id="faq2" class="accordion-collapse show"
-                                            data-bs-parent="#accordion">
-                                            <div class="accordion-body">
-                                                Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
-                                                semper odio. Mauris et mollis quam. Nullam fringilla erat id ante
-                                                commodo sodales. In maximus ultrices euismod. Vivamus porta justo ex.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
-                                        <h5 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq3"
-                                                aria-expanded="false" aria-controls="faq3">
-                                                Better Security And Faster Server?
-                                            </button>
-                                        </h5>
-                                        <div id="faq3" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordion">
-                                            <div class="accordion-body">
-                                                There are many variations of passages Lorem Ipsum but the majority have
-                                                suffered alteration in some form, by injected humor.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
-                                        <h5 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                aria-expanded="false" aria-controls="faq4">
-                                                Deployment Within Few Minutes
-                                            </button>
-                                        </h5>
-                                        <div id="faq4" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordion">
-                                            <div class="accordion-body">
-                                                Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
-                                                semper odio. Mauris et mollis quam. Nullam fringilla erat id ante
-                                                commodo sodales. In maximus ultrices euismod. Vivamus porta justo ex.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!--<< Footer Section Start >>-->
+    </div>
     @include('layouts.footer')

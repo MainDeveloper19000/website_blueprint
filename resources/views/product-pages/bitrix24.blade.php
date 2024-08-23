@@ -1429,6 +1429,11 @@
     <div class="brand-section pt-100 pb-0">
         <div class="container">
             <div class="swiper brand-slider bor-bottom pb-100 pt-0">
+                <div class="section-title text-center">
+                    <span class="wow fadeInUp">Bitrix24 Integrations</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Choose Awesome platform  <br> your Needs</h2>
+                    <p>Bitrix24 comes with several dozen integrations available in Bitrix24.Market. You can also create your own apps using our REST API.</p>
+                </div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brand-img center">
