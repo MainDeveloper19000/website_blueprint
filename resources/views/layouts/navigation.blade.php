@@ -37,9 +37,9 @@
                                             </a>                                  
                                         </li>
                                         <li class="has-dropdown active menu-thumb">
-                                            <a href="#">
-                                                Products
-                                                <i class="fas fa-angle-down"></i>
+                                            <a href="{{route('product.bitrix24')}}">
+                                                Bitrix24
+                                                {{-- <i class="fas fa-angle-down"></i> --}}
                                             </a>
                                             {{-- <ul class="submenu has-homemenu has-menu-home">
                                                 <li class="border-none">
@@ -69,12 +69,81 @@
                                                         </div>
                                                     </div>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
-                                        <li class="has-dropdown menu-thumb">
+                                        <li class="has-dropdown active menu-thumb">
+                                            <a href="{{route('product.respond')}}">
+                                                Respond.io
+                                                {{-- <i class="fas fa-angle-down"></i> --}}
+                                            </a>
+                                            {{-- <ul class="submenu has-homemenu has-menu-home">
+                                                <li class="border-none">
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -104,9 +69,9 @@
+  
+                                                    <div class="homemenu-items">
+                                                        <div class="homemenu-list">
+                                                            <div class="icon">
+                                                                <img src="assets/img/menu-icon/bitrix24.png" alt="img" height="35px" height="35px">
+                                                                    
+                                                            </div>
+                                                            <div class="content">
+                                                                <h6><a href="{{route('product.bitrix24')}}">Bitrix24</a></h6>
+                                                                <p>
+                                                                    Bitrix24. Your ultimate workspace.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="homemenu-list">
+                                                            <div class="icon">
+                                                                <img src="assets/img/menu-icon/respond.png" alt="img"  height="35px" height="35px" >
+                                                            </div>
+                                                            <div class="content">
+                                                                <h6><a href="{{route('product.respond')}}"> Respond.io</a></h6>
+                                                                <p>
+                                                                    AI-Powered Customer Conversation.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul> --}}
+                                        </li>
+                                        {{-- <li class="has-dropdown menu-thumb">
                                             <a href="#">
                                                 Industries
                                                 <i class="fas fa-angle-down"></i>
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -238,23 +203,22 @@
+  
                                             </a>
                                             <ul class="submenu has-homemenu">
                                                 <li class="border-none">
@@ -203,11 +272,10 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </li>
-
-
+                                        </li> --}}
                                         {{-- navigation for mobile-menu --}}
-                                        
+
+
                                         <li class="has-dropdown active d-xl-none">
                                             <a href="{{url('/')}}" class="border-none">
                                                 Home
@@ -215,13 +283,24 @@
                                             </a>
                                         </li>
                                         <li class="has-dropdown active d-xl-none">
-                                            <a href="#" class="border-none">
+                                            {{-- <a href="#" class="border-none">
                                                 Products
                                                 <i class="fas fa-angle-down"></i>
-                                            </a> 
+                                            </a> --}}
                                             <a href="{{route('product.bitrix24')}}" class="border-none">
                                                 Bitrix24
                                                 <i class="fas fa-angle-down"></i>
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -266,9 +230,9 @@
+  
                                             </a>
                                             <a href="{{route('product.respond')}}" class="border-none">
                                                 Respond.io
@@ -230,12 +309,23 @@
                                             {{-- <ul class="submenu">
                                                 <li><a href="{{route('product.bitrix24')}}">Bitrix 24</a></li>
                                                 <li><a href="{{route('product.respond')}}">Respond.io</a></li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
-                                        <li class="has-dropdown menu-thumb">
+                                        {{-- <li class="has-dropdown menu-thumb">
                                             <a href="{{url('/')}}">
                                                 Service
                                                 <i class="fas fa-angle-down"></i>
+
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
                                             </a>
                                             <ul class="submenu has-homemenu has-menu-hosting">
                                                 <li class="border-none">
@@ -364,7 +454,7 @@
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                            
+                                                <li><a href="{{route('help_center.faq')}}">Faq</a></li>
                                                 <li><a href="{{route('help_center.about')}}">About</a></li>
                                                 <li><a href="{{route('help_center.support')}}">Support</a></li>
                                                 <li><a href="{{route('help_center.contact')}}">Contact Us</a></li>

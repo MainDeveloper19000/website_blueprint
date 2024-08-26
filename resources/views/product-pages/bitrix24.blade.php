@@ -388,7 +388,11 @@
             </div>
         </div>
     </section>
+
     <!-- Feature Section Start -->
+
+
+    <!-- Swiper -->
     <!-- Swiper -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -610,6 +614,7 @@
                     </div>
                 </section>
             </div>
+
             {{-- HR section --}}
             <div class="swiper-slide">
                 <section class="feature-hosting-section fix section-padding">
@@ -618,7 +623,7 @@
                             <div class="row g-4 justify-content-between align-items-center">
                                 <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="feature-hosting-image">
-                                        <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/hr_automation/index/hr_automation-main.png.webp?1724240830867"
+                                        <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/communications/index/communications-main.png.webp?1723037766385"
                                             alt="bitrix24">
                                     </div>
                                 </div>
@@ -652,8 +657,7 @@
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    CoPilot in Feed
-
+                                                    Internal communications
                                                 </li>
                                             </ul>
                                             <ul class="wow fadeInUp" data-wow-delay=".5s">
@@ -669,10 +673,9 @@
                                                     <i class="far fa-check"></i>
                                                     Automation
                                                 </li>
-                                                <li>
+                                                   <li>
                                                     <i class="far fa-check"></i>
-                                                  
-                                                    Information management
+                                                    Internal communications
                                                 </li>
                                             </ul>
                                         </div>
@@ -744,6 +747,7 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
+
     <script>
         var swiper = new Swiper('.swiper-container', {
             loop: true,
@@ -761,7 +765,10 @@
             },
         });
     </script>
+
+
     {{-- start pricing --}}
+
     <section class="pricing-section fix section-padding section-bg">
         <div class="pricing-shape">
             <img src="assets/img/pricing-shape.png" alt="img">
@@ -769,7 +776,8 @@
         <div class="container">
             <div class="section-title text-center">
                 <span class="wow fadeInUp">Pricing Plans</span>
-                <h2 class="wow fadeInUp" data-wow-delay=".3s">Choose Awesome Plan for <br> your Needs</h2>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">One price for ALL users included within <br>the plan
+                    limit</h2>
             </div>
             <div class="pricing-tab-header">
                 <div class="arrow-shape">
@@ -803,61 +811,90 @@
                                     {{-- <div class="price-list">
                                         <del>120.99</del>
                                         <span>SAVE 75%</span>
+                                    </div> --}}
+                                    <h2>100% free</h2><br><br><br>
+                                    <div class="section-title text-center">
+                                        <span class="style-bg wow fadeInUp">Unlimited users</span>
                                     </div>
                                 </div>
-                                <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
-                                </p>
+
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Register free
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             5 GB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Unlimited
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             CRM
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Bitrix24 Sign
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Drive
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+
                                 </ul>
                             </div>
                         </div>
@@ -872,43 +909,52 @@
                                     <h2>$61 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 5 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Buy
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             24 GB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             5 users
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             CRM
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
@@ -922,8 +968,38 @@
                                             <i class="fa-solid fa-check"></i>
                                             Drive
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <br>
                                 </ul>
                             </div>
                         </div>
@@ -938,8 +1014,17 @@
                                     <h2>$124 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 50 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Buy
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
@@ -967,10 +1052,9 @@
                                     </li>
                                     <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
                                     <li>
                                         <span>
@@ -1040,36 +1124,45 @@
                                     <h2>$249 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 100 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Buy
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             1 024 GB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             100 users
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
@@ -1088,18 +1181,84 @@
                                             <i class="fa-solid fa-check"></i>
                                             Drive
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Marketing
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online documents
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            e-Signature for HR
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Sales Intelligence
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Automation
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            HR
+                                        </span>
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+
+
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Administration
+                                        </span>
                                     </li>
                                 </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
-                                        get Started Now
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </a>
-                                </div>
+
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="1s">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                             <div class="pricing-items style-2">
                                 <h6 class="top-text">Enterprise</h6>
                                 <div class="pricing-header-2">
@@ -1110,36 +1269,45 @@
                                     <h2>$499 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 250 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Buy
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
+                                            3TB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             250 users
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
@@ -1257,25 +1425,33 @@
                                     {{-- <div class="price-list">
                                         <del>120.99</del>
                                         <span>SAVE 75%</span>
+                                    </div> --}}
+                                    <h2>100% free</h2><br><br><br>
+                                    <div class="section-title text-center">
+                                        <span class="style-bg wow fadeInUp">Unlimited users</span>
                                     </div>
                                 </div>
-                                <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
-                                </p>
+
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Register free
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             5 GB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Unlimited
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
@@ -1306,8 +1482,30 @@
                                             <i class="fa-solid fa-check"></i>
                                             Drive
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
                                 </ul>
                             </div>
                         </div>
@@ -1322,43 +1520,52 @@
                                     <h2>$61 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 5 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             24 GB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             5 users
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             CRM
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
@@ -1372,8 +1579,39 @@
                                             <i class="fa-solid fa-check"></i>
                                             Drive
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <br>
                                 </ul>
                             </div>
                         </div>
@@ -1388,8 +1626,17 @@
                                     <h2>$81 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 50 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
@@ -1417,10 +1664,9 @@
                                     </li>
                                     <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
                                     <li>
                                         <span>
@@ -1490,36 +1736,45 @@
                                     <h2>$162 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 100 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             1 024 GB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             100 users
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
@@ -1538,7 +1793,78 @@
                                             <i class="fa-solid fa-check"></i>
                                             Drive
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Marketing
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online documents
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            e-Signature for HR
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Sales Intelligence
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Automation
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            HR
+                                        </span>
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+
+
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Administration
+                                        </span>
                                     </li>
                                 </ul>
                             </div>
@@ -1554,36 +1880,45 @@
                                     <h2>$325 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 250 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
+                                            3TB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             250 users
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
@@ -1693,8 +2028,9 @@
                     </div>
                 </div>
             </div>
-        </div>       
+        </div>
     </section>
+
     {{-- brand-section --}}
     <div class="brand-section pt-100 pb-0">
         <div class="container">
