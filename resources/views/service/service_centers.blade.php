@@ -439,6 +439,5 @@
                 </div>
             </div>
         </section>
-
         <!--<< Footer Section Start >>-->
         @include('layouts.footer')

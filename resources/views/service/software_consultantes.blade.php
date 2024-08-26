@@ -712,7 +712,6 @@
             </div>
         </div>
     </section>
-
     <!-- Faq Section Start -->
     <section class="faq-section fix section-padding pt-0">
         <div class="container">
