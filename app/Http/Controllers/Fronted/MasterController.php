@@ -138,4 +138,9 @@ class MasterController extends Controller
         return view('partnerships.respond');
     }
 
+    // respond.io
+
+    public function respond_feature(){
+        return view('main-pages.respond_feature');
+    }
 }

@@ -40,7 +40,7 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                    <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh 120209</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -48,8 +48,8 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span
-                                            class="mailto:info@example.com">info@example.com</span></a>
+                                    <a href="info@masterchat.iom"><span
+                                            class="info@masterchat.io">info@masterchat.io</span></a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -57,7 +57,7 @@
                                     <i class="fal fa-clock"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                    <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -65,12 +65,12 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+11002345909</a>
+                                    <a href="tel: +85516415111"> +85516415111</a>
                                 </div>
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="contact.html" class="theme-btn text-center">
+                            <a href="{{route('help_center.contact')}}" class="theme-btn text-center">
                                 Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
@@ -286,10 +286,10 @@
                         </h1>
                         <h6 class="wow fadeInUp" data-wow-delay=".5s">Simplify Your Operations and Boost Efficiency</h6>
                         <div class="hero-author">
-                            <a href="{{ url('/') }}" class="theme-btn bg-color-2 wow fadeInUp"
+                            {{-- <a href="{{ url('/') }}" class="theme-btn bg-color-2 wow fadeInUp"
                                 data-wow-delay=".7s">
                                 Start Free <i class="fas fa-long-arrow-alt-right"></i>
-                            </a>
+                            </a> --}}
                             {{-- <div class="author-content wow fadeInUp" data-wow-delay=".9s;">
                                 <img src="assets/img/hero/author-img.png" alt="author-img">
                                 <div class="content">

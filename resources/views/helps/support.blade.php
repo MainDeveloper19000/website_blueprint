@@ -23,8 +23,8 @@
                     </div>
                 </div>
                 <p class="text d-none d-xl-block">
-                    Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat
-                    leo urna eget eros. Duis Aenean a imperdiet risus.
+                    Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
+                    feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
                 </p>
                 <div class="mobile-menu fix mb-3"></div>
                 <div class="offcanvas__contact">
@@ -35,7 +35,7 @@
                                 <i class="fal fa-map-marker-alt"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh 120209</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">
@@ -43,8 +43,8 @@
                                 <i class="fal fa-envelope"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="mailto:info@example.com"><span
-                                        class="mailto:info@example.com">info@example.com</span></a>
+                                <a href="info@masterchat.iom"><span
+                                        class="info@masterchat.io">info@masterchat.io</span></a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">
@@ -52,7 +52,7 @@
                                 <i class="fal fa-clock"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">
@@ -60,12 +60,12 @@
                                 <i class="far fa-phone"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="tel:+11002345909">+11002345909</a>
+                                <a href="tel: +85516415111"> +85516415111</a>
                             </div>
                         </li>
                     </ul>
                     <div class="header-button mt-4">
-                        <a href="contact.html" class="theme-btn text-center">
+                        <a href="{{route('help_center.contact')}}" class="theme-btn text-center">
                             Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                         </a>
                     </div>
@@ -327,116 +327,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                <div class="choose-us-card-items">
-                    <div class="icon">
-                        <img src="assets/img/support/account.png" alt="img">
-                    </div>
-                    <div class="content">
-                        <h3>Account Manager</h3>
-                        <p>
-                            2Collaboratively formulate principle capital. Progressively evolve
-                        </p>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </section>
 
-<!-- Faq Section Start -->
-<section class="faq-section fix section-padding section-bg">
-    <div class="container">
-        <div class="faq-wrapper">
-            <div class="row g-4">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="faq-image">
-                        <img src="assets/img/faq.png" alt="img">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="faq-content">
-                        <div class="section-title">
-                            <span class="wow fadeInUp">FAQ’S</span>
-                            <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                Prioritize Your Site’s Safety and Security
-                            </h2>
-                        </div>
-                        <div class="faq-accordion mt-4 mt-md-0">
-                            <div class="accordion" id="accordion">
-                                <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                    <h5 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true"
-                                            aria-controls="faq1">
-                                            How to Install WordPress theme on cPanel?
-                                        </button>
-                                    </h5>
-                                    <div id="faq1" class="accordion-collapse collapse"
-                                        data-bs-parent="#accordion">
-                                        <div class="accordion-body">
-                                            Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
-                                            semper odio. Mauris et mollis quam. Nullam fringilla erat id ante commodo
-                                            sodales. In maximus ultrices euismod. Vivamus porta justo ex.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
-                                    <h5 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                                            Do you have Custom Hosting Service?
-                                        </button>
-                                    </h5>
-                                    <div id="faq2" class="accordion-collapse show" data-bs-parent="#accordion">
-                                        <div class="accordion-body">
-                                            Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
-                                            semper odio. Mauris et mollis quam. Nullam fringilla erat id ante commodo
-                                            sodales. In maximus ultrices euismod. Vivamus porta justo ex.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
-                                    <h5 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false"
-                                            aria-controls="faq3">
-                                            Better Security And Faster Server?
-                                        </button>
-                                    </h5>
-                                    <div id="faq3" class="accordion-collapse collapse"
-                                        data-bs-parent="#accordion">
-                                        <div class="accordion-body">
-                                            There are many variations of passages Lorem Ipsum but the majority have
-                                            suffered alteration in some form, by injected humor.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
-                                    <h5 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false"
-                                            aria-controls="faq4">
-                                            Deployment Within Few Minutes
-                                        </button>
-                                    </h5>
-                                    <div id="faq4" class="accordion-collapse collapse"
-                                        data-bs-parent="#accordion">
-                                        <div class="accordion-body">
-                                            Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
-                                            semper odio. Mauris et mollis quam. Nullam fringilla erat id ante commodo
-                                            sodales. In maximus ultrices euismod. Vivamus porta justo ex.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!--<< Contact Section Start >>-->
 <section class="contact-section fix section-padding">
@@ -551,146 +446,10 @@
     </div>
 </section>
 
-<!-- Testimonial Section Start -->
-<section class="testimonial-section-2 fix section-padding section-bg">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="style-bg wow fadeInUp">clients Testimonials</span>
-            <h2 class="wow fadeInUp" data-wow-delay=".3s">Latest Client Feedback</h2>
-        </div>
-        <div class="swiper testimonial-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="testimonial-box-items">
-                        <div class="pngwing-shape">
-                            <img src="assets/img/testimonial/pngwing-shape.png" alt="shape-img">
-                        </div>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <p>
-                            Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at
-                            pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan felis sed.
-                        </p>
-                        <div class="client-info">
-                            <div class="client-img bg-cover"
-                                style="background-image: url('assets/img/testimonial/client-3.jpg');"></div>
-                            <div class="content">
-                                <h4>Kristin Watson</h4>
-                                <span>Web Designer</span>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="testimonial-box-items">
-                        <div class="pngwing-shape">
-                            <img src="assets/img/testimonial/pngwing-shape.png" alt="shape-img">
-                        </div>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <p>
-                            Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at
-                            pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan felis sed.
-                        </p>
-                        <div class="client-info">
-                            <div class="client-img bg-cover"
-                                style="background-image: url('assets/img/testimonial/client-4.jpg');"></div>
-                            <div class="content">
-                                <h4>Theresa Webb</h4>
-                                <span>Web Designer</span>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="testimonial-box-items">
-                        <div class="pngwing-shape">
-                            <img src="assets/img/testimonial/pngwing-shape.png" alt="shape-img">
-                        </div>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <p>
-                            Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at
-                            pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan felis sed.
-                        </p>
-                        <div class="client-info">
-                            <div class="client-img bg-cover"
-                                style="background-image: url('assets/img/testimonial/client-5.jpg');"></div>
-                            <div class="content">
-                                <h4>Ronald Richards</h4>
-                                <span>Web Designer</span>
-                            </div>
-                            <div class="icon">
-                                <i class="fa-solid fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-dot mt-5">
-                <div class="dot"></div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <!-- Brand Section Start -->
-<div class="brand-section fix section-padding section-bg pt-0 margin-top-10">
-    <div class="container">
-        <h3 class="brand-head-title"><img src="assets/img/w.png" alt="img">Recommended By
-            <span>WordPress.org</span></h3>
-        <div class="swiper brand-slider-2">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="brand-img center">
-                        <img src="assets/img/brand/trustipilot.png" alt="img">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="brand-img center">
-                        <img src="assets/img/brand/google.png" alt="img">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="brand-img center">
-                        <img src="assets/img/brand/wpbeginner.png" alt="img">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="brand-img center">
-                        <img src="assets/img/brand/hostadvice.png" alt="img">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="brand-img center">
-                        <img src="assets/img/brand/capterra.png" alt="img">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <!--<< Footer Section Start >>-->
 @include('layouts.footer')

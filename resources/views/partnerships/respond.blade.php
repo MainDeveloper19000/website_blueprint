@@ -1,4 +1,3 @@
-
 @include('layouts.header')
     <body>
 
@@ -14,18 +13,19 @@
                     <div class="offcanvas__content">
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
-                                <a href="index.html">
+                                <a href="{{ url('/') }}">
                                     <img src="assets/img/logo/black-logo.svg" alt="logo-img">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
                                 <button>
-                                <i class="fas fa-times"></i>
+                                    <i class="fas fa-times"></i>
                                 </button>
                             </div>
                         </div>
                         <p class="text d-none d-xl-block">
-                            Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                            Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
+                            feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
                         </p>
                         <div class="mobile-menu fix mb-3"></div>
                         <div class="offcanvas__contact">
@@ -36,7 +36,7 @@
                                         <i class="fal fa-map-marker-alt"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                        <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh 120209</a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -44,7 +44,8 @@
                                         <i class="fal fa-envelope"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="mailto:info@example.com"><span class="mailto:info@example.com">info@example.com</span></a>
+                                        <a href="info@masterchat.iom"><span
+                                                class="info@masterchat.io">info@masterchat.io</span></a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -52,7 +53,7 @@
                                         <i class="fal fa-clock"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                        <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -60,13 +61,13 @@
                                         <i class="far fa-phone"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="tel:+11002345909">+11002345909</a>
+                                        <a href="tel: +85516415111"> +85516415111</a>
                                     </div>
                                 </li>
                             </ul>
                             <div class="header-button mt-4">
-                                <a href="contact.html" class="theme-btn text-center">
-                                   Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
+                                <a href="{{route('help_center.contact')}}" class="theme-btn text-center">
+                                    Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
                             </div>
                             <div class="social-icon d-flex align-items-center">
@@ -86,7 +87,7 @@
         @include('layouts.navigation')
 
         <!-- Modal Version 1 -->
-        <div class="modal modal-common-wrap fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+        {{-- <div class="modal modal-common-wrap fade" id="exampleModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -160,10 +161,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <!-- Modal Version 2 -->
-        <div class="modal modal-common-wrap fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
+        {{-- <div class="modal modal-common-wrap fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -234,7 +235,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <!-- Search Area Start -->
         <div class="search-wrap">

@@ -13,18 +13,19 @@
                     <div class="offcanvas__content">
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
-                                <a href="index.html">
+                                <a href="{{ url('/') }}">
                                     <img src="assets/img/logo/black-logo.svg" alt="logo-img">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
                                 <button>
-                                <i class="fas fa-times"></i>
+                                    <i class="fas fa-times"></i>
                                 </button>
                             </div>
                         </div>
                         <p class="text d-none d-xl-block">
-                            Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                            Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
+                            feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
                         </p>
                         <div class="mobile-menu fix mb-3"></div>
                         <div class="offcanvas__contact">
@@ -35,7 +36,7 @@
                                         <i class="fal fa-map-marker-alt"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                        <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh 120209</a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -43,7 +44,8 @@
                                         <i class="fal fa-envelope"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="mailto:info@example.com"><span class="mailto:info@example.com">info@example.com</span></a>
+                                        <a href="info@masterchat.iom"><span
+                                                class="info@masterchat.io">info@masterchat.io</span></a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -51,7 +53,7 @@
                                         <i class="fal fa-clock"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                        <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
                                     </div>
                                 </li>
                                 <li class="d-flex align-items-center">
@@ -59,13 +61,13 @@
                                         <i class="far fa-phone"></i>
                                     </div>
                                     <div class="offcanvas__contact-text">
-                                        <a href="tel:+11002345909">+11002345909</a>
+                                        <a href="tel: +85516415111"> +85516415111</a>
                                     </div>
                                 </li>
                             </ul>
                             <div class="header-button mt-4">
-                                <a href="contact.html" class="theme-btn text-center">
-                                   Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
+                                <a href="{{route('help_center.contact')}}" class="theme-btn text-center">
+                                    Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
                             </div>
                             <div class="social-icon d-flex align-items-center">
@@ -254,7 +256,25 @@
             <div class="container">
                 <div class="page-heading">
                     <div class="page-header-left">
-                        <h1 class="wow fadeInUp" data-wow-delay=".3s">Mais produtividade e <br>desempenho<br> na sua empresa</h1>
+                        <h1 class="wow fadeInUp" data-wow-delay=".3s">Gold Partner</h1>
+                        <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                            <li>
+                                <a href="index.html">
+                                    En Bit24, somos expertos en Bitrix24, un CRM para administrar y gestionar clientes,<br>
+                                     así como funciones de automatización de marketing que impulsarán tu negocio.
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                            <li>
+                                <a href="index.html">
+                                    Trabajamos estrechamente contigo para adaptar Bitrix24 a las necesidades específicas de tu empresa,<br>
+                                     asegurando una experiencia fluida y eficiente.
+
+
+                                </a>
+                            </li>
+                        </ul>
                         <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                             <li>
                                 <a href="index.html">
@@ -270,13 +290,13 @@
                         </ul>
                     </div>
                     <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
-                        <img src="{{asset('assets/img/bitrix24/bitrix24.png')}}">
+                        <img src="{{asset('assets/img/bitrix24/bitrix24.webp')}}">
                     </div>
                 </div>
             </div>
         </div>
         
-        <!-- About Section Start -->
+        <!-- Certificate Gold Partner-->
         <section class="about-section section-padding fix">
             <div class="container">
                 <div class="about-wrapper">
@@ -284,49 +304,28 @@
                         <div class="col-lg-6">
                             <div class="about-image-items">
                                 <div class="about-sub">
-                                    Bitrix Partner
+                                    Certificate Gold Partner
                                 </div>
                                 <div class="shape-image">
                                     <img src="assets/img/about/shape.png" alt="img">
                                 </div>
                                 <div class="about-image-1 wow fadeInLeft" data-wow-delay=".3s">
-                                    <img src="{{asset('assets/img/bitrix24/flying.webp')}}">
-                                    <div class="about-image-2 wow fadeInUp" data-wow-delay=".5s">
+                                    <img src="{{asset('assets/img/bitrix24/Bitrix_Gold.png')}}">
+                                    {{-- <div class="about-image-2 wow fadeInUp" data-wow-delay=".5s">
                                         <img src="{{asset('assets/img/bitrix24/header.png')}}">
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="about-content">
                                 <div class="section-title">
-                                    <span class="wow fadeInUp">EMPOWERMENT</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">B24 Club</h2>
+                                    <span class="wow fadeInUp">Bitrix24 Partner</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s"> Gold Partner</h2>
                                 </div>
                                 <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    A comunidade de educação e networking sobre Bitrix24. Na comunidade você terá acesso aos cursos, conteúdos exclusivos, aulas ao vivo e semanais, estudos de caso e muito mais!
-Não importa que você está começando a usar o Bitrix24 ou já tem experiência: no B24 Club você encontra tudo o que precisa para explorar ao máximo a plataforma de gestão!
+                                    We help organizations achieve their goals by offering fast solutions and consulting services for process automation and customer relationship management. We are the largest and experienced company in the Mongolian market as a certified Gold Partner. To date, we have successfully completed over 30 projects in various business sectors. We also integrate Bitrix24 with third-party systems based on our clients' requirements.
                                 </p>
-                                <div class="about-counter-items">
-                                    <div class="counter-items wow fadeInUp" data-wow-delay=".3s">
-                                        <h2><span class="count">50</span>k</h2>
-                                        <h6>Global Customers</h6>
-                                    </div>
-                                    <div class="counter-items ps-0 wow fadeInUp" data-wow-delay=".5s">
-                                        <h2><span class="count">98</span>%</h2>
-                                        <h6>Success Case</h6>
-                                    </div>
-                                    <div class="video-thumb wow fadeInUp" data-wow-delay=".7s">
-                                        <img src="assets/img/about/video-img.jpg" alt="video-img">
-                                        <div class="video-box">
-                                            <span class="button-text wow fadeInUp">
-                                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                                    <i class="fa-solid fa-play"></i>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -334,7 +333,7 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
             </div>
         </section>
 
-        <!-- Feature Section Start -->
+        <!-- Expert Solutions -->
         <section class="feature-hosting-section fix section-padding section-bg">
             <div class="container">
                 <div class="feature-content-warpper style-2">
@@ -342,13 +341,13 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
                         <div class="col-xl-5 col-lg-6">
                             <div class="feature-hosting-content">
                                 <div class="section-title">
-                                    <span class="wow fadeInUp">Best hosting</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Advance features for the <br> advanced user</h2>
+                                    <span class="wow fadeInUp">Expert Solutions</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Achieving Organizational Goals with Expert Solutions</h2>
                                 </div>
                                 <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    Pellentesque varius mauris sit amet nisi tincidunt finibus Donec faucibus diam quis feugiat accumsan Integer molestie sapien ut ipsum fermentum feugiat Curabitur.
+                                    We help organizations achieve their goals by offering fast solutions and consulting services for process automation and customer relationship management. We are the largest and experienced company in the Cambodia market as a certified Silver Partner. To date, we have successfully completed over 30 projects in various business sectors. We also integrate Bitrix24 with third-party systems based on our clients' requirements.
                                 </p>
-                                <div class="list-items">
+                                {{-- <div class="list-items">
                                     <ul class="wow fadeInUp" data-wow-delay=".3s">
                                         <li>
                                             <i class="far fa-check"></i>
@@ -371,7 +370,7 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
                                     </ul>
                                 </div>
                                 <a href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Explore More <i class="fas fa-long-arrow-alt-right"></i> 
-                                </a>
+                                </a> --}}
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".4s">
@@ -382,8 +381,10 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
                                 <div class="icon-box-2">
                                     <img src="assets/img/hosting/icon-3.png" alt="img">
                                 </div>
+                                Achieving
                                 <div class="thumb">
-                                    <img src="assets/img/gym-man.png" alt="img">
+                                    <img src="{{asset('assets/img/bitrix24/Flying.webp')}}">   
+                                    {{-- <img src="assets/img/Flying.webp" alt="img"> --}}
                                 </div>
                             </div>
                         </div>
@@ -394,26 +395,27 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
 
        
 
-        <!-- Feature Section Start -->
+        <!-- Automation -->
         <section class="feature-hosting-section fix section-padding">
             <div class="container">
                 <div class="feature-content-warpper margin-top-60">
                     <div class="row g-4 justify-content-between align-items-center">
                         <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
                             <div class="feature-hosting-image">
-                                <img src="assets/img/hosting-boy.png" alt="img">
+                                <img src="{{asset('assets/img/bitrix24/Automation.jpg')}}">
+                               
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="feature-hosting-content">
                                 <div class="section-title">
-                                    <span class="wow fadeInUp">Best hosting</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Get the Good Level Hosting <br> at Budget Price</h2>
+                                    <span class="wow fadeInUp">Automation</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Comprehensive Process Automation</h2>
                                 </div>
                                 <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    Pellentesque varius mauris sit amet nisi tincidunt finibus Donec faucibus diam quis feugiat accumsan Integer molestie sapien ut ipsum fermentum feugiat Curabitur.
+                                    Our expertise in process automation ensures that your business operations run smoothly and efficiently. By automating repetitive tasks, we help you save time and reduce errors, allowing your team to focus on more strategic activities. Our tailored solutions are designed to meet the unique needs of each client, ensuring maximum efficiency and productivity.
                                 </p>
-                                <div class="list-items">
+                                {{-- <div class="list-items">
                                     <ul class="wow fadeInUp" data-wow-delay=".3s">
                                         <li>
                                             <i class="far fa-check"></i>
@@ -434,9 +436,9 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
                                             24/7 system Monitoring
                                         </li>
                                     </ul>
-                                </div>
-                                <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i class="fas fa-long-arrow-alt-right"></i> 
-                                </a>
+                                </div> --}}
+                                {{-- <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i class="fas fa-long-arrow-alt-right"></i> 
+                                </a> --}}
                             </div>
                         </div>
                     </div>
@@ -445,7 +447,7 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
         </section>
 
         
-        <!-- Hosting Section Start -->
+        <!-- Customer Relationship Management (CRM) -->
         <section class="hosting section-padding fix">
             <div class="container">
                 <div class="hosting-wrapper">
@@ -453,19 +455,20 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
                         <div class="col-lg-6">
                             <div class="hosting-content">
                                 <div class="section-title">
-                                    <span class="wow fadeInUp">Best hosting</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Get Started Fast & Easily with Best Hosting</h2>
+                                    <span class="wow fadeInUp">CRM</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Customer Relationship Management (CRM)</h2>
                                 </div>
                                 <div class="hosting-items wow fadeInUp mt-4 mt-md-0" data-wow-delay=".5s">
                                     <div class="icon">
-                                        <img src="assets/img/hosting/icon-9.png" alt="img">                                          
+                                        <img src="{{asset('assets/img/bitrix24/icon_crm.png')}}">
+                                        {{-- <img src="assets/img/hosting/icon-9.png" alt="img">                                           --}}
                                     </div>
                                     <div class="content">
-                                        <h4>Better Security and faster Server</h4>
-                                        <p>Cursus libero sit amet ultrices. Nullam sit amet ornare neque duis vitae congue ante, nec tempus quam. Donec non.</p>
+                                        <h4>Customer Relationship Management (CRM)</h4>
+                                        <p>Effective customer relationship management is crucial for any business looking to grow and retain its customer base. Our CRM solutions help you manage customer interactions, track sales, and analyze data to make informed decisions. With our CRM services, you can improve customer satisfaction, increase sales, and build long-lasting relationships with your clients.</p>
                                     </div>
                                 </div>
-                                <div class="hosting-items wow fadeInUp" data-wow-delay=".7s">
+                                {{-- <div class="hosting-items wow fadeInUp" data-wow-delay=".7s">
                                     <div class="icon">
                                         <img src="assets/img/hosting/icon-10.png" alt="img">                                          
                                     </div>
@@ -473,12 +476,12 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
                                         <h4>Better Security and faster Server</h4>
                                         <p>Cursus libero sit amet ultrices. Nullam sit amet ornare neque duis vitae congue ante, nec tempus quam. Donec non.</p>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
                             <div class="hosting-image">
-                                <img src="assets/img/hosting/hosting.png" alt="img">
+                                <img src="{{asset('assets/img/bitrix24/crm.webp')}}">
                             </div>
                         </div>
                     </div>
@@ -486,30 +489,182 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
             </div>
         </section>
 
-        <!-- certivicate -->
-        <section class="Error-section section-padding fix">
+         <!-- Proven Track Record -->
+         <section class="feature-hosting-section fix section-padding">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <div class="error-items">
-                            <div class="error-image wow fadeInUp" data-wow-delay=".3s">
-                                <img src="assets/img/404.png" alt="img">
+                <div class="feature-content-warpper margin-top-60">
+                    <div class="row g-4 justify-content-between align-items-center">
+                        <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="feature-hosting-image">
+                                <img src="{{asset('assets/img/bitrix24/Proven.jpg')}}">
+                               
                             </div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".5s">
-                                <span>certificate</span>of bitrix24
-                            </h2>
-                            <p class="mb-3 wow fadeInUp" data-wow-delay=".6s">The page you are looking for does not exist</p>
-                            {{-- <a href="index.html" class="theme-btn wow fadeInUp" data-wow-delay=".7s">
-                                Back to home pages
-                                <i class="fa-solid fa-arrow-right-long"></i> --}}
-                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="feature-hosting-content">
+                                <div class="section-title">
+                                    <span class="wow fadeInUp">Proven Track Record</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Proven Track Record</h2>
+                                </div>
+                                <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                    With over 30 successful projects across various business sectors, our track record speaks for itself. Our clients range from small businesses to large enterprises, and we have helped them achieve their goals through our innovative solutions. Our experience and expertise make us the go-to partner for organizations looking to enhance their operations and customer relationships.
+                                </p>
+                                {{-- <div class="list-items">
+                                    <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                        <li>
+                                            <i class="far fa-check"></i>
+                                            30-day money back guarantee
+                                        </li>
+                                        <li>
+                                            <i class="far fa-check"></i>
+                                            Web site Marketing Solutions
+                                        </li>
+                                    </ul>
+                                    <ul class="wow fadeInUp" data-wow-delay=".5s">
+                                        <li>
+                                            <i class="far fa-check"></i>
+                                            Unlimited Application Installation
+                                        </li>
+                                        <li>
+                                            <i class="far fa-check"></i>
+                                            24/7 system Monitoring
+                                        </li>
+                                    </ul>
+                                </div> --}}
+                                {{-- <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i class="fas fa-long-arrow-alt-right"></i> 
+                                </a> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Integration -->
+        <section class="hosting section-padding fix">
+            <div class="container">
+                <div class="hosting-wrapper">
+                    <div class="row g-4 justify-content-between align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hosting-content">
+                                <div class="section-title">
+                                    <span class="wow fadeInUp">Integration</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Seamless Integration with Bitrix24</h2>
+                                </div>
+                                <div class="hosting-items wow fadeInUp mt-4 mt-md-0" data-wow-delay=".5s">
+                                    <div class="icon">
+                                        <img src="{{asset('assets/img/bitrix24/icon_crm.png')}}">
+                                        {{-- <img src="assets/img/hosting/icon-9.png" alt="img">                                           --}}
+                                    </div>
+                                    <div class="content">
+                                        <h4>Integration</h4>
+                                        <p>We understand that every business has unique requirements, which is why we offer seamless integration of Bitrix24 with third-party systems. Whether you need to connect your CRM with your accounting software or integrate your project management tools, we have the skills and experience to make it happen. Our integration services ensure that all your systems work together harmoniously, providing you with a unified platform to manage your business.
+                                        </p>
+                                    </div>
+                                </div>
+                                {{-- <div class="hosting-items wow fadeInUp" data-wow-delay=".7s">
+                                    <div class="icon">
+                                        <img src="assets/img/hosting/icon-10.png" alt="img">                                          
+                                    </div>
+                                    <div class="content">
+                                        <h4>Better Security and faster Server</h4>
+                                        <p>Cursus libero sit amet ultrices. Nullam sit amet ornare neque duis vitae congue ante, nec tempus quam. Donec non.</p>
+                                    </div>
+                                </div> --}}
+                            </div>
+                        </div>
+                        <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="hosting-image">
+                                <img src="{{asset('assets/img/bitrix24/app.jpg')}}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+         <!-- Why Choose Us? -->
+         <section class="faq-section fix section-padding pt-0">
+            <div class="container">
+                <div class="faq-wrapper">
+                    <div class="row g-4">
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="faq-image">
+                                
+                                <img src="{{asset('assets/img/bitrix24/question-icon.png')}}">
+                                {{-- <img src="assets/img/faq.png" alt="img"> --}}
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="faq-content">
+                                <div class="section-title">
+                                    <span class="wow fadeInUp">Why Choose Us?</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                        Why Choose Us?
+                                    </h2>
+                                </div>
+                                <div class="faq-accordion mt-4 mt-md-0">
+                                    <div class="accordion" id="accordion">
+                                        <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
+                                            <h5 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                                    Expertise
+                                                </button>
+                                            </h5>
+                                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                                <div class="accordion-body">
+                                                    As a certified Silver Partner, we have the knowledge and experience to deliver top-notch solutions.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
+                                            <h5 class="accordion-header">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                                    DCustomization
+                                                </button>
+                                            </h5>
+                                            <div id="faq2" class="accordion-collapse show" data-bs-parent="#accordion">
+                                                <div class="accordion-body">
+                                                    We tailor our services to meet the specific needs of each client. 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                            <h5 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                                    Support
+                                                </button>
+                                            </h5>
+                                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                                <div class="accordion-body">
+                                                    Our team is always available to provide ongoing support and ensure your systems run smoothly.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                            <h5 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                                    Innovation
+                                                </button>
+                                            </h5>
+                                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                                                <div class="accordion-body">
+                                                    We stay up-to-date with the latest trends and technologies to offer cutting-edge solutions.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
          <!-- Choose Us Section Start -->
-        <section class="choose-us-section-2 pt-100 pb-100 margin-top-5">
+        {{-- <section class="choose-us-section-2 pt-100 pb-100 margin-top-5">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
@@ -566,12 +721,12 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <!-- Team Section Start -->
 
 
-        <section class="team-section fix section-padding">
+        {{-- <section class="team-section fix section-padding">
             <div class="container">
                 <div class="section-title text-center">
                     <span class="style-border wow fadeInUp">Our Expart</span>
@@ -661,10 +816,10 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <!-- Choose Us Section Start -->
-        <section class="choose-us-section fix section-padding bg-cover" style="background-image: url('assets/img/feature-bg.jpg');">
+        {{-- <section class="choose-us-section fix section-padding bg-cover" style="background-image: url('assets/img/feature-bg.jpg');">
             <div class="container">
                 <div class="section-title text-center">
                     <span class="style-border-white text-white wow fadeInUp">Why choose uS</span>
@@ -729,6 +884,60 @@ Não importa que você está começando a usar o Bitrix24 ou já tem experiênci
                                 <p>
                                     Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
+        <!-- Client Success Stories -->
+        <section class="cta-contact-section">
+            <div class="container">
+                <div class="cta-contact-wrapper mb-0">
+                    <div class="cta-contact-image wow fadeInUp">
+                        <img src="{{asset('assets/img/bitrix24/icon_userstory.png')}}">
+                    </div>
+                    <div class="section-title mb-0">
+                        <span class="white-text wow fadeInUp">Client Success</span>
+                        <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">Client Success Stories</h2>
+                        <span class="white-text wow fadeInUp">Our clients have seen significant improvements in their operations and customer relationships after working with us. For example, a retail company we worked with was able to streamline their inventory management and improve customer satisfaction by implementing our CRM solution. Another client, a financial services firm, saw a 20% increase in productivity after automating their internal processes.</span>
+                    </div>
+                    
+                    {{-- <a href="contact.html" class="theme-btn bg-color-2 mt-xl-5 wow fadeInUp" data-wow-delay=".5s">Talk to a Specialist <i class="fas 
+                        fa-long-arrow-alt-right"></i></a> --}}
+                </div>
+            </div>
+        </section>
+         <!-- Get Started Today -->
+         <section class="feature-hosting-section fix section-padding">
+            <div class="container">
+                <div class="feature-content-warpper style-2">
+                    <div class="row g-4 justify-content-between align-items-center">
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="feature-hosting-content">
+                                <div class="section-title">
+                                    <span class="wow fadeInUp">Get Started Today</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Get Started Today</h2>
+                                </div>
+                                <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                    Ready to take your business to the next level? Contact us today to learn more about our services and how we can help you achieve your goals. Our team of experts is here to provide you with the solutions you need to succeed in today's competitive market.
+                                </p>
+                                <br>
+                                <a href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Get Started <i class="fas fa-long-arrow-alt-right"></i> 
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="feature-hosting-image-2">
+                                <div class="icon-box-1">
+                                    <img src="assets/img/hosting/icon-1.png" alt="img">
+                                </div>
+                                <div class="icon-box-2">
+                                    <img src="assets/img/hosting/icon-3.png" alt="img">
+                                </div>
+                                <div class="thumb">
+                                    <img src="assets/img/gym-man.png" alt="img">
+                                </div>
                             </div>
                         </div>
                     </div>

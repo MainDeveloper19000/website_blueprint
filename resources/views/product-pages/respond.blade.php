@@ -1,10 +1,10 @@
 @include('layouts.header')
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 <body>
     <!-- Preloader Start -->
-
     @include('layouts.preload')
-
     <!-- Preloader Start -->
     <!-- Offcanvas Area Start -->
     <div class="fix-area">
@@ -36,7 +36,8 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                    <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh
+                                        120209</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -44,8 +45,8 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span
-                                            class="mailto:info@example.com">info@example.com</span></a>
+                                    <a href="info@masterchat.iom"><span
+                                            class="info@masterchat.io">info@masterchat.io</span></a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -53,7 +54,7 @@
                                     <i class="fal fa-clock"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                    <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -61,12 +62,12 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+11002345909</a>
+                                    <a href="tel: +85516415111"> +85516415111</a>
                                 </div>
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="theme-btn text-center">
+                            <a href="{{ route('help_center.contact') }}" class="theme-btn text-center">
                                 Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
@@ -274,7 +275,7 @@
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">
                             Respond.io Chat with Leads, Make More Money
                         </h1>
-                        <a href="pricing.html" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
+                        <a href="#pricing-section" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
                             view plan <i class="fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
@@ -288,220 +289,245 @@
         </div>
     </section>
     <!-- Feature Section Start -->
-    <!-- Feature Section Start -->
-    <section class="feature-hosting-section fix section-padding">
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="assets/img/retail.jpg" alt="img" style="border-radius: 12px">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">RETAIL</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">From Clicks to Bricks: Enhancing Retail
-                                    with Online Chat</h2>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="assets/img/retail.jpg" alt="img" style="border-radius: 12px">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">RETAIL</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">From Clicks to Bricks:
+                                                Enhancing Retail
+                                                with Online Chat</h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            Whether you sell apparel, fine jewelry, electronics or furniture, respond.io
+                                            helps
+                                            businesses like yours market and sell at scale from any channel on a single
+                                            platform.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                Whether you sell apparel, fine jewelry, electronics or furniture, respond.io helps
-                                businesses like yours market and sell at scale from any channel on a single platform.
-                            </p>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
-        </div>
-    </section>
-    <section class="feature-hosting-section fix section-padding">
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
 
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">EDUCATION</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">3X Your Student Intake with Respond.io
-                                </h2>
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">EDUCATION</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">3X Your Student Intake with
+                                                Respond.io
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            Don’t lose out on leads because of late replies or lack of visibility.
+                                            Respond.io is
+                                            designed for education marketing, helping schools market and sell their
+                                            services
+                                            effectively.
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="assets/img/education_respond.jpg" alt="img"
+                                            style="border-radius: 12px">
+                                    </div>
+                                </div>
+
                             </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                Don’t lose out on leads because of late replies or lack of visibility. Respond.io is
-                                designed for education marketing, helping schools market and sell their services
-                                effectively.
-                            </p>
-
                         </div>
                     </div>
-
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="assets/img/education_respond.jpg" alt="img" style="border-radius: 12px">
-                        </div>
-                    </div>
-
-                </div>
+                </section>
             </div>
-        </div>
-    </section>
-    <section class="feature-hosting-section fix section-padding">
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="assets/img/healthcare.jpg" alt="img" style="border-radius: 12px">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">HEALTHCARE</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Healthier Patient Engagements Over Chat
-                                </h2>
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="assets/img/healthcare.jpg" alt="img"
+                                            style="border-radius: 12px">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">HEALTHCARE</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Healthier Patient
+                                                Engagements Over Chat
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            Switch appointment bookings, inquiries and teleconsultations over to instant
+                                            messaging.
+                                            By integrating patient data with a messaging inbox, automation and analytics
+                                            stack,
+                                            respond.io is just what the doctor ordered.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                Switch appointment bookings, inquiries and teleconsultations over to instant messaging.
-                                By integrating patient data with a messaging inbox, automation and analytics stack,
-                                respond.io is just what the doctor ordered.
-                            </p>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
-        </div>
-    </section>
-    <section class="feature-hosting-section fix section-padding">
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
 
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">PROFESSIONAL SERVICES</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Transform Your Professional Services
-                                    with Online Chat
-                                </h2>
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">PROFESSIONAL SERVICES</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Transform Your Professional
+                                                Services
+                                                with Online Chat
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            From photography and videography services to home cleaning and maid
+                                            services, respond.io
+                                            helps businesses deliver their services at scale from any channel on a
+                                            single platform.
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="assets/img/education_respond.jpg" alt="img"
+                                            style="border-radius: 12px">
+                                    </div>
+                                </div>
+
                             </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                From photography and videography services to home cleaning and maid services, respond.io
-                                helps businesses deliver their services at scale from any channel on a single platform.
-                            </p>
-
                         </div>
                     </div>
-
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="assets/img/education_respond.jpg" alt="img" style="border-radius: 12px">
-                        </div>
-                    </div>
-
-                </div>
+                </section>
             </div>
-        </div>
-    </section>
-    <section class="feature-hosting-section fix section-padding">
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="assets/img/automotive.jpg" alt="img" style="border-radius: 12px">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">AUTOMOTIVE</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Shift Customer Journeys Into High Gear
-                                </h2>
+
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="assets/img/automotive.jpg" alt="img"
+                                            style="border-radius: 12px">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">AUTOMOTIVE</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Shift Customer Journeys Into
+                                                High Gear
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            Manage all automotive chats on one platform. Make respond.io a part of your
+                                            toolkit to
+                                            market at scale, shorten sales cycles and offer personalized experience.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                Manage all automotive chats on one platform. Make respond.io a part of your toolkit to
-                                market at scale, shorten sales cycles and offer personalized experience.
-                            </p>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
-        </div>
-    </section>
-    <section class="feature-hosting-section fix section-padding">
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
 
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">TRAVEL</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Driving Travel Sales with Online Chat
-                                </h2>
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">TRAVEL</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Driving Travel Sales with
+                                                Online Chat
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            From photography and videography services to home cleaning and maid
+                                            services, respond.io
+                                            helps businesses deliver their services at scale from any channel on a
+                                            single platform.
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="assets/img/Travel.jpg" alt="img" style="border-radius: 12px">
+                                    </div>
+                                </div>
+
                             </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                From photography and videography services to home cleaning and maid services, respond.io
-                                helps businesses deliver their services at scale from any channel on a single platform.
-                            </p>
-
                         </div>
+                        <a href="{{ url('/respondfeature') }}" class="theme-btn wow fadeInUp"
+                            data-wow-delay=".5s">Explore More
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
                     </div>
-
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="assets/img/Travel.jpg" alt="img" style="border-radius: 12px">
-                        </div>
-                    </div>
-
-                </div>
+                </section>
             </div>
         </div>
-    </section>
-    <!-- Brand Section Start -->
-    {{-- <div class="brand-section fix section-padding section-bg margin-top-10 pb-0">
-        <div class="container">
-            <h3 class="brand-head-title wow fadeInUp" data-wow-delay=".3s"><span></span></h3>
-            <div class="swiper brand-slider-2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="brand-img center">
-                            <img src="assets/img/brand/trustipilot.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-img center">
-                            <img src="assets/img/brand/google.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-img center">
-                            <img src="assets/img/brand/wpbeginner.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-img center">
-                            <img src="assets/img/brand/hostadvice.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-img center">
-                            <img src="assets/img/brand/capterra.png" alt="img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    <!-- Choose Us Section Start -->
-
-    {{-- brand-section --}}
-
-
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 10000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
     <!--  Section Start Pricing-->
-    <section class="pricing-section fix section-padding section-bg">
+    <section class="pricing-section fix section-padding section-bg" id="pricing-section">
         <div class="pricing-shape">
             <img src="assets/img/pricing-shape.png" alt="img">
         </div>
@@ -606,7 +632,8 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ"
+                                        class="pricing-btn">
                                         Start 7 Days Trial
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -684,7 +711,8 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ"
+                                        class="pricing-btn">
                                         Start 7 Days Trial
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -753,7 +781,8 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ"
+                                        class="pricing-btn">
                                         Book a Demo
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -835,7 +864,8 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ"
+                                        class="pricing-btn">
                                         Start 7 Days Trial
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -913,7 +943,8 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ"
+                                        class="pricing-btn">
                                         Start 7 Days Trial
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -982,7 +1013,8 @@
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ"
+                                        class="pricing-btn">
                                         Book a Demo
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -994,11 +1026,8 @@
             </div>
         </div>
     </section>
-
-
-
     {{-- brand-section --}}
-    <div class="brand-section pt-100 pb-0">
+    <div class="brand-section pt-100 pb-0" id="brandsection">
         <div class="container">
             <div class="swiper brand-slider bor-bottom pb-100 pt-0">
                 <div class="section-title text-center">

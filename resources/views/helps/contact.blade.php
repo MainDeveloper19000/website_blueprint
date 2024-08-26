@@ -21,8 +21,8 @@
                     </div>
                 </div>
                 <p class="text d-none d-xl-block">
-                    Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat
-                    leo urna eget eros. Duis Aenean a imperdiet risus.
+                    Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
+                    feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
                 </p>
                 <div class="mobile-menu fix mb-3"></div>
                 <div class="offcanvas__contact">
@@ -33,7 +33,7 @@
                                 <i class="fal fa-map-marker-alt"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh 120209</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">
@@ -41,8 +41,8 @@
                                 <i class="fal fa-envelope"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="mailto:info@example.com"><span
-                                        class="mailto:info@example.com">info@example.com</span></a>
+                                <a href="info@masterchat.iom"><span
+                                        class="info@masterchat.io">info@masterchat.io</span></a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">
@@ -50,7 +50,7 @@
                                 <i class="fal fa-clock"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">
@@ -58,12 +58,12 @@
                                 <i class="far fa-phone"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="tel:+11002345909">+11002345909</a>
+                                <a href="tel: +85516415111"> +85516415111</a>
                             </div>
                         </li>
                     </ul>
                     <div class="header-button mt-4">
-                        <a href="contact.html" class="theme-btn text-center">
+                        <a href="{{route('help_center.contact')}}" class="theme-btn text-center">
                             Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                         </a>
                     </div>
@@ -284,8 +284,7 @@
         <div class="section-title text-center">
             <span class="style-border wow fadeInUp">our Support</span>
             <h2 class="wow fadeInUp" data-wow-delay=".3s">our Premium Support</h2>
-            <p class="wow fadeInUp" data-wow-delay=".5s">Aliquam viverra accumsan lectus in dignissim ante interdum eu
-                Sed odio massa</p>
+            <p class="wow fadeInUp" data-wow-delay=".5s">
         </div>
         <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
@@ -296,7 +295,7 @@
                     <div class="content">
                         <h3>Our Address</h3>
                         <p>
-                            4517 Washington Ave. Manchester, Kentucky 39495
+                            Oknha Kleang Moeung St. (70), Phnom Penh 120209
                         </p>
                     </div>
                 </div>
@@ -307,9 +306,9 @@
                         <img src="assets/img/support/customization.png" alt="img">
                     </div>
                     <div class="content">
-                        <h3><a href="mailto:info@exmple.com">info@exmple.com</a></h3>
+                        <h3><a href="info@masterchat.io">info@masterchat.io</a></h3>
                         <p>
-                            Email us anytime for any kind <br>
+                            Email us for any kind <br>
                             of quety
                         </p>
                     </div>
@@ -321,14 +320,14 @@
                         <img src="assets/img/support/technical.png" alt="img">
                     </div>
                     <div class="content">
-                        <h3>Hot: <a href="tel:+20866601112">+208-666-01112</a></h3>
+                        <h3>Hot: <a href="tel: +85516415111">+85516 415 111</a></h3>
                         <p>
                             24/7/365 priority Live Chat and ticketing support.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+            {{-- <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                 <div class="choose-us-card-items">
                     <div class="icon">
                         <img src="assets/img/support/account.png" alt="img">
@@ -341,7 +340,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>
@@ -355,7 +354,7 @@
                     <div class="contact-left">
                         <h2 class="wow fadeInUp" data-wow-delay=".3s">Request a <br> Consultation</h2>
                         <div class="contact-image wow fadeInUp" data-wow-delay=".5s">
-                            <img src="assets/img/contact.png" alt="contact-img">
+                            <img src="assets/img/respond/consultant.png" alt="contact-img">
                         </div>
                     </div>
                 </div>
@@ -382,7 +381,7 @@
                                             placeholder="Phone Number">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
                                     <div class="form-clt">
                                         <div class="category-oneadjust">
                                             <select name="cate" class="category">
@@ -450,6 +449,7 @@
         </div>
     </div>
 </section>
+
 
 <!--<< Footer Section Start >>-->
 @include('layouts.footer')

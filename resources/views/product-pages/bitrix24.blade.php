@@ -1,4 +1,6 @@
 @include('layouts.header')
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 <body>
     <!-- Preloader Start -->
@@ -34,7 +36,8 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                    <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh
+                                        120209</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -42,8 +45,8 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span
-                                            class="mailto:info@example.com">info@example.com</span></a>
+                                    <a href="info@masterchat.iom"><span
+                                            class="info@masterchat.io">info@masterchat.io</span></a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -51,7 +54,7 @@
                                     <i class="fal fa-clock"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                    <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -59,12 +62,12 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+11002345909</a>
+                                    <a href="tel: +85516415111"> +85516415111</a>
                                 </div>
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="contact.html" class="theme-btn text-center">
+                            <a href="{{ route('help_center.contact') }}" class="theme-btn text-center">
                                 Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
@@ -290,8 +293,9 @@
     <section class="feature-section">
         <div class="container">
             <div class="feature-wrapper-2">
-                <div class="row g-4">
-                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s" style="flex: 0 0 20%;">
+                <div class="row g-3">
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s"
+                        style="flex: 0 0 16.66%;">
                         <div class="feature-card-items">
                             <div class="icon">
                                 <img src="assets/img/feature-icon/collaboration.png" alt="img" height="50"
@@ -305,7 +309,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s" style="flex: 0 0 20%;">
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s"
+                        style="flex: 0 0 16.66%;">
                         <div class="feature-card-items">
                             <div class="icon">
                                 <img src="assets/img/feature-icon/crm.png" alt="img" height="50"
@@ -319,7 +324,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s" style="flex: 0 0 20%;">
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s"
+                        style="flex: 0 0 16.66%;">
                         <div class="feature-card-items">
                             <div class="icon">
                                 <img src="assets/img/feature-icon/task-management.png" alt="img" height="50"
@@ -333,7 +339,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s" style="flex: 0 0 20%;">
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s"
+                        style="flex: 0 0 16.66%;">
                         <div class="feature-card-items">
                             <div class="icon">
                                 <img src="assets/img/feature-icon/online-shopping.png" alt="img" height="60"
@@ -347,7 +354,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1s" style="flex: 0 0 20%;">
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1s"
+                        style="flex: 0 0 16.66%;">
                         <div class="feature-card-items">
                             <div class="icon">
                                 <img src="assets/img/feature-icon/HR & Automation.png" alt="img" height="50"
@@ -361,314 +369,408 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1s"
+                        style="flex: 0 0 16.66%;">
+                        <div class="feature-card-items">
+                            <div class="icon">
+                                <img src="assets/img/feature-icon/HR & Automation.png" alt="img" height="50"
+                                    width="50">
+                            </div>
+                            <div class="content">
+                                <h3>Copilot</h3>
+                                {{-- <p>Bitrix24 is a highly scalable workspace solution that features everything you need to
+                                    run a team of 5, 50, 500, or 5,000 while maintaining top productivity at all times.
+                                </p> --}}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Feature Section Start -->
-    {{-- COLABORATION --}}
-    <section class="feature-hosting-section fix section-padding">
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/communications/index/communications-main.png.webp?1723037766385"
-                                alt="bitrix24">
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- COLABORATION Section -->
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/communications/index/communications-main.png.webp?1723037766385"
+                                            alt="bitrix24">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">COLABORATION</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Online workspace for <br>
+                                                the
+                                                whole team
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            Through its wide variety of communication and collaboration tools, Bitrix24
+                                            enables teams to work efficiently and smoothly wherever they are — at home,
+                                            in the office, or on the go.
+                                        </p>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    The driving force behind your team
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Instant and efficient communication
+                                                </li>
+                                            </ul>
+                                            <ul class="wow fadeInUp" data-wow-delay=".5s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Productive collaboration
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    AI-powered workspace
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">COLABORATION</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Online workspace for <br> the whole team
-                                </h2>
+                </section>
+            </div>
+            <!-- CRM Section -->
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">CRM</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Free CRM software for <br>
+                                                your business
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            Sell more. Sell better. Sell faster with Bitrix24 a single platform to cover
+                                            all your
+                                            needs.
+                                        </p>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    The driving force behind your team
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Instant and efficient communication
+                                                </li>
+                                            </ul>
+                                            <ul class="wow fadeInUp" data-wow-delay=".5s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Productive collaboration
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    AI-powered workspace
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/crm/index/crm-main.png.webp?1723037766385"
+                                            alt="bitrix24crm">
+                                    </div>
+                                </div>
                             </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                Through its wide variety of communication and collaboration tools, Bitrix24 enables
-                                teams to work efficiently and smoothly wherever they are — at home, in the office, or on
-                                the go.
-                            </p>
-                            <div class="list-items">
-                                <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        The driving force behind your team
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        Instant and efficient communication
-                                    </li>
-                                </ul>
-                                <ul class="wow fadeInUp" data-wow-delay=".5s">
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        Productive collaboration
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        AI-powered workspace
-                                    </li>
-                                </ul>
-                            </div>
-                            {{-- <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i
-                                    class="fas fa-long-arrow-alt-right"></i>
-                            </a> --}}
                         </div>
                     </div>
-                </div>
+                </section>
+            </div>
+            <!-- Task And Project Section -->
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">Task And Project</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Free task management
+                                                software for your
+                                                business<br>
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            Set tasks, manage deadlines, collect reports, track KPIs, and run projects
+                                            from wherever
+                                            you are.
+                                        </p>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Your tasks. Your way
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Ideal fit for any team
+                                                </li>
+                                            </ul>
+                                            <ul class="wow fadeInUp" data-wow-delay=".5s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    AI-powered project management
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Task automation
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/tasks_and_projects/index/tasks_and_projects-main.png.webp?1723037766385"
+                                            alt="bitrix24taskandpj">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Site and Store Section -->
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/websites/index/websites-main.png.webp?1723037766385"
+                                            alt="bitrix24siteandstore">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">Site and Store</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Powerful, no-code website
+                                                builder<br>
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            Create multi-page websites, beautiful landing pages, and online stores with
+                                            a full set
+                                            of ecommerce tools on board.
+                                        </p>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Create websites, landing pages, and online stores
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Hassle-free website building
+                                                </li>
+                                            </ul>
+                                            <ul class="wow fadeInUp" data-wow-delay=".5s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    AI-powered content
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Integrated with Bitrix24 CRM
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            {{-- HR section --}}
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/hr_automation/index/hr_automation-main.png.webp?1724240830867"
+                                            alt="bitrix24">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">HR & Automation</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">HR
+                                                Manage People<br> Build a Culture
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            HR teams love Bitrix24 because it makes their jobs easier. If you are
+                                            looking for some office management software to help your company, try the
+                                            Bitrix24 HR system. Not only is this software free, but it comes with
+                                            valuable tools, including these popular features.
+                                        </p>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Employee management
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Culture & engagement
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Internal communications
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    CoPilot in Feed
+
+                                                </li>
+                                            </ul>
+                                            <ul class="wow fadeInUp" data-wow-delay=".5s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Mobile HR
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Work management
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Automation
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                  
+                                                    Information management
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- CoPilot Section -->
+            <div class="swiper-slide">
+                <section class="feature-hosting-section fix section-padding">
+                    <div class="container">
+                        <div class="feature-content-warpper margin-top-60">
+                            <div class="row g-4 justify-content-between align-items-center">
+                                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="feature-hosting-image">
+                                        <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/screens/tools/copilot/header-human-copilot.png.webp?1723037766385"
+                                            alt="bitrix24copilot">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="feature-hosting-content">
+                                        <div class="section-title">
+                                            <span class="wow fadeInUp">CoPilot</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Your very own AI
+                                                assistant<br>
+                                            </h2>
+                                        </div>
+                                        <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                            Automate your day-to-day work, streamline your workflows, and do more than
+                                            ever with
+                                            Bitrix24 Co-pilot.
+                                        </p>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Task management
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Marketing automation
+                                                </li>
+                                            </ul>
+                                            <ul class="wow fadeInUp" data-wow-delay=".5s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Website building
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Content creation
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
-    </section>
-    {{-- End COLABORATION --}}
-    <hr>
-    {{-- CRM --}}
-    <section class="feature-hosting-section fix section-padding">
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
-
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">CRM</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Free CRM software for <br> your business
-                                </h2>
-                            </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                Sell more. Sell better. Sell faster with Bitrix24 a single platform to cover all your
-                                needs.
-                            </p>
-                            <div class="list-items">
-                                <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        The driving force behind your team
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        Instant and efficient communication
-                                    </li>
-                                </ul>
-                                <ul class="wow fadeInUp" data-wow-delay=".5s">
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        Productive collaboration
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        AI-powered workspace
-                                    </li>
-                                </ul>
-                            </div>
-                            {{-- <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i
-                                    class="fas fa-long-arrow-alt-right"></i>
-                            </a> --}}
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/crm/index/crm-main.png.webp?1723037766385"
-                                alt="bitrix24crm">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    {{-- End CRM --}}
-    <hr>
-    {{-- Site and store --}}
-    <section class="feature-hosting-section fix section-padding">
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/websites/index/websites-main.png.webp?1723037766385"
-                                alt="bitrix24siteandstore">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">Site and Store</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Powerful, no-code website builder<br>
-                                </h2>
-                            </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                Create multi-page websites, beautiful landing pages, and online stores with a full set
-                                of ecommerce tools on board.
-                            </p>
-                            <div class="list-items">
-                                <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        Create websites, landing pages, and online stores
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        Hassle-free website building
-                                    </li>
-                                </ul>
-                                <ul class="wow fadeInUp" data-wow-delay=".5s">
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        AI-powered content
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        Integrated with Bitrix24 CRM
-                                    </li>
-                                </ul>
-                            </div>
-                            {{-- <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i
-                                    class="fas fa-long-arrow-alt-right"></i>
-                            </a> --}}
-                        </div>
-                    </div>
-
-
-
-                </div>
-            </div>
-        </div>
-    </section>
-    {{-- end site and store --}}
-    <hr>
-    {{-- Task And Project --}}
-    <section class="feature-hosting-section fix section-padding">s
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
-
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">Task And Project</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Free task management software for your
-                                    business<br>
-                                </h2>
-                            </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                Set tasks, manage deadlines, collect reports, track KPIs, and run projects from wherever
-                                you are.
-                            </p>
-                            <div class="list-items">
-                                <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        Your tasks. Your way
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        Ideal fit for any team
-                                    </li>
-                                </ul>
-                                <ul class="wow fadeInUp" data-wow-delay=".5s">
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        AI-powered project management
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        Task automation
-                                    </li>
-                                </ul>
-                            </div>
-                            {{-- <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i
-                                    class="fas fa-long-arrow-alt-right"></i>
-                            </a> --}}
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/tools/tasks_and_projects/index/tasks_and_projects-main.png.webp?1723037766385"
-                                alt="bitrix24taskandpj">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    {{-- end Task And Project --}}
-    <hr>
-    {{-- Copilot --}}
-    <section class="feature-hosting-section fix section-padding">s
-        <div class="container">
-            <div class="feature-content-warpper margin-top-60">
-                <div class="row g-4 justify-content-between align-items-center">
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-hosting-image">
-                            <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/screens/tools/copilot/header-human-copilot.png.webp?1723037766385"
-                                alt="bitrix24copilot">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">AI-powered assistant CoPilot</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">AI-powered CoPilot<br>
-                                </h2>
-                            </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                CoPilot is a powerful AI tool inside Bitrix24 designed to help you with mundane tasks
-                                and boost your creativity. Located conveniently throughout the product, CoPilot is
-                                always there when you need it.
-                            </p>
-                            <div class="list-items">
-                                <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        CoPilot with Chat
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        CoPilot with CRM
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        CoPilot in Sites & Stores
-                                    </li>
-                                </ul>
-                                <ul class="wow fadeInUp" data-wow-delay=".5s">
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        CoPilot with Feed
-                                    </li>
-                                    <li>
-                                        <i class="far fa-check"></i>
-                                        CoPilot in Tasks
-                                    </li>
-                                </ul>
-                            </div>
-                            {{-- <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i
-                                    class="fas fa-long-arrow-alt-right"></i>
-                            </a> --}}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    {{-- End Copilt --}}
-
-
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 10000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
     {{-- start pricing --}}
-
-
     <section class="pricing-section fix section-padding section-bg">
         <div class="pricing-shape">
             <img src="assets/img/pricing-shape.png" alt="img">
         </div>
-        <div class="">
+        <div class="container">
             <div class="section-title text-center">
                 <span class="wow fadeInUp">Pricing Plans</span>
-                <h2 class="wow fadeInUp" data-wow-delay=".3s">Choose Awesome Plan for <br> your Needs</h2>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">One price for ALL users included within <br>the plan
+                    limit</h2>
             </div>
             <div class="pricing-tab-header">
                 <div class="arrow-shape">
@@ -689,734 +791,1231 @@
                     </li>
                 </ul>
                 <div class="save-text">
-                    Save 25%
+                    Save up to 35%
                 </div>
             </div>
             <div class="tab-content">
                 <div id="monthly" class="tab-pane fade show active" role="tabpanel">
-                    <div class="d-flex justify-content-center">
-                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay=".2s">
-                            <div class="pricing-items style-2">
-                                <h6 class="top-text">Regular Plans</h6>
-                                <div class="pricing-header-2">
-                                    <div class="price-list">
-                                        <del>120.99</del>
-                                        <span>SAVE 75%</span>
-                                    </div>
-                                    <h2>$99 <sub>/mo</sub></h2>
-                                </div>
-                                <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
-                                </p>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Weekly Backups
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Unlimited Free SSL
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            24/7 system Monitoring
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Dedicated IP Address
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            20+ Payment Methods
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
-                                        get Started Now
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay=".4s">
-                            <div class="pricing-items style-2">
-                                <h6 class="top-text">Regular Plans</h6>
-                                <div class="pricing-header-2">
-                                    <div class="price-list">
-                                        <del>120.99</del>
-                                        <span>SAVE 75%</span>
-                                    </div>
-                                    <h2>$99 <sub>/mo</sub></h2>
-                                </div>
-                                <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
-                                </p>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Weekly Backups
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Unlimited Free SSL
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            24/7 system Monitoring
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Dedicated IP Address
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            20+ Payment Methods
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
-                                        get Started Now
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay=".6s">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                             <div class="pricing-items style-2 active">
-                                <h6 class="top-text">Premium Plans</h6>
+                                <h6 class="top-text">Free</h6>
                                 <div class="pricing-header-2">
-                                    <div class="price-list">
+                                    {{-- <div class="price-list">
                                         <del>120.99</del>
                                         <span>SAVE 75%</span>
+                                    </div> --}}
+                                    <h2>100% free</h2><br><br><br>
+                                    <div class="section-title text-center">
+                                        <span class="style-bg wow fadeInUp">Unlimited users</span>
                                     </div>
-                                    <h2>$59 <sub>/mo</sub></h2>
                                 </div>
-                                <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
-                                </p>
+
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Register free
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
+                                            5 GB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            Weekly Backups
+                                            Unlimited
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            Unlimited Free SSL
+                                            Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            24/7 system Monitoring
+                                            Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
-                                    <li class="color-2">
+                                    <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Dedicated IP Address
+                                            <i class="fa-solid fa-check"></i>
+                                            Bitrix24 Sign
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
-                                    <li class="color-2">
+                                    <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            20+ Payment Methods
+                                            <i class="fa-solid fa-check"></i>
+                                            Drive
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+
                                 </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
-                                        get Started Now
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </a>
-                                </div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay=".8s">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                             <div class="pricing-items style-2">
-                                <h6 class="top-text">Business</h6>
+                                <h6 class="top-text">Basic</h6>
                                 <div class="pricing-header-2">
-                                    <div class="price-list">
+                                    {{-- <div class="price-list">
                                         <del>120.99</del>
                                         <span>SAVE 75%</span>
-                                    </div>
-                                    <h2>$39 <sub>/mo</sub></h2>
+                                    </div> --}}
+                                    <h2>$61 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 5 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Buy
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
+                                            24 GB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            Weekly Backups
+                                            5 users
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            Unlimited Free SSL
+                                            Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            24/7 system Monitoring
+                                            Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
-                                    <li class="color-2">
+                                    <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Dedicated IP Address
+                                            <i class="fa-solid fa-check"></i>
+                                            Bitrix24 Sign
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        </i>
                                     </li>
-                                    <li class="color-2">
+                                    <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            20+ Payment Methods
+                                            <i class="fa-solid fa-check"></i>
+                                            Drive
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <br>
                                 </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
-                                        get Started Now
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </a>
-                                </div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="1s">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                             <div class="pricing-items style-2">
-                                <h6 class="top-text">Cloud Startup</h6>
+                                <h6 class="top-text">Standard</h6>
                                 <div class="pricing-header-2">
-                                    <div class="price-list">
+                                    {{-- <div class="price-list">
                                         <del>120.99</del>
                                         <span>SAVE 75%</span>
-                                    </div>
-                                    <h2>$29 <sub>/mo</sub></h2>
+                                    </div> --}}
+                                    <h2>$124 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 50 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Buy
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
+                                            100 GB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            Weekly Backups
+                                            50 users
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            Unlimited Free SSL
+                                            Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            24/7 system Monitoring
+                                            Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
                                     <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
-                                    <li class="color-2">
+                                    <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Dedicated IP Address
+                                            <i class="fa-solid fa-check"></i>
+                                            Bitrix24 Sign
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
-                                    <li class="color-2">
+                                    <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            20+ Payment Methods
+                                            <i class="fa-solid fa-check"></i>
+                                            Drive
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Marketing
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online documents
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Administration
+                                        </span>
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Professional</h6>
+                                <div class="pricing-header-2">
+                                    {{-- <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div> --}}
+                                    <h2>$249 <sub>/month</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    / organization / month / billed monthly
+                                </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 100 users</span>
+                                </div>
                                 <div class="pricing-button">
                                     <a href="contact.html" class="pricing-btn">
-                                        get Started Now
+                                        Buy
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            1 024 GB
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 users
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Collaboration
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Tasks & projects
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Bitrix24 Sign
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Drive
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Marketing
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online documents
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            e-Signature for HR
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Sales Intelligence
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Automation
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            HR
+                                        </span>
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+
+
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Administration
+                                        </span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Enterprise</h6>
+                                <div class="pricing-header-2">
+                                    {{-- <div class="price-list">
+                                        <del>120.99</del>
+                                        <span>SAVE 75%</span>
+                                    </div> --}}
+                                    <h2>$499 <sub>/month</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    / organization / month / billed monthly
+                                </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 250 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Buy
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            3TB
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            250 users
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Collaboration
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Tasks & projects
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Bitrix24 Sign
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Drive
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Marketing
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online documents
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            e-Signature for HR
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Sales Intelligence
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Automation
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            HR
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Multiple branches
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Scalability
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Enterprise pack
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Administration
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="yearly" class="tab-pane fade" role="tabpanel">
-                    <div class="d-flex justify-content-center">
-                        <div class="col-xl-2 col-lg-2 col-md-4">
-                            <div class="pricing-items style-2">
-                                <h6 class="top-text">Regular Plans</h6>
-                                <div class="pricing-header-2">
-                                    <div class="price-list">
-                                        <del>120.99</del>
-                                        <span>SAVE 75%</span>
-                                    </div>
-                                    <h2>$99 <sub>/mo</sub></h2>
-                                </div>
-                                <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
-                                </p>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Weekly Backups
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Unlimited Free SSL
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            24/7 system Monitoring
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Dedicated IP Address
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            20+ Payment Methods
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
-                                        get Started Now
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay=".4s">
                             <div class="pricing-items style-2 active">
-                                <h6 class="top-text">Premium Plans</h6>
+                                <h6 class="top-text">Free</h6>
                                 <div class="pricing-header-2">
-                                    <div class="price-list">
+                                    {{-- <div class="price-list">
                                         <del>120.99</del>
                                         <span>SAVE 75%</span>
+                                    </div> --}}
+                                    <h2>100% free</h2><br><br><br>
+                                    <div class="section-title text-center">
+                                        <span class="style-bg wow fadeInUp">Unlimited users</span>
                                     </div>
-                                    <h2>$59 <sub>/mo</sub></h2>
                                 </div>
-                                <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
-                                </p>
+
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        Register free
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
                                 <ul class="pricing-list">
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
+                                            5 GB
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            Weekly Backups
+                                            Unlimited
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            Unlimited Free SSL
+                                            Collaboration
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
-                                            24/7 system Monitoring
+                                            Tasks & projects
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
                                     <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
-                                    <li class="color-2">
+                                    <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Dedicated IP Address
+                                            <i class="fa-solid fa-check"></i>
+                                            Bitrix24 Sign
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
                                     </li>
-                                    <li class="color-2">
+                                    <li>
                                         <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            20+ Payment Methods
+                                            <i class="fa-solid fa-check"></i>
+                                            Drive
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+
                                     </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
                                 </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
-                                        get Started Now
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </a>
-                                </div>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay=".6s">
                             <div class="pricing-items style-2">
-                                <h6 class="top-text">Business</h6>
+                                <h6 class="top-text">Basic</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        <del>120.99</del>
-                                        <span>SAVE 75%</span>
+                                        <del>$40</del>
+                                        <span>SAVE 35%</span>
                                     </div>
-                                    <h2>$39 <sub>/mo</sub></h2>
+                                    <h2>$61 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Weekly Backups
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Unlimited Free SSL
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            24/7 system Monitoring
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Dedicated IP Address
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            20+ Payment Methods
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                </ul>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 5 users</span>
+                                </div>
                                 <div class="pricing-button">
                                     <a href="contact.html" class="pricing-btn">
                                         get Started Now
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            24 GB
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            5 users
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Collaboration
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Tasks & projects
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Bitrix24 Sign
+                                        </span>
+                                        </i>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Drive
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <br>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay=".8s">
                             <div class="pricing-items style-2">
-                                <h6 class="top-text">Cloud Startup</h6>
+                                <h6 class="top-text">Standard</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        <del>120.99</del>
-                                        <span>SAVE 75%</span>
+                                        <del>$124</del>
+                                        <span>SAVE 35%</span>
                                     </div>
-                                    <h2>$29 <sub>/mo</sub></h2>
+                                    <h2>$81 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Weekly Backups
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Unlimited Free SSL
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            24/7 system Monitoring
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Dedicated IP Address
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            20+ Payment Methods
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                </ul>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 50 users</span>
+                                </div>
                                 <div class="pricing-button">
                                     <a href="contact.html" class="pricing-btn">
                                         get Started Now
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 GB
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            50 users
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Collaboration
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Tasks & projects
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Bitrix24 Sign
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Drive
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Marketing
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online documents
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Administration
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay=".8s">
                             <div class="pricing-items style-2">
-                                <h6 class="top-text">Cloud Startup</h6>
+                                <h6 class="top-text">Professional</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        <del>120.99</del>
-                                        <span>SAVE 75%</span>
+                                        <del>$249</del>
+                                        <span>SAVE 35%</span>
                                     </div>
-                                    <h2>$29 <sub>/mo</sub></h2>
+                                    <h2>$162 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    Lnteger sapien nec sapien sollicitudin ultrices Cras tempor id lorem et
+                                    / organization / month / billed monthly
                                 </p>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            100 GB SSD Storage
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Weekly Backups
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Unlimited Free SSL
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            24/7 system Monitoring
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Free Domain ($9.99 value)
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            Dedicated IP Address
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                    <li class="color-2">
-                                        <span>
-                                            <i class="fa-solid fa-xmark"></i>
-                                            20+ Payment Methods
-                                        </span>
-                                        <i class="fa-light fa-circle-question"></i>
-                                    </li>
-                                </ul>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 100 users</span>
+                                </div>
                                 <div class="pricing-button">
                                     <a href="contact.html" class="pricing-btn">
                                         get Started Now
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
                                 </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            1 024 GB
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            100 users
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Collaboration
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Tasks & projects
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Bitrix24 Sign
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Drive
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Marketing
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online documents
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            e-Signature for HR
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Sales Intelligence
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Automation
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            HR
+                                        </span>
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+
+
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Administration
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay=".8s">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Enterprise</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <del>$499</del>
+                                        <span>SAVE 35%</span>
+                                    </div>
+                                    <h2>$325 <sub>/month</sub></h2>
+                                </div>
+                                <p class="text-center">
+                                    / organization / month / billed monthly
+                                </p>
+                                <div class="section-title text-center">
+                                    <span class="style-bg wow fadeInUp">includes 250 users</span>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="contact.html" class="pricing-btn">
+                                        get Started Now
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            3TB
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            250 users
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Collaboration
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Tasks & projects
+                                        </span>
+
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            CRM
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Bitrix24 Sign
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Drive
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Contact Center
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Website builder
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online store
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Marketing
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Online documents
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            e-Signature for HR
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Sales Intelligence
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Automation
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            HR
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Multiple branches
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Scalability
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Enterprise pack
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Customer support
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <i class="fa-solid fa-check"></i>
+                                            Administration
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -1424,15 +2023,15 @@
             </div>
         </div>
     </section>
-
     {{-- brand-section --}}
     <div class="brand-section pt-100 pb-0">
         <div class="container">
             <div class="swiper brand-slider bor-bottom pb-100 pt-0">
                 <div class="section-title text-center">
                     <span class="wow fadeInUp">Bitrix24 Integrations</span>
-                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Choose Awesome platform  <br> your Needs</h2>
-                    <p>Bitrix24 comes with several dozen integrations available in Bitrix24.Market. You can also create your own apps using our REST API.</p>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Choose Awesome platform <br> your Needs</h2>
+                    <p>Bitrix24 comes with several dozen integrations available in Bitrix24.Market. You can also create
+                        your own apps using our REST API.</p>
                 </div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">

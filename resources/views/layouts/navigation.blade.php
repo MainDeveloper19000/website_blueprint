@@ -400,7 +400,7 @@
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="{{route('help_center.faq')}}">Faq</a></li>
+                                            
                                                 <li><a href="{{route('help_center.about')}}">About</a></li>
                                                 <li><a href="{{route('help_center.support')}}">Support</a></li>
                                                 <li><a href="{{route('help_center.contact')}}">Contact Us</a></li>
