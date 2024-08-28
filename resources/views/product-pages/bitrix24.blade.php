@@ -373,7 +373,7 @@
                         style="flex: 0 0 16.66%;">
                         <div class="feature-card-items">
                             <div class="icon">
-                                <img src="assets/img/feature-icon/HR & Automation.png" alt="img" height="50"
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Microsoft_365_Copilot_Icon.svg/2048px-Microsoft_365_Copilot_Icon.svg.png" alt="img" height="50"
                                     width="50">
                             </div>
                             <div class="content">
@@ -388,11 +388,7 @@
             </div>
         </div>
     </section>
-
     <!-- Feature Section Start -->
-
-
-    <!-- Swiper -->
     <!-- Swiper -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -426,21 +422,33 @@
                                             <ul class="wow fadeInUp" data-wow-delay=".3s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    The driving force behind your team
+                                                    Online Workspaces
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Instant and efficient communication
+                                                    Online Meetings
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Copilot In Chat
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Online Documents & File Storage
                                                 </li>
                                             </ul>
                                             <ul class="wow fadeInUp" data-wow-delay=".5s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Productive collaboration
+                                                    Shared Calendars
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    AI-powered workspace
+                                                    Workgroups
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Mobile Commumnications
                                                 </li>
                                             </ul>
                                         </div>
@@ -474,21 +482,37 @@
                                             <ul class="wow fadeInUp" data-wow-delay=".3s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    The driving force behind your team
+                                                    Sale Management
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Instant and efficient communication
+                                                    Sale Enablement
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Marketing
+                                                </li>
+                                                <li><i class="far fa-check"></i>
+                                                    Automation & Integrations
+                                                </li>
+                                                <li><i class="far fa-check"></i>
+                                                    Mobile CRM
                                                 </li>
                                             </ul>
                                             <ul class="wow fadeInUp" data-wow-delay=".5s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Productive collaboration
+                                                    Contact Center
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    AI-powered workspace
+                                                    Analytics & Reports
+                                                </li>
+                                                <li><i class="far fa-check"></i>
+                                                    Sales Team Collaboration
+                                                </li>
+                                                <li><i class="far fa-check"></i>
+                                                    Copilot in CRM
                                                 </li>
                                             </ul>
                                         </div>
@@ -529,21 +553,43 @@
                                             <ul class="wow fadeInUp" data-wow-delay=".3s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Your tasks. Your way
+                                                    Task management
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Ideal fit for any team
+                                                    Task tracking
+
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    API & integrations
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Project management
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Employee performance
                                                 </li>
                                             </ul>
                                             <ul class="wow fadeInUp" data-wow-delay=".5s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    AI-powered project management
+                                                    Mobile tasks
+
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Task automation
+                                                    Project collaboration
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Automation
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    CoPilot in Tasks
                                                 </li>
                                             </ul>
                                         </div>
@@ -589,21 +635,45 @@
                                             <ul class="wow fadeInUp" data-wow-delay=".3s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Create websites, landing pages, and online stores
+                                                    Website builder                              
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Hassle-free website building
+                                                   Social selling
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Online store
+                                                  
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Mobile sites & online stores
+                                                  
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Website widget
+                                                  
                                                 </li>
                                             </ul>
                                             <ul class="wow fadeInUp" data-wow-delay=".5s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    AI-powered content
+                                                    Website forms
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Integrated with Bitrix24 CRM
+                                                    Landing pages
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Online marketing tools
+                                                   
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    CoPilot in Sites & Stores
                                                 </li>
                                             </ul>
                                         </div>
@@ -657,7 +727,7 @@
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Internal communications
+                                                    Information management
                                                 </li>
                                             </ul>
                                             <ul class="wow fadeInUp" data-wow-delay=".5s">
@@ -673,9 +743,9 @@
                                                     <i class="far fa-check"></i>
                                                     Automation
                                                 </li>
-                                                   <li>
+                                                <li>
                                                     <i class="far fa-check"></i>
-                                                    Internal communications
+                                                    CoPilot in Feed
                                                 </li>
                                             </ul>
                                         </div>
@@ -715,21 +785,30 @@
                                             <ul class="wow fadeInUp" data-wow-delay=".3s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Task management
+                                                    CoPilot in Chat
+                                                  
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Marketing automation
+                                                    CoPilot in CRM
+                                                   
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    CoPilot in Feed
+                                                   
+                                                    
+                                                   
                                                 </li>
                                             </ul>
                                             <ul class="wow fadeInUp" data-wow-delay=".5s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Website building
+                                                    CoPilot in Tasks
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Content creation
+                                                    CoPilot in Sites & Stores
                                                 </li>
                                             </ul>
                                         </div>
@@ -747,7 +826,6 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
-
     <script>
         var swiper = new Swiper('.swiper-container', {
             loop: true,
@@ -765,10 +843,7 @@
             },
         });
     </script>
-
-
     {{-- start pricing --}}
-
     <section class="pricing-section fix section-padding section-bg">
         <div class="pricing-shape">
             <img src="assets/img/pricing-shape.png" alt="img">
@@ -1517,7 +1592,7 @@
                                         <del>$40</del>
                                         <span>SAVE 35%</span>
                                     </div>
-                                    <h2>$61 <sub>/month</sub></h2>
+                                    <h2>$40 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
                                     / organization / month / billed monthly
@@ -1537,21 +1612,18 @@
                                             <i class="fa-solid fa-check"></i>
                                             24 GB
                                         </span>
-
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             5 users
                                         </span>
-
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Collaboration
                                         </span>
-
                                     </li>
                                     <li>
                                         <span>
@@ -2030,7 +2102,6 @@
             </div>
         </div>
     </section>
-
     {{-- brand-section --}}
     <div class="brand-section pt-100 pb-0">
         <div class="container">

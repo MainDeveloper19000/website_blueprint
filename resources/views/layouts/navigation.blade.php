@@ -19,7 +19,7 @@
                     <div class="header-left">
                         <div class="logo">
                             <a href="{{url('/')}}" class="header-logo">
-                                <img src="assets/img/logo/logogogogo.png" alt="logo-img" height="70px">
+                                <img src="assets/img/logo/logogogogogoggogo.png" alt="logo-img" height="70px">
                             </a>
                             <a href="{{url('/')}}" class="header-logo-2">
                                 <img src="assets/img/logo/logogogogo.png" alt="logo-img" height="70px">
@@ -78,23 +78,6 @@
                                             </a>
                                             {{-- <ul class="submenu has-homemenu has-menu-home">
                                                 <li class="border-none">
-
-    
-          
-            
-    
-
-          
-          Expand Down
-          
-            
-    
-
-          
-          Expand Up
-    
-    @@ -104,9 +69,9 @@
-  
                                                     <div class="homemenu-items">
                                                         <div class="homemenu-list">
                                                             <div class="icon">
@@ -127,23 +110,6 @@
                                             <a href="#">
                                                 Industries
                                                 <i class="fas fa-angle-down"></i>
-
-    
-          
-            
-    
-
-          
-          Expand Down
-          
-            
-    
-
-          
-          Expand Up
-    
-    @@ -238,23 +203,22 @@
-  
                                             </a>
                                             <ul class="submenu has-homemenu">
                                                 <li class="border-none">
@@ -274,8 +240,6 @@
                                             </ul>
                                         </li> --}}
                                         {{-- navigation for mobile-menu --}}
-
-
                                         <li class="has-dropdown active d-xl-none">
                                             <a href="{{url('/')}}" class="border-none">
                                                 Home
@@ -290,17 +254,6 @@
                                             <a href="{{route('product.bitrix24')}}" class="border-none">
                                                 Bitrix24
                                                 <i class="fas fa-angle-down"></i>
-
-    
-        
-          
-    
-
-        
-        Expand All
-    
-    @@ -266,9 +230,9 @@
-  
                                             </a>
                                             <a href="{{route('product.respond')}}" class="border-none">
                                                 Respond.io
@@ -315,17 +268,6 @@
                                             <a href="{{url('/')}}">
                                                 Service
                                                 <i class="fas fa-angle-down"></i>
-
-    
-          
-            
-    
-
-          
-          Expand Down
-    
-    
-  
                                             </a>
                                             <ul class="submenu has-homemenu has-menu-hosting">
                                                 <li class="border-none">
@@ -444,7 +386,7 @@
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="{{route('partnerships.bitrix24')}}">  Bitirx24 Gold Partner</a></li>
+                                                <li><a href="{{route('partnerships.bitrix24')}}">Bitirx24 Gold Partner</a></li>
                                                 <li><a href="{{route('partnerships.respond')}}">Respond.io Gold Partner</a></li>                           
                                             </ul>
                                         </li>
@@ -482,4 +424,4 @@
             </div>
         </div>
     </div>
-</header>
+</header>        

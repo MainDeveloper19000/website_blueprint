@@ -7,7 +7,7 @@
                             <div class="single-footer-widget">
                                 <div class="widget-head">
                                     <a href="{{url('/')}}">
-                                    <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                    <img src="assets/img/logo/logogogogogoggogo.png" alt="logo-img" height="70px">
                                     </a>
                                 </div>
                                 <div class="footer-content">
