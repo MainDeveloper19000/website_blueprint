@@ -373,8 +373,8 @@
                         style="flex: 0 0 16.66%;">
                         <div class="feature-card-items">
                             <div class="icon">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Microsoft_365_Copilot_Icon.svg/2048px-Microsoft_365_Copilot_Icon.svg.png" alt="img" height="50"
-                                    width="50">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Microsoft_365_Copilot_Icon.svg/2048px-Microsoft_365_Copilot_Icon.svg.png"
+                                    alt="img" height="50" width="50">
                             </div>
                             <div class="content">
                                 <h3>Copilot</h3>
@@ -635,26 +635,26 @@
                                             <ul class="wow fadeInUp" data-wow-delay=".3s">
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                    Website builder                              
+                                                    Website builder
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
-                                                   Social selling
+                                                    Social selling
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
                                                     Online store
-                                                  
+
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
                                                     Mobile sites & online stores
-                                                  
+
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
                                                     Website widget
-                                                  
+
                                                 </li>
                                             </ul>
                                             <ul class="wow fadeInUp" data-wow-delay=".5s">
@@ -669,7 +669,7 @@
                                                 <li>
                                                     <i class="far fa-check"></i>
                                                     Online marketing tools
-                                                   
+
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
@@ -786,19 +786,19 @@
                                                 <li>
                                                     <i class="far fa-check"></i>
                                                     CoPilot in Chat
-                                                  
+
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
                                                     CoPilot in CRM
-                                                   
+
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
                                                     CoPilot in Feed
-                                                   
-                                                    
-                                                   
+
+
+
                                                 </li>
                                             </ul>
                                             <ul class="wow fadeInUp" data-wow-delay=".5s">
@@ -843,6 +843,28 @@
             },
         });
     </script>
+
+    
+
+    @include('layouts.bitrix_solu')
+    <div class="footer-bottom">
+        <br>    
+        <center><p style="font-size: 30px;font-weight: 500;">See why Customers Love Bitrix 24</p></center>
+        <div class="container">
+            <div class="footer-wrapper d-flex align-items-center justify-content-between">
+                <img src="assets/img/bitrix24_G2_awards_2024/BusinessInstantMessaging_HighPerformer_Asia_HighPerformer.png" alt="Business Instant Messaging High Performer Asia" height="120px">
+
+                <img src="assets/img/bitrix24_G2_awards_2024/CloudContentCollaboration_HighPerformer_Enterprise_HighPerformer.png" alt="Cloud Content Collaboration High Performer Enterprise" height="120px">
+                
+                <img src="assets/img/bitrix24_G2_awards_2024/CRM_HighPerformer_Mid-Market_AsiaPacific_HighPerformer.png" alt="CRM High Performer Mid-Market Asia Pacific" height="120px">
+                
+                <img src="assets/img/bitrix24_G2_awards_2024/ProjectManagement_EasiestToUse_Enterprise_EaseOfUse.png" alt="Project Management Easiest To Use Enterprise" height="120px">
+                
+                <img src="assets/img/bitrix24_G2_awards_2024/VideoConferencing_UsersMostLikelyToRecommend_Enterprise_Nps.png" alt="Video Conferencing Users Most Likely To Recommend Enterprise" height="120px">
+                
+            </div>
+        </div>
+    </div>
     {{-- start pricing --}}
     <section class="pricing-section fix section-padding section-bg">
         <div class="pricing-shape">
@@ -2188,4 +2210,5 @@
         </div>
     </div>
     <!--<< Footer Section Start >>-->
+   
     @include('layouts.footer')

@@ -30,5 +30,4 @@
         <link rel="stylesheet" href="{{asset('assets/css/color.css')}}">
         <!--<< Main.css >>-->
         <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
-        <link rel="stylesheet" href="{{asset('assets/css/custome.css')}}">
     </head>
