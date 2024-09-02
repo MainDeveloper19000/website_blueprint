@@ -1012,7 +1012,7 @@
                                     <span class="style-bg wow fadeInUp">includes 5 users</span>
                                 </div>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="#" class="pricing-btn">
                                         Buy
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -2137,57 +2137,57 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard1.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard1.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard2.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard2.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard3.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard3.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard4.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard4.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard5.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard5.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard6.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard6.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard7.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard7.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard8.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard8.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard9.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard9.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard10.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard10.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/integrate/Artboard11.png" alt="img" height="35">
+                            <img src="assets/img/integrate/Artboard11.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">

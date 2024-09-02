@@ -276,8 +276,8 @@
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">
                             Respond.io Chat with Leads, Make More Money
                         </h1>
-                        <a href="#pricing-section" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
-                            view plan <i class="fas fa-long-arrow-alt-right"></i>
+                        <a href="https://app.respond.io/user/register?_gl=1*vzkgg5*_gcl_au*NzMzNDU2OTEuMTcxNzY2NjI4MA..*_ga*NTkxNDYzNzEyLjE3MDk4OTAyNzY.*_ga_0EZ318H868*MTcyNTI0NjMyNC4yMjcuMS4xNzI1MjQ2MzQ4LjM2LjAuMA" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
+                            Start For Free<i class="fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
                 </div>
@@ -1039,62 +1039,62 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard1.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard1.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard2.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard2.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard3.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard3.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard4.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard4.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard5.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard5.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard6.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard6.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard7.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard7.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard8.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard8.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard9.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard9.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard10.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard10.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard11.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard11.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/respond/Artboard12.png" alt="img" height="35">
+                            <img src="assets/img/respond/Artboard12.png" alt="img" height="50">
                         </div>
                     </div>
                     <div class="swiper-slide">

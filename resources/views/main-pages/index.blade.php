@@ -2,14 +2,10 @@
 
 <body>
     <!-- Preloader Start -->
-
     @include('layouts.preload')
-
     <!--<< Mouse Cursor Start >>-->
-
     {{-- <div class="mouse-cursor cursor-outer"></div>
         <div class="mouse-cursor cursor-inner"></div> --}}
-
     <!-- Offcanvas Area Start -->
     <div class="fix-area">
         <div class="offcanvas__info">
@@ -40,7 +36,8 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh 120209</a>
+                                    <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh
+                                        120209</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -70,7 +67,7 @@
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="{{route('help_center.contact')}}" class="theme-btn text-center">
+                            <a href="{{ route('help_center.contact') }}" class="theme-btn text-center">
                                 Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
@@ -268,10 +265,13 @@
         </div>
         <div class="hero-social">
             <span>Follow on</span>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/MasterChat.io" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/masterchatio/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me/masterchattalk" target="_blank"><i class="fab fa-telegram"></i></a>
+            {{-- <a href="#"><i class="fab fa-tiktok"></i></a> --}}
+            <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFD_WmOPLc-PgAAAZGnSkxwXvK-z5JPmQWOM_ITt_WR6kYmyEHWZUJwCXvmlftvcx_wf3ptYKti8ZFiJsZgVJQLbo6aGP3ndX2ju7C-p5GBPth0G-fpHf9I8BIS7hf8DjlKBqo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmasterchat-io-618641252%2F"
+                target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@masterchatio" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="container">
             <div class="row g-4 justify-content-between">
@@ -284,7 +284,8 @@
                         <h1 class="wow fadeInUp" data-wow-delay=".3s" style="font-size: 48">
                             Empower all Cambodian SMEs with Our Innovative Solutions
                         </h1>
-                        <h6 class="wow fadeInUp" data-wow-delay=".5s">Simplify Your Operations and Boost Efficiency</h6>
+                        <h6 class="wow fadeInUp" data-wow-delay=".5s">Simplify Your Operations and Boost Efficiency
+                        </h6>
                         <div class="hero-author">
                             {{-- <a href="{{ url('/') }}" class="theme-btn bg-color-2 wow fadeInUp"
                                 data-wow-delay=".7s">
@@ -308,13 +309,13 @@
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
                     <div class="hero-image">
-                        <img src="assets/img/hero/image_icon1.png" alt="img" width="800px" >
+                        <img src="assets/img/hero/image_icon1.png" alt="img" width="800px">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Doming Name Section Start -->
+
     <section class="doming-name-area section-padding pt-0">
         <div class="container">
             {{-- <div class="doming-name-wrapper">
@@ -366,31 +367,98 @@
                 </div> --}}
         </div>
     </section>
-    <!-- Hosting Section Start -->
+
+    <!-- About Company -->
     <section class="hosting-section fix section-padding pt-0">
         <div class="container">
             <div class="section-title-area">
                 <div class="section-title">
-                    <span class="wow fadeInUp">Best hosting</span>
-                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Discover Most Powerful Web <br> Hosting Features
+                    {{--  <span class="wow fadeInUp">Best hosting</span> --}}
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">About Our Company
                     </h2>
                 </div>
-                <a href="vps-hosting.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Explore More <i
+                {{-- <a href="vps-hosting.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Explore More <i
                         class="fas fa-long-arrow-alt-right"></i>
-                </a>
+                </a> --}}
+            </div>
+            <div class="row">
+                <p style="font-size: 24px">Blueprint Technology is offers solutions for business process optimization
+                    and <b>digital
+                        transformation, enhancing customer engagement, streamlining workflows</b>, and improving
+                    efficiency
+                    through platform implementation and customization.</p>
+            </div>
+        </div>
+    </section>
+
+    {{-- Mission and Vision --}}
+    <section class="contact-section fix section-bg section-padding">
+        <div class="container">
+            <h2 class="wow fadeInUp" data-wow-delay=".3s">Vision and Mission </h2>
+            <div class="contact-wrapper">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="contact-right">
+                            <h3 class="wow fadeInUp">Our Mission</h3>
+                            <p style="font-size: 26px; font-weight: 500;color: black;">"Building sustainable and stable
+                                success, together. Empowers Cambodian SMEs with
+                                impactful software solutions, driving economic growth, creating jobs, and supporting
+                                SMEs by transforming their business from traditional to a new digital technology."</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="contact-right">
+                            <h3 class="wow fadeInUp">Our Vision</h3>
+                            <p style="font-size: 26px; font-weight: 500;color: black;">"To become Cambodia's leading
+                                software partner: Together to build a better Cambodia digital
+                                future."<br><br><br><br><br></p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="contact-right">
+                            <center>
+                                <h3 class="wow fadeInUp">Partnering With Us</h3>
+                            </center>
+                            <p style="font-size: 20px; font-weight: 500;color: black;">By partnering with us, you gain
+                                access to a team of experts dedicated to helping your business thrive in the digital
+                                age. We are committed to delivering solutions that drive growth, enhance efficiency, and
+                                improve customer satisfaction. Let us help you transform your business and achieve your
+                                goals with our comprehensive digital solutions.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- End Mission and Vision --}}
+    <!-- Hosting Section Start -->
+    <!-- <section class="hosting-section fix section-padding pt-0">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    {{-- <span class="wow fadeInUp">Best hosting</span> --}}
+                    <br>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Our services And What we do</h2>
+                </div>
+
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="assets/img/hosting/icon-1.png" alt="img">
+                            {{-- <img src="assets/img/hosting/icon-1.png" alt="img"> --}}
                         </div>
                         <div class="content">
-                            <h3><a href="dedicated-hosting.html">Dedicated Hosting</a></h3>
+                            <h3><a href="#">Bitrix24 Implementation and Setup</a></h3>
                             <p>
-                                Collaboratively formulate principle capital. Progressively evolve user revolutionary
-                                hosting services.
+                                Tailoring Bitrix24 to meet specific business needs, including CRM, project management,
+                                HR, and communication tools. We ensure that each implementation is customized to align
+                                with the unique requirements of your business, facilitating smoother operations and
+                                better management.
                             </p>
                         </div>
                     </div>
@@ -399,13 +467,15 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="assets/img/hosting/icon-2.png" alt="img">
+                            {{-- <img src="assets/img/hosting/icon-2.png" alt="img"> --}}
                         </div>
                         <div class="content">
-                            <h3><a href="dedicated-hosting.html">Email Hosting</a></h3>
+                            <h3><a href="#">User Training and Support</a></h3>
                             <p>
-                                Collaboratively formulate principle capital. Progressively evolve user revolutionary
-                                hosting services.
+                                Offering in-depth training and ongoing technical support to ensure effective use of
+                                Bitrix24 and respond.io. Our training programs are designed to empower your team with
+                                the knowledge and skills needed to maximize the potential of these platforms. We provide
+                                continuous support to address any technical issues and ensure seamless operation.
                             </p>
                         </div>
                     </div>
@@ -414,13 +484,15 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="assets/img/hosting/icon-3.png" alt="img">
+                            {{-- <img src="assets/img/hosting/icon-3.png" alt="img"> --}}
                         </div>
                         <div class="content">
-                            <h3><a href="dedicated-hosting.html">Ecommerce Hosting</a></h3>
+                            <h3><a href="dedicated-hosting.html">Customization and Development</a></h3>
                             <p>
-                                Collaboratively formulate principle capital. Progressively evolve user revolutionary
-                                hosting services.
+                                Developing custom applications and integrations to extend platform functionalities. Our
+                                team of experts works closely with clients to understand their specific needs and
+                                develop tailored solutions that enhance the capabilities of Bitrix24 and respond.io,
+                                ensuring that the platforms evolve with your business.
                             </p>
                         </div>
                     </div>
@@ -429,13 +501,15 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="assets/img/hosting/icon-4.png" alt="img">
+                            {{-- <img src="assets/img/hosting/icon-4.png" alt="img"> --}}
                         </div>
                         <div class="content">
-                            <h3><a href="cloud-hosting.html">Cloud Hosting</a></h3>
+                            <h3><a href="#">Omnichannel Customer Engagement</a></h3>
                             <p>
-                                Collaboratively formulate principle capital. Progressively evolve user revolutionary
-                                hosting services.
+                                Creating strategies for engaging customers across multiple channels using respond.io. We
+                                help businesses build a cohesive customer engagement strategy that leverages various
+                                communication channels, ensuring consistent and personalized interactions with
+                                customers.
                             </p>
                         </div>
                     </div>
@@ -444,13 +518,12 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="assets/img/hosting/icon-5.png" alt="img">
+                            {{-- <img src="assets/img/hosting/icon-5.png" alt="img"> --}}
                         </div>
                         <div class="content">
-                            <h3><a href="reseller-hosting.html">Reseller Hosting</a></h3>
+                            <h3><a href="#">Chatbot Development</a></h3>
                             <p>
-                                Collaboratively formulate principle capital. Progressively evolve user revolutionary
-                                hosting services.
+                                Building and managing custom chatbots for automated customer support. Our chatbots are designed to handle a wide range of customer inquiries, providing quick and efficient responses that improve customer satisfaction and reduce the workload on your support team.
                             </p>
                         </div>
                     </div>
@@ -459,13 +532,127 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="assets/img/hosting/icon-6.png" alt="img">
+                            {{-- <img src="assets/img/hosting/icon-6.png" alt="img"> --}}
                         </div>
                         <div class="content">
-                            <h3><a href="vps-hosting.html">VPS Hosting</a></h3>
+                            <h3><a href="#">Hardware</a></h3>
                             <p>
-                                Collaboratively formulate principle capital. Progressively evolve user revolutionary
-                                hosting services.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <br>
+    <br>
+    <link rel="stylesheet" href="{{ 'assets/css/custom.css' }}">
+    <section class="hosting-section fix section-padding pt-0">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Services and What We Do</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="hosting-inner-items responsive-style"
+                        style="background-image: url('assets/img/hosting/card-bg.png');">
+                        <div class="icon">
+                            <!-- Optional icon or image -->
+                        </div>
+                        <div class="content">
+                            <h3><a href="#">Bitrix24 Implementation and Setup</a></h3>
+                            <p>
+                                Tailoring Bitrix24 to meet specific business needs, including CRM, project management,
+                                HR, and communication tools. We ensure that each implementation is customized to align
+                                with the unique requirements of your business, facilitating smoother operations and
+                                better management.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="hosting-inner-items responsive-style"
+                        style="background-image: url('assets/img/hosting/card-bg.png');">
+                        <div class="icon">
+                            <!-- Optional icon or image -->
+                        </div>
+                        <div class="content">
+                            <h3><a href="#">User Training and Support</a></h3>
+                            <p>
+                                Offering in-depth training and ongoing technical support to ensure effective use of
+                                Bitrix24 and respond.io. Our training programs are designed to empower your team with
+                                the knowledge and skills needed to maximize the potential of these platforms. We provide
+                                continuous support to address any technical issues and ensure seamless operation.
+
+                            </p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="hosting-inner-items responsive-style"
+                        style="background-image: url('assets/img/hosting/card-bg.png');">
+                        <div class="icon">
+                            <!-- Optional icon or image -->
+                        </div>
+                        <div class="content">
+                            <h3><a href="#">Customization and Development</a></h3>
+                            <p>
+                                Developing custom applications and integrations to extend platform functionalities. Our
+                                team of experts works closely with clients to understand their specific needs and
+                                develop tailored solutions that enhance the capabilities of Bitrix24 and respond.io,
+                                ensuring that the platforms evolve with your business.
+                            </p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="hosting-inner-items responsive-style"
+                        style="background-image: url('assets/img/hosting/card-bg.png');">
+                        <div class="icon">
+                            <!-- Optional icon or image -->
+                        </div>
+                        <div class="content">
+                            <h3><a href="#"> Omnichannel Customer Engagement</a></h3>
+                            <p>
+                                Creating strategies for engaging customers across multiple channels using respond.io. We
+                                help businesses build a cohesive customer engagement strategy that leverages various
+                                communication channels, ensuring consistent and personalized interactions with
+                                customers.
+
+                            </p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="hosting-inner-items responsive-style"
+                        style="background-image: url('assets/img/hosting/card-bg.png');">
+                        <div class="icon">
+                            <!-- Optional icon or image -->
+                        </div>
+                        <div class="content">
+                            <h3><a href="#"> Chatbot Development</a></h3>
+                            <p>
+                                Building and managing custom chatbots for automated customer support. Our chatbots are designed to handle a wide range of customer inquiries, providing quick and efficient responses that improve customer satisfaction and reduce the workload on your support team.
+                            </p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="hosting-inner-items responsive-style"
+                        style="background-image: url('assets/img/hosting/card-bg.png');">
+                        <div class="icon">
+                            <!-- Optional icon or image -->
+                        </div>
+                        <div class="content">
+                            <h3><a href="#">Hardware</a></h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.
                             </p>
                         </div>
                     </div>
@@ -473,820 +660,84 @@
             </div>
         </div>
     </section>
-    <!-- Pricing Section Start -->
-    <section class="pricing-section fix section-padding section-bg">
-        <div class="container">
-            <div class="section-title text-center">
-                <span class="style-border wow fadeInUp">Pricing Plans</span>
-                <h2 class="wow fadeInUp" data-wow-delay=".3s">Get the More Powerful With Hostech <br> Website Hosting
-                    Plans</h2>
-            </div>
-            <div class="pricing-tab-header">
-                <div class="arrow-shape">
-                    <img src="assets/img/arrow.png" alt="img">
-                </div>
-                <ul class="nav" role="tablist">
-                    <li class="nav-item wow fadeInUp" data-wow-delay=".3s" role="presentation">
-                        <a href="#monthly" data-bs-toggle="tab" class="nav-link active" aria-selected="true"
-                            role="tab">
-                            Monthly
-                        </a>
-                    </li>
-                    <li class="nav-item wow fadeInUp" data-wow-delay=".5s" role="presentation">
-                        <a href="#yearly" data-bs-toggle="tab" class="nav-link" aria-selected="false"
-                            role="tab" tabindex="-1">
-                            Yearly
-                        </a>
-                    </li>
-                </ul>
-                <div class="save-text">
-                    Save 25%
-                </div>
-            </div>
-            <div class="tab-content">
-                <div id="monthly" class="tab-pane fade show active" role="tabpanel">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="pricing-card-items responsive-pricing-style">
-                                <div class="wing-shape">
-                                    <img src="assets/img/wing-shape.png" alt="img">
-                                </div>
-                                <div class="icon">
-                                    <img src="assets/img/pricing/icon-1.png" alt="img">
-                                </div>
-                                <div class="pricing-bg">
-                                    <img src="assets/img/pricing/pricing-shape.png" alt="img">
-                                </div>
-                                <div class="pricing-header">
-                                    <div class="price-content">
-                                        <h3>Shared Hosting</h3>
-                                        <p>Collaboratively formulate</p>
-                                    </div>
-                                    <h2>$29</h2>
-                                </div>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Branding and design Identity
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Web site Marketing Solutions
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Free 15 GB Linux Hosting
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Application Installation
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Download Data
-                                    </li>
-                                    <li class="color-2">
-                                        <i class="fa-solid fa-xmark"></i>
-                                        Dedicated IP Address
-                                    </li>
-                                </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="theme-btn">
-                                        get Started Now <i class="fas fa-long-arrow-alt-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                            <div class="pricing-card-items responsive-pricing-style">
-                                <div class="wing-shape">
-                                    <img src="assets/img/wing-shape.png" alt="img">
-                                </div>
-                                <div class="icon">
-                                    <img src="assets/img/pricing/icon-1.png" alt="img">
-                                </div>
-                                <div class="pricing-bg">
-                                    <img src="assets/img/pricing/pricing-shape.png" alt="img">
-                                </div>
-                                <div class="pricing-header">
-                                    <div class="price-content">
-                                        <h3>VPS Hosting</h3>
-                                        <p>Collaboratively formulate</p>
-                                    </div>
-                                    <h2>$39</h2>
-                                </div>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Branding and design Identity
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Web site Marketing Solutions
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Free 15 GB Linux Hosting
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Application Installation
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Download Data
-                                    </li>
-                                    <li class="color-2">
-                                        <i class="fa-solid fa-xmark"></i>
-                                        Dedicated IP Address
-                                    </li>
-                                </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="theme-btn">
-                                        get Started Now <i class="fas fa-long-arrow-alt-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                            <div class="pricing-card-items responsive-pricing-style">
-                                <div class="wing-shape">
-                                    <img src="assets/img/wing-shape.png" alt="img">
-                                </div>
-                                <div class="icon">
-                                    <img src="assets/img/pricing/icon-1.png" alt="img">
-                                </div>
-                                <div class="pricing-bg">
-                                    <img src="assets/img/pricing/pricing-shape.png" alt="img">
-                                </div>
-                                <div class="pricing-header">
-                                    <div class="price-content">
-                                        <h3>Cloud Hosting</h3>
-                                        <p>Collaboratively formulate</p>
-                                    </div>
-                                    <h2>$59</h2>
-                                </div>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Branding and design Identity
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Web site Marketing Solutions
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Free 15 GB Linux Hosting
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Application Installation
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Download Data
-                                    </li>
-                                    <li class="color-2">
-                                        <i class="fa-solid fa-xmark"></i>
-                                        Dedicated IP Address
-                                    </li>
-                                </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="theme-btn">
-                                        get Started Now <i class="fas fa-long-arrow-alt-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="yearly" class="tab-pane fade" role="tabpanel">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-6 col-md-6">
-                            <div class="pricing-card-items responsive-pricing-style">
-                                <div class="wing-shape">
-                                    <img src="assets/img/wing-shape.png" alt="img">
-                                </div>
-                                <div class="icon">
-                                    <img src="assets/img/pricing/icon-1.png" alt="img">
-                                </div>
-                                <div class="pricing-bg">
-                                    <img src="assets/img/pricing/pricing-shape.png" alt="img">
-                                </div>
-                                <div class="pricing-header">
-                                    <div class="price-content">
-                                        <h3>Shared Hosting</h3>
-                                        <p>Collaboratively formulate</p>
-                                    </div>
-                                    <h2>$29</h2>
-                                </div>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Branding and design Identity
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Web site Marketing Solutions
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Free 15 GB Linux Hosting
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Application Installation
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Download Data
-                                    </li>
-                                    <li class="color-2">
-                                        <i class="fa-solid fa-xmark"></i>
-                                        Dedicated IP Address
-                                    </li>
-                                </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="theme-btn">
-                                        get Started Now <i class="fas fa-long-arrow-alt-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6">
-                            <div class="pricing-card-items responsive-pricing-style">
-                                <div class="wing-shape">
-                                    <img src="assets/img/wing-shape.png" alt="img">
-                                </div>
-                                <div class="icon">
-                                    <img src="assets/img/pricing/icon-1.png" alt="img">
-                                </div>
-                                <div class="pricing-bg">
-                                    <img src="assets/img/pricing/pricing-shape.png" alt="img">
-                                </div>
-                                <div class="pricing-header">
-                                    <div class="price-content">
-                                        <h3>VPS Hosting</h3>
-                                        <p>Collaboratively formulate</p>
-                                    </div>
-                                    <h2>$39</h2>
-                                </div>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Branding and design Identity
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Web site Marketing Solutions
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Free 15 GB Linux Hosting
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Application Installation
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Download Data
-                                    </li>
-                                    <li class="color-2">
-                                        <i class="fa-solid fa-xmark"></i>
-                                        Dedicated IP Address
-                                    </li>
-                                </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="theme-btn">
-                                        get Started Now <i class="fas fa-long-arrow-alt-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6">
-                            <div class="pricing-card-items responsive-pricing-style">
-                                <div class="wing-shape">
-                                    <img src="assets/img/wing-shape.png" alt="img">
-                                </div>
-                                <div class="icon">
-                                    <img src="assets/img/pricing/icon-1.png" alt="img">
-                                </div>
-                                <div class="pricing-bg">
-                                    <img src="assets/img/pricing/pricing-shape.png" alt="img">
-                                </div>
-                                <div class="pricing-header">
-                                    <div class="price-content">
-                                        <h3>Cloud Hosting</h3>
-                                        <p>Collaboratively formulate</p>
-                                    </div>
-                                    <h2>$59</h2>
-                                </div>
-                                <ul class="pricing-list">
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Branding and design Identity
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Web site Marketing Solutions
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Free 15 GB Linux Hosting
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Application Installation
-                                    </li>
-                                    <li>
-                                        <i class="fa-solid fa-check"></i>
-                                        Unlimited Download Data
-                                    </li>
-                                    <li class="color-2">
-                                        <i class="fa-solid fa-xmark"></i>
-                                        Dedicated IP Address
-                                    </li>
-                                </ul>
-                                <div class="pricing-button">
-                                    <a href="contact.html" class="theme-btn">
-                                        get Started Now <i class="fas fa-long-arrow-alt-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pricing-title wow fadeInUp" data-wow-delay=".4s">
-                <p>Cost-effective hosting that delivers secure, reliable performance. </p>
-                <a href="pricing.html" class="theme-btn">See all plan & details</a>
-            </div>
-        </div>
-    </section>
-    <!-- Cta Contact Section Start -->
-    <section class="cta-contct-section section-padding bg-cover fix"
-        style="background-image: url('assets/img/cta/cta-conact-bg.jpg');">
-        <div class="container">
-            <div class="row g-4 justify-content-between align-items-center">
-                <div class="col-xl-8 col-lg-7">
-                    <div class="cta-contact-left">
-                        <div class="section-title">
-                            <span class="white-text wow fadeInUp">Contact Us</span>
-                            <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">24/7 Customer Support Here to
-                                Assist <br> You Every Step of the
-                                Way
-                            </h2>
-                        </div>
-                        <a href="contact.html" class="theme-btn bg-color-2 mt-4 mt-md-0 wow fadeInUp"
-                            data-wow-delay=".5s">WhatsApp Now <i
-                                class="fas 
-                                fa-long-arrow-alt-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-5 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="cta-contact-image">
-                        <img src="assets/img/cta-man.png" alt="img">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Brand Section Start -->
-    <div class="brand-section pt-100 pb-0">
+
+    <div class="brand-section pt-100 pb-0" id="brandsection">
         <div class="container">
             <div class="swiper brand-slider bor-bottom pb-100 pt-0">
+                <div class="section-title text-center">
+                    <span class="wow fadeInUp">Respond.io integrations</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Who Trusted Us<br></h2>
+                    <p>Powerful apps and integrations to acquire, engage and retain more customers with respond.io.</p>
+                </div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/brand/indieplex.png" alt="img">
+                            <img src="assets/img/client_logo/Artboard1.png" alt="img" height="80">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/brand/nextech.png" alt="img">
+                            <img src="assets/img/client_logo/Artboard2.png" alt="img" height="80">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/brand/techbox.png" alt="img">
+                            <img src="assets/img/client_logo/Artboard3.png" alt="img" height="80">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/brand/wattse.png" alt="img">
+                            <img src="assets/img/client_logo/Artboard4.png" alt="img" height="80">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/brand/chatbot.png" alt="img">
+                            <img src="assets/img/client_logo/Artboard5.png" alt="img" height="80">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-img center">
-                            <img src="assets/img/brand/indieplex.png" alt="img">
+                            <img src="assets/img/client_logo/Artboard6.png" alt="img" height="80">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/client_logo/Artboard7.png" alt="img" height="80">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/client_logo/Artboard8.png" alt="img" height="80">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/client_logo/Artboard9.png" alt="img" height="80">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/client_logo/Artboard10.png" alt="img" height="80">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/client_logo/Artboard11.png" alt="img" height="80">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/client_logo/Artboard12.png" alt="img" height="80">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-img center">
+                            <img src="assets/img/client_logo/Artboard13.png" alt="img" height="80">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Hosting Section Start -->
-    <section class="hosting section-padding fix">
-        <div class="container">
-            <div class="hosting-wrapper">
-                <div class="row g-4 justify-content-between align-items-center">
-                    <div class="col-lg-6">
-                        <div class="hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">Best hosting</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Get Started Fast & Easily with Best
-                                    Hosting</h2>
-                            </div>
-                            <div class="hosting-items wow fadeInUp mt-4 mt-md-0" data-wow-delay=".5s">
-                                <div class="icon">
-                                    <img src="assets/img/hosting/icon-9.png" alt="img">
-                                </div>
-                                <div class="content">
-                                    <h4>Better Security and faster Server</h4>
-                                    <p>Cursus libero sit amet ultrices. Nullam sit amet ornare neque duis vitae congue
-                                        ante, nec tempus quam. Donec non.</p>
-                                </div>
-                            </div>
-                            <div class="hosting-items wow fadeInUp" data-wow-delay=".7s">
-                                <div class="icon">
-                                    <img src="assets/img/hosting/icon-10.png" alt="img">
-                                </div>
-                                <div class="content">
-                                    <h4>Better Security and faster Server</h4>
-                                    <p>Cursus libero sit amet ultrices. Nullam sit amet ornare neque duis vitae congue
-                                        ante, nec tempus quam. Donec non.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="hosting-image">
-                            <img src="assets/img/hosting/hosting.png" alt="img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonial Section Start -->
-    <section class="testimonial-section fix section-padding bg-cover"
-        style="background-image: url('assets/img/section-bg.jpg');">
-        <div class="container">
-            <div class="section-title-area">
-                <div class="section-title">
-                    <span class="white-text wow fadeInUp">Testimonials</span>
-                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">Latest Clients Feedback</h2>
-                </div>
-                <div class="array-button wow fadeInUp" data-wow-delay=".5s">
-                    <button class="array-prev"><i class="fa-solid fa-arrow-left-long"></i></button>
-                    <button class="array-next"><i class="fa-solid fa-arrow-right-long"></i></button>
-                </div>
-            </div>
-            <div class="tesimonial-wrapper">
-                <div class="swiper testimonial-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items">
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                                <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="33"
-                                        viewBox="0 0 44 33" fill="none">
-                                        <path
-                                            d="M16 16.2929L0.5 31.7929V0.5H16V16.2929ZM43.5 16.2929L28 31.7929V0.5H43.5V16.2929Z"
-                                            stroke="white" />
-                                    </svg>
-                                </div>
-                                <div class="client-image bg-cover"
-                                    style="background-image: url('assets/img/testimonial/client-1.jpg');">
-                                    <div class="circle-shape">
-                                        <img src="assets/img/testimonial/circle.png" alt="">
-                                    </div>
-                                </div>
-                                <p>
-                                    Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium
-                                    metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo
-                                </p>
-                                <div class="client-info">
-                                    <h4>Cameron Williamson</h4>
-                                    <span>Marketing Coordinator</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items">
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                                <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="33"
-                                        viewBox="0 0 44 33" fill="none">
-                                        <path
-                                            d="M16 16.2929L0.5 31.7929V0.5H16V16.2929ZM43.5 16.2929L28 31.7929V0.5H43.5V16.2929Z"
-                                            stroke="white" />
-                                    </svg>
-                                </div>
-                                <div class="client-image bg-cover"
-                                    style="background-image: url('assets/img/testimonial/client-2.jpg');">
-                                    <div class="circle-shape">
-                                        <img src="assets/img/testimonial/circle.png" alt="">
-                                    </div>
-                                </div>
-                                <p>
-                                    Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium
-                                    metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo
-                                </p>
-                                <div class="client-info">
-                                    <h4>Cameron Williamson</h4>
-                                    <span>Marketing Coordinator</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items">
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                                <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="33"
-                                        viewBox="0 0 44 33" fill="none">
-                                        <path
-                                            d="M16 16.2929L0.5 31.7929V0.5H16V16.2929ZM43.5 16.2929L28 31.7929V0.5H43.5V16.2929Z"
-                                            stroke="white" />
-                                    </svg>
-                                </div>
-                                <div class="client-image bg-cover"
-                                    style="background-image: url('assets/img/testimonial/client-1.jpg');">
-                                    <div class="circle-shape">
-                                        <img src="assets/img/testimonial/circle.png" alt="">
-                                    </div>
-                                </div>
-                                <p>
-                                    Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium
-                                    metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo
-                                </p>
-                                <div class="client-info">
-                                    <h4>Cameron Williamson</h4>
-                                    <span>Marketing Coordinator</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Faq Section Start -->
-    <section class="faq-section fix section-padding">
-        <div class="container">
-            <div class="faq-wrapper">
-                <div class="row g-4">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="faq-image">
-                            <img src="assets/img/faq.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="faq-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">FAQ’S</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                    Prioritize Your Site’s Safety and Security
-                                </h2>
-                            </div>
-                            <div class="faq-accordion mt-4 mt-md-0">
-                                <div class="accordion" id="accordion">
-                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                        <h5 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true"
-                                                aria-controls="faq1">
-                                                How to Install WordPress theme on cPanel?
-                                            </button>
-                                        </h5>
-                                        <div id="faq1" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordion">
-                                            <div class="accordion-body">
-                                                Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
-                                                semper odio. Mauris et mollis quam. Nullam fringilla erat id ante
-                                                commodo sodales. In maximus ultrices euismod. Vivamus porta justo ex.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
-                                        <h5 class="accordion-header">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                                                Do you have Custom Hosting Service?
-                                            </button>
-                                        </h5>
-                                        <div id="faq2" class="accordion-collapse show"
-                                            data-bs-parent="#accordion">
-                                            <div class="accordion-body">
-                                                Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
-                                                semper odio. Mauris et mollis quam. Nullam fringilla erat id ante
-                                                commodo sodales. In maximus ultrices euismod. Vivamus porta justo ex.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
-                                        <h5 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq3"
-                                                aria-expanded="false" aria-controls="faq3">
-                                                Better Security And Faster Server?
-                                            </button>
-                                        </h5>
-                                        <div id="faq3" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordion">
-                                            <div class="accordion-body">
-                                                There are many variations of passages Lorem Ipsum but the majority have
-                                                suffered alteration in some form, by injected humor.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
-                                        <h5 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                aria-expanded="false" aria-controls="faq4">
-                                                Deployment Within Few Minutes
-                                            </button>
-                                        </h5>
-                                        <div id="faq4" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordion">
-                                            <div class="accordion-body">
-                                                Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
-                                                semper odio. Mauris et mollis quam. Nullam fringilla erat id ante
-                                                commodo sodales. In maximus ultrices euismod. Vivamus porta justo ex.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- News Section Start -->
-    <section class="news-section fix section-padding section-bg">
-        <div class="container">
-            <div class="section-title-area">
-                <div class="section-title">
-                    <span class="wow fadeInUp">Our News</span>
-                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Explore Latest News</h2>
-                </div>
-                <a href="news.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See All More <i
-                        class="fas fa-long-arrow-alt-right"></i></a>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="news-card-items">
-                        <div class="news-image">
-                            <img src="assets/img/news/01.jpg" alt="news-img">
-                        </div>
-                        <div class="news-content">
-                            <div class="post-list">
-                                <span>Shared Hosting</span>
-                                <p>MARCH 24, 2024</p>
-                            </div>
-                            <h3>
-                                <a href="news-details.html">Attentive was born in 2015 help sales teams</a>
-                            </h3>
-                            <div class="author-items">
-                                <div class="author-image">
-                                    <div class="author-img bg-cover"
-                                        style="background-image: url('assets/img/news/post-1.png');"></div>
-                                    <div class="content">
-                                        <h6>Admin</h6>
-                                        <p>Co, Founder</p>
-                                    </div>
-                                </div>
-                                <a href="news-details.html" class="link-btn">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="news-card-items">
-                        <div class="news-image">
-                            <img src="assets/img/news/02.jpg" alt="news-img">
-                        </div>
-                        <div class="news-content">
-                            <div class="post-list">
-                                <span>Uncategorized</span>
-                                <p>MARCH 22, 2024</p>
-                            </div>
-                            <h3>
-                                <a href="news-details.html">Best and fastest data
-                                    server ever</a>
-                            </h3>
-                            <div class="author-items">
-                                <div class="author-image">
-                                    <div class="author-img bg-cover"
-                                        style="background-image: url('assets/img/news/post-2.png');"></div>
-                                    <div class="content">
-                                        <h6>Admin</h6>
-                                        <p>Co, Founder</p>
-                                    </div>
-                                </div>
-                                <a href="news-details.html" class="link-btn">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="news-card-items">
-                        <div class="news-image">
-                            <img src="assets/img/news/03.jpg" alt="news-img">
-                        </div>
-                        <div class="news-content">
-                            <div class="post-list">
-                                <span>Reseller Hosting</span>
-                                <p>MARCH 14, 2024</p>
-                            </div>
-                            <h3>
-                                <a href="news-details.html">Life won’t one beast air over above all</a>
-                            </h3>
-                            <div class="author-items">
-                                <div class="author-image">
-                                    <div class="author-img bg-cover"
-                                        style="background-image: url('assets/img/news/post-3.png');"></div>
-                                    <div class="content">
-                                        <h6>Admin</h6>
-                                        <p>Co, Founder</p>
-                                    </div>
-                                </div>
-                                <a href="news-details.html" class="link-btn">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Brand Section Start -->
-    <div class="brand-section fix section-padding section-bg pt-0">
-        <div class="container">
-            <h3 class="brand-head-title"><img src="assets/img/w.png" alt="img">Recommended By
-                <span>WordPress.org</span></h3>
-            <div class="swiper brand-slider-2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="brand-img center">
-                            <img src="assets/img/brand/trustipilot.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-img center">
-                            <img src="assets/img/brand/google.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-img center">
-                            <img src="assets/img/brand/wpbeginner.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-img center">
-                            <img src="assets/img/brand/hostadvice.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-img center">
-                            <img src="assets/img/brand/capterra.png" alt="img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     @include('layouts.footer')
