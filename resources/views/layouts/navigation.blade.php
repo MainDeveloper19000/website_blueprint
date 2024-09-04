@@ -62,9 +62,9 @@
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="{{ route('partnerships.bitrix24') }}">Bitirx24 Gold
+                                                <li><a href="{{ route('partnerships.bitrix24') }}">Bitirx24 
                                                         Partner</a></li>
-                                                <li><a href="{{ route('partnerships.respond') }}">Respond.io Gold
+                                                <li><a href="{{ route('partnerships.respond') }}">Respond.io
                                                         Partner</a></li>
                                             </ul>
                                         </li>

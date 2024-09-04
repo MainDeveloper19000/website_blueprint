@@ -309,7 +309,7 @@
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
                     <div class="hero-image">
-                        <img src="assets/img/hero/image_icon1.png" alt="img" width="800px">
+                        <img src="assets/img/logo/logopenguin3d.png" alt="img" width="800px">
                     </div>
                 </div>
             </div>
@@ -433,118 +433,11 @@
             </div>
         </div>
     </section>
+
+    
+
     {{-- End Mission and Vision --}}
     <!-- Hosting Section Start -->
-    <!-- <section class="hosting-section fix section-padding pt-0">
-        <div class="container">
-            <div class="section-title-area">
-                <div class="section-title">
-                    {{-- <span class="wow fadeInUp">Best hosting</span> --}}
-                    <br>
-                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Our services And What we do</h2>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="hosting-inner-items responsive-style"
-                        style="background-image: url('assets/img/hosting/card-bg.png');">
-                        <div class="icon">
-                            {{-- <img src="assets/img/hosting/icon-1.png" alt="img"> --}}
-                        </div>
-                        <div class="content">
-                            <h3><a href="#">Bitrix24 Implementation and Setup</a></h3>
-                            <p>
-                                Tailoring Bitrix24 to meet specific business needs, including CRM, project management,
-                                HR, and communication tools. We ensure that each implementation is customized to align
-                                with the unique requirements of your business, facilitating smoother operations and
-                                better management.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="hosting-inner-items responsive-style"
-                        style="background-image: url('assets/img/hosting/card-bg.png');">
-                        <div class="icon">
-                            {{-- <img src="assets/img/hosting/icon-2.png" alt="img"> --}}
-                        </div>
-                        <div class="content">
-                            <h3><a href="#">User Training and Support</a></h3>
-                            <p>
-                                Offering in-depth training and ongoing technical support to ensure effective use of
-                                Bitrix24 and respond.io. Our training programs are designed to empower your team with
-                                the knowledge and skills needed to maximize the potential of these platforms. We provide
-                                continuous support to address any technical issues and ensure seamless operation.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="hosting-inner-items responsive-style"
-                        style="background-image: url('assets/img/hosting/card-bg.png');">
-                        <div class="icon">
-                            {{-- <img src="assets/img/hosting/icon-3.png" alt="img"> --}}
-                        </div>
-                        <div class="content">
-                            <h3><a href="dedicated-hosting.html">Customization and Development</a></h3>
-                            <p>
-                                Developing custom applications and integrations to extend platform functionalities. Our
-                                team of experts works closely with clients to understand their specific needs and
-                                develop tailored solutions that enhance the capabilities of Bitrix24 and respond.io,
-                                ensuring that the platforms evolve with your business.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="hosting-inner-items responsive-style"
-                        style="background-image: url('assets/img/hosting/card-bg.png');">
-                        <div class="icon">
-                            {{-- <img src="assets/img/hosting/icon-4.png" alt="img"> --}}
-                        </div>
-                        <div class="content">
-                            <h3><a href="#">Omnichannel Customer Engagement</a></h3>
-                            <p>
-                                Creating strategies for engaging customers across multiple channels using respond.io. We
-                                help businesses build a cohesive customer engagement strategy that leverages various
-                                communication channels, ensuring consistent and personalized interactions with
-                                customers.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="hosting-inner-items responsive-style"
-                        style="background-image: url('assets/img/hosting/card-bg.png');">
-                        <div class="icon">
-                            {{-- <img src="assets/img/hosting/icon-5.png" alt="img"> --}}
-                        </div>
-                        <div class="content">
-                            <h3><a href="#">Chatbot Development</a></h3>
-                            <p>
-                                Building and managing custom chatbots for automated customer support. Our chatbots are designed to handle a wide range of customer inquiries, providing quick and efficient responses that improve customer satisfaction and reduce the workload on your support team.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="hosting-inner-items responsive-style"
-                        style="background-image: url('assets/img/hosting/card-bg.png');">
-                        <div class="icon">
-                            {{-- <img src="assets/img/hosting/icon-6.png" alt="img"> --}}
-                        </div>
-                        <div class="content">
-                            <h3><a href="#">Hardware</a></h3>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
     <br>
     <br>
     <link rel="stylesheet" href="{{ 'assets/css/custom.css' }}">
@@ -552,7 +445,7 @@
         <div class="container">
             <div class="section-title-area">
                 <div class="section-title">
-                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Services and What We Do</h2>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Services</h2>
                 </div>
             </div>
             <div class="row">
@@ -636,7 +529,10 @@
                         <div class="content">
                             <h3><a href="#"> Chatbot Development</a></h3>
                             <p>
-                                Building and managing custom chatbots for automated customer support. Our chatbots are designed to handle a wide range of customer inquiries, providing quick and efficient responses that improve customer satisfaction and reduce the workload on your support team.
+                                Building and managing custom chatbots for automated customer support. Our chatbots are
+                                designed to handle a wide range of customer inquiries, providing quick and efficient
+                                responses that improve customer satisfaction and reduce the workload on your support
+                                team.
                             </p>
                         </div>
                     </div>
@@ -665,9 +561,9 @@
         <div class="container">
             <div class="swiper brand-slider bor-bottom pb-100 pt-0">
                 <div class="section-title text-center">
-                    <span class="wow fadeInUp">Respond.io integrations</span>
+                    <span class="wow fadeInUp">Trusted By 100+ Companies</span>
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">Who Trusted Us<br></h2>
-                    <p>Powerful apps and integrations to acquire, engage and retain more customers with respond.io.</p>
+                    <p>Contact us today to learn more about how our team can we help your business!</p>
                 </div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -739,5 +635,116 @@
             </div>
         </div>
     </div>
+
+
+    <br>
+    {{-- <link rel="stylesheet" href="{{ 'assets/css/custom.css' }}"> --}}
+    <section class="hosting-section fix section-padding pt-0">
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s"> Why Choose Us?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="hosting-inner-items responsive-style"
+                        style="background-image: url('assets/img/hosting/card-bg.png');">
+                        <div class="icon">
+                            <!-- Optional icon or image -->
+                        </div>
+                        <div class="content">
+                            <h3><a href="#">Comprehensive Services</a></h3>
+                            <p>
+                                From initial setup and customization to ongoing support and optimization, we offer a
+                                full range of services to ensure you get the most out of respond.io.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="hosting-inner-items responsive-style"
+                        style="background-image: url('assets/img/hosting/card-bg.png');">
+                        <div class="icon">
+                            <!-- Optional icon or image -->
+                        </div>
+                        <div class="content">
+                            <h3><a href="#">Tailored Strategies</a></h3>
+                            <p>
+                                We understand that every business is unique. We work closely with you to develop
+                                strategies that align with your goals and enhance your customer interactions.
+                            </p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="hosting-inner-items responsive-style"
+                        style="background-image: url('assets/img/hosting/card-bg.png');">
+                        <div class="icon">
+                            <!-- Optional icon or image -->
+                        </div>
+                        <div class="content">
+                            <h3><a href="#"> Continuous Improvement</a></h3>
+                            <p>
+                                Our partnership with respond.io means we stay updated with the latest features and best
+                                practices, ensuring your solutions are always ahead of the curve.
+                            </p>
+                        </div>
+                    </div>
+                </div><br>
+            </div>
+        </div>
+    </section>
+
+    {{-- Mission and Vision --}}
+    <section class="contact-section fix section-bg section-padding">
+        <div class="container">
+            {{-- <h2 class="wow fadeInUp" data-wow-delay=".3s">Vision and Mission </h2> --}}
+            <div class="contact-wrapper">
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="contact-right">
+                            <center>
+                                <h3 class="wow fadeInUp">Let’s Elevate Your Customer Engagement</h3>
+                            </center>
+                            <p style="font-size: 20px; font-weight: 500;color: black;">By partnering with us, you gain
+                                Partnering with us means you’re choosing a team that is recognized for excellence and
+                                committed to your success. Whether you’re looking to streamline your communication
+                                channels, automate customer support, or gain deeper insights through analytics, we have
+                                the expertise to make it happen.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- End Mission and Vision --}}
+
+    <!-- Client Success Stories -->
+    <section class="cta-contact-section">
+        <div class="container">
+            <div class="cta-contact-wrapper mb-0">
+                <div class="cta-contact-image wow fadeInUp">
+                    <img src="{{ asset('assets/img/bitrix24/icon_userstory.png') }}">
+                </div>
+                <div class="section-title mb-0">
+                    <span class="white-text wow fadeInUp">Client Success</span>
+                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">Client Success Stories</h2>
+                    <span class="white-text wow fadeInUp">
+                        <P>- Client A : An e-commerce leader saw a 30% increase in sales conversions after implementing our customized CRM and marketing automation solutions.</P>
+                        <P>- Client B: A healthcare provider reduced appointment no-shows by 25% through our automated scheduling and follow-up system.</P>
+                        <P>- Client C: A financial services firm improved client satisfaction scores by 20% after optimizing their customer engagement strategies with our help.</P>
+                        
+
+                    </span>
+                </div>
+
+                {{-- <a href="contact.html" class="theme-btn bg-color-2 mt-xl-5 wow fadeInUp" data-wow-delay=".5s">Talk to a Specialist <i class="fas 
+                        fa-long-arrow-alt-right"></i></a> --}}
+            </div>
+        </div>
+    </section>
+    <br>
 
     @include('layouts.footer')

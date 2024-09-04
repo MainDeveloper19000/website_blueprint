@@ -1,93 +1,95 @@
 @include('layouts.header')
-    <body>
 
-        <!-- Preloader Start -->
-        @include('layouts.preload')
-        <!--<< Mouse Cursor Start >>-->  
-        
+<body>
 
-        <!-- Offcanvas Area Start -->
-        <div class="fix-area">
-            <div class="offcanvas__info">
-                <div class="offcanvas__wrapper">
-                    <div class="offcanvas__content">
-                        <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
-                            <div class="offcanvas__logo">
-                                <a href="{{ url('/') }}">
-                                    <img src="assets/img/logo/black-logo.svg" alt="logo-img">
-                                </a>
-                            </div>
-                            <div class="offcanvas__close">
-                                <button>
-                                    <i class="fas fa-times"></i>
-                                </button>
-                            </div>
+    <!-- Preloader Start -->
+    @include('layouts.preload')
+    <!--<< Mouse Cursor Start >>-->
+
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="{{ url('/') }}">
+                                <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                            </a>
                         </div>
-                        <p class="text d-none d-xl-block">
-                            Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
-                            feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                        </p>
-                        <div class="mobile-menu fix mb-3"></div>
-                        <div class="offcanvas__contact">
-                            <h4>Contact Info</h4>
-                            <ul>
-                                <li class="d-flex align-items-center">
-                                    <div class="offcanvas__contact-icon">
-                                        <i class="fal fa-map-marker-alt"></i>
-                                    </div>
-                                    <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh 120209</a>
-                                    </div>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <div class="offcanvas__contact-icon mr-15">
-                                        <i class="fal fa-envelope"></i>
-                                    </div>
-                                    <div class="offcanvas__contact-text">
-                                        <a href="info@masterchat.iom"><span
-                                                class="info@masterchat.io">info@masterchat.io</span></a>
-                                    </div>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <div class="offcanvas__contact-icon mr-15">
-                                        <i class="fal fa-clock"></i>
-                                    </div>
-                                    <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
-                                    </div>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <div class="offcanvas__contact-icon mr-15">
-                                        <i class="far fa-phone"></i>
-                                    </div>
-                                    <div class="offcanvas__contact-text">
-                                        <a href="tel: +85516415111"> +85516415111</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="header-button mt-4">
-                                <a href="{{route('help_center.contact')}}" class="theme-btn text-center">
-                                    Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
-                            </div>
-                            <div class="social-icon d-flex align-items-center">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+                        <div class="offcanvas__close">
+                            <button>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
+                        feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                    </p>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <div class="offcanvas__contact">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh
+                                        120209</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="info@masterchat.iom"><span
+                                            class="info@masterchat.io">info@masterchat.io</span></a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-clock"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="far fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel: +85516415111"> +85516415111</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-button mt-4">
+                            <a href="{{ route('help_center.contact') }}" class="theme-btn text-center">
+                                Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="offcanvas__overlay"></div>
+    </div>
+    <div class="offcanvas__overlay"></div>
 
-        <!-- Header Section Start -->
-        @include('layouts.navigation')
+    <!-- Header Section Start -->
+    @include('layouts.navigation')
 
-        <!-- Modal Version 1 -->
-        {{-- <div class="modal modal-common-wrap fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+    <!-- Modal Version 1 -->
+    {{-- <div class="modal modal-common-wrap fade" id="exampleModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -163,8 +165,8 @@
             </div>
         </div> --}}
 
-        <!-- Modal Version 2 -->
-        {{-- <div class="modal modal-common-wrap fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
+    <!-- Modal Version 2 -->
+    {{-- <div class="modal modal-common-wrap fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -237,605 +239,237 @@
             </div>
         </div> --}}
 
-        <!-- Search Area Start -->
-        <div class="search-wrap">
-            <div class="search-inner">
-                <i class="fas fa-times search-close" id="search-close"></i>
-                <div class="search-cell">
-                    <form method="get">
-                        <div class="search-field-holder">
-                            <input type="search" class="main-search-input" placeholder="Search...">
-                        </div>
-                    </form>
-                </div>
+    <!-- Search Area Start -->
+    <div class="search-wrap">
+        <div class="search-inner">
+            <i class="fas fa-times search-close" id="search-close"></i>
+            <div class="search-cell">
+                <form method="get">
+                    <div class="search-field-holder">
+                        <input type="search" class="main-search-input" placeholder="Search...">
+                    </div>
+                </form>
             </div>
         </div>
+    </div>
 
-        <!--<< Breadcrumb Section Start >>-->
-        <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-1.jpg');">
-            <div class="container">
-                <div class="page-heading">
-                    <div class="page-header-left">
-                        <h1 class="wow fadeInUp" data-wow-delay=".3s">Respond.io Gold Partner</h1>
-                        <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
-                            <li>
-                                <a href="index.html">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <i class="fa-regular fa-chevrons-right"></i>
-                            </li>
-                            <li>
-                                Respond.io Gold Partner
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
-                        <img src="assets/img/breadcrumb.png" alt="img">
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- About Section Start -->
-        <section class="about-section section-padding fix">
-            <div class="container">
-                <div class="about-wrapper">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-lg-6">
-                            <div class="about-image-items">
-                                <div class="about-sub">
-                                    Bitrix Partner
-                                </div>
-                                <div class="shape-image">
-                                    <img src="assets/img/about/shape.png" alt="img">
-                                </div>
-                                <div class="about-image-1 wow fadeInLeft" data-wow-delay=".3s">
-                                    <img src="assets/img/about/01.jpg" alt="img">
-                                    <div class="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                        <img src="assets/img/about/02.png" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="about-content">
-                                <div class="section-title">
-                                    <span class="wow fadeInUp">ABOUT US</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Choose a Website Hosting Partner Right Now.</h2>
-                                </div>
-                                <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    There are many variations of passages of Lorem Ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-                                </p>
-                                <div class="about-counter-items">
-                                    <div class="counter-items wow fadeInUp" data-wow-delay=".3s">
-                                        <h2><span class="count">50</span>k</h2>
-                                        <h6>Global Customers</h6>
-                                    </div>
-                                    <div class="counter-items ps-0 wow fadeInUp" data-wow-delay=".5s">
-                                        <h2><span class="count">98</span>%</h2>
-                                        <h6>Success Case</h6>
-                                    </div>
-                                    <div class="video-thumb wow fadeInUp" data-wow-delay=".7s">
-                                        <img src="assets/img/about/video-img.jpg" alt="video-img">
-                                        <div class="video-box">
-                                            <span class="button-text wow fadeInUp">
-                                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                                    <i class="fa-solid fa-play"></i>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Feature Section Start -->
-        <section class="feature-hosting-section fix section-padding section-bg">
-            <div class="container">
-                <div class="feature-content-warpper style-2">
-                    <div class="row g-4 justify-content-between align-items-center">
-                        <div class="col-xl-5 col-lg-6">
-                            <div class="feature-hosting-content">
-                                <div class="section-title">
-                                    <span class="wow fadeInUp">Best hosting</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Advance features for the <br> advanced user</h2>
-                                </div>
-                                <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    Pellentesque varius mauris sit amet nisi tincidunt finibus Donec faucibus diam quis feugiat accumsan Integer molestie sapien ut ipsum fermentum feugiat Curabitur.
-                                </p>
-                                <div class="list-items">
-                                    <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Branding and design Identity 
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Web site Marketing Solutions
-                                        </li>
-                                    </ul>
-                                    <ul class="wow fadeInUp" data-wow-delay=".5s">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Unlimited Application Installation
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            24/7 system Monitoring
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Explore More <i class="fas fa-long-arrow-alt-right"></i> 
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-                            <div class="feature-hosting-image-2">
-                                <div class="icon-box-1">
-                                    <img src="assets/img/hosting/icon-1.png" alt="img">
-                                </div>
-                                <div class="icon-box-2">
-                                    <img src="assets/img/hosting/icon-3.png" alt="img">
-                                </div>
-                                <div class="thumb">
-                                    <img src="assets/img/gym-man.png" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- panner -->
-
-        <!-- Feature Section Start -->
-        <section class="feature-hosting-section fix section-padding">
-            <div class="container">
-                <div class="feature-content-warpper margin-top-60">
-                    <div class="row g-4 justify-content-between align-items-center">
-                        <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="feature-hosting-image">
-                                <img src="assets/img/hosting-boy.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="feature-hosting-content">
-                                <div class="section-title">
-                                    <span class="wow fadeInUp">Best hosting</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Get the Good Level Hosting <br> at Budget Price</h2>
-                                </div>
-                                <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    Pellentesque varius mauris sit amet nisi tincidunt finibus Donec faucibus diam quis feugiat accumsan Integer molestie sapien ut ipsum fermentum feugiat Curabitur.
-                                </p>
-                                <div class="list-items">
-                                    <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            30-day money back guarantee
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Web site Marketing Solutions
-                                        </li>
-                                    </ul>
-                                    <ul class="wow fadeInUp" data-wow-delay=".5s">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Unlimited Application Installation
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            24/7 system Monitoring
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i class="fas fa-long-arrow-alt-right"></i> 
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        
-        <!-- Hosting Section Start -->
-        <section class="hosting section-padding fix">
-            <div class="container">
-                <div class="hosting-wrapper">
-                    <div class="row g-4 justify-content-between align-items-center">
-                        <div class="col-lg-6">
-                            <div class="hosting-content">
-                                <div class="section-title">
-                                    <span class="wow fadeInUp">Best hosting</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Get Started Fast & Easily with Best Hosting</h2>
-                                </div>
-                                <div class="hosting-items wow fadeInUp mt-4 mt-md-0" data-wow-delay=".5s">
-                                    <div class="icon">
-                                        <img src="assets/img/hosting/icon-9.png" alt="img">                                          
-                                    </div>
-                                    <div class="content">
-                                        <h4>Better Security and faster Server</h4>
-                                        <p>Cursus libero sit amet ultrices. Nullam sit amet ornare neque duis vitae congue ante, nec tempus quam. Donec non.</p>
-                                    </div>
-                                </div>
-                                <div class="hosting-items wow fadeInUp" data-wow-delay=".7s">
-                                    <div class="icon">
-                                        <img src="assets/img/hosting/icon-10.png" alt="img">                                          
-                                    </div>
-                                    <div class="content">
-                                        <h4>Better Security and faster Server</h4>
-                                        <p>Cursus libero sit amet ultrices. Nullam sit amet ornare neque duis vitae congue ante, nec tempus quam. Donec non.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
-                            <div class="hosting-image">
-                                <img src="assets/img/hosting/hosting.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- certivicate -->
-        <section class="Error-section section-padding fix">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <div class="error-items">
-                            <div class="error-image wow fadeInUp" data-wow-delay=".3s">
-                                <img src="assets/img/404.png" alt="img">
-                            </div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".5s">
-                                <span>certificate</span>of bitrix24
-                            </h2>
-                            <p class="mb-3 wow fadeInUp" data-wow-delay=".6s">The page you are looking for does not exist</p>
-                            {{-- <a href="index.html" class="theme-btn wow fadeInUp" data-wow-delay=".7s">
-                                Back to home pages
-                                <i class="fa-solid fa-arrow-right-long"></i> --}}
+    <!--<< Breadcrumb Section Start >>-->
+    <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-1.jpg');">
+        <div class="container">
+            <div class="page-heading">
+                <div class="page-header-left">
+                    <h1 class="wow fadeInUp" data-wow-delay=".3s">Respond.io Gold Partner</h1>
+                    <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                        <li>
+                            <a href="index.html">
+                                Home
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-         <!-- Choose Us Section Start -->
-        <section class="choose-us-section-2 pt-100 pb-100 margin-top-5">
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="choose-us-card-items mt-0">
-                            <div class="icon">
-                                <img src="assets/img/choose/safe-icon.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Safe and Secured</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="choose-us-card-items mt-0">
-                            <div class="icon">
-                                <img src="assets/img/choose/bank-icon.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Money-Back Guarantee</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                        <div class="choose-us-card-items mt-0">
-                            <div class="icon">
-                                <img src="assets/img/choose/secured-icon.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Safe and Secured</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                        <div class="choose-us-card-items mt-0">
-                            <div class="icon">
-                                <img src="assets/img/choose/support-icon.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Dedicated Support</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Team Section Start -->
-
-
-        <section class="team-section fix section-padding">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="style-border wow fadeInUp">Our Expart</span>
-                    <h2 class="mb-3 wow fadeInUp" data-wow-delay=".3s">Our expert team</h2>
-                    <p class="wow fadeInUp" data-wow-delay=".5s">Aliquam viverra accumsan lectus in dignissim ante interdum eu Sed odio massa</p>
-                </div>
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="team-card-item">
-                            <div class="team-image">
-                                <img src="assets/img/team/01.jpg" alt="img">
-                            </div>
-                            <div class="team-content bg-cover" style="background-image: url('assets/img/team/team-shape.png');">
-                               <h5><a href="team-details.html">Darlene Robertson</a></h5>
-                               <p>Web Designer</p>
-                                <div class="social-profile">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    </ul>
-                                    <span class="plus-btn"><i class="fa-light fa-share-nodes"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="team-card-item">
-                            <div class="team-image">
-                                <img src="assets/img/team/02.jpg" alt="img">
-                            </div>
-                            <div class="team-content bg-cover" style="background-image: url('assets/img/team/team-shape.png');">
-                               <h5><a href="team-details.html">Leslie Alexander</a></h5>
-                               <p>Nursing Assistant</p>
-                                <div class="social-profile">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    </ul>
-                                    <span class="plus-btn"><i class="fa-light fa-share-nodes"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                        <div class="team-card-item">
-                            <div class="team-image">
-                                <img src="assets/img/team/03.jpg" alt="img">
-                            </div>
-                            <div class="team-content bg-cover" style="background-image: url('assets/img/team/team-shape.png');">
-                               <h5><a href="team-details.html">Ralph Edwards</a></h5>
-                               <p>President of Sales</p>
-                                <div class="social-profile">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    </ul>
-                                    <span class="plus-btn"><i class="fa-light fa-share-nodes"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                        <div class="team-card-item">
-                            <div class="team-image">
-                                <img src="assets/img/team/04.jpg" alt="img">
-                            </div>
-                            <div class="team-content bg-cover" style="background-image: url('assets/img/team/team-shape.png');">
-                               <h5><a href="team-details.html">Kristin Watson</a></h5>
-                               <p>Software Tester</p>
-                                <div class="social-profile">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    </ul>
-                                    <span class="plus-btn"><i class="fa-light fa-share-nodes"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Choose Us Section Start -->
-        <section class="choose-us-section fix section-padding bg-cover" style="background-image: url('assets/img/feature-bg.jpg');">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="style-border-white text-white wow fadeInUp">Why choose uS</span>
-                    <h2 class="mb-3 text-white wow fadeInUp" data-wow-delay=".3s">Why Choose Hostech</h2>
-                    <p class="text-white wow fadeInUp" data-wow-delay=".5s">Aliquam viverra accumsan lectus in dignissim ante interdum eu Sed odio massa </p>
-                </div>
-                <div class="choose-us-top-inner style-2">
-                    <ul>
-                        <li class="wow fadeInUp" data-wow-delay=".2s">Step One</li>
-                        <li class="wow fadeInUp" data-wow-delay=".4s">Step Two</li>
-                        <li class="wow fadeInUp" data-wow-delay=".6s">Step Three</li>
-                        <li class="wow fadeInUp" data-wow-delay=".8s">Step Four</li>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-chevrons-right"></i>
+                        </li>
+                        <li>
+                            Respond.io Gold Partner
+                        </li>
                     </ul>
                 </div>
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="choose-us-card-items style-2">
-                            <div class="icon">
-                                <img src="assets/img/feature-icon/icon-5.png" alt="img">
+                <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
+                    <img src="assets\img\respond\unnamed.png" alt="img" height="160px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    {{-- 1 --}}
+    <!-- About Section Start -->
+    <section class="about-section section-padding fix">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-image-items">
+                            <div class="about-sub">
+                                Respond.io Partner
                             </div>
-                            <div class="content">
-                                <h3>Bay a Domain</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
+                            <div class="shape-image">
+                                <img src="assets/img/about/shape.png" alt="img">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="choose-us-card-items style-2">
-                            <div class="icon">
-                                <img src="assets/img/feature-icon/icon-6.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Find the Right Hosting</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                        <div class="choose-us-card-items style-2">
-                            <div class="icon">
-                                <img src="assets/img/feature-icon/icon-7.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Add Professional Email</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
+                            <div class="about-image-1 wow fadeInLeft" data-wow-delay=".3s">
+                                <img src="assets\img\respond\certificate_badage-01.png" alt="img"
+                                    style="background-color: white;border: blue;border-style: solid; 1px;">
+                                <div class="about-image-2 wow fadeInUp" data-wow-delay=".5s">
+                                    {{-- <img src="assets\img\respond\certificate_badage-01.png" alt="img"> --}}
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                        <div class="choose-us-card-items style-2">
-                            <div class="icon">
-                                <img src="assets/img/feature-icon/icon-8.png" alt="img">
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-title">
+                                <span class="wow fadeInUp">Partner of respond.io</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">We Are a Gold Partner of respond.io!</h2>
                             </div>
-                            <div class="content">
-                                <h3>Boost Performance</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
+                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                We are proud to announce that we have achieved the prestigious Gold Partner status with
+                                respond.io, a leading platform for omnichannel customer engagement. This certification
+                                is a testament to our expertise, dedication, and commitment to delivering top-notch
+                                solutions for our clients.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="footer-bottom">
+        <center><p style="font-size: 30px;font-weight: 500;">Certificate</p></center>
+        <div class="container">
+            <div class="footer-wrapper d-flex align-items-center justify-content-between">
+                <img src="assets\img\respond\certificate1.png" alt="Business Instant Messaging High Performer Asia" height="120px">
+
+                <img src="assets\img\respond\certificate2.png" alt="Cloud Content Collaboration High Performer Enterprise" height="120px">
+                
+                <img src="assets\img\respond\certificate3.png" alt="CRM High Performer Mid-Market Asia Pacific" height="120px">
+                
+                <img src="assets\img\respond\certificate4.png" alt="Project Management Easiest To Use Enterprise" height="120px">
+                
+                <img src="assets\img\respond\certificate5.png" alt="Video Conferencing Users Most Likely To Recommend Enterprise" height="120px">
+                
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    
+  
+
+    {{-- 2 --}}
+
+    <section class="contact-section fix section-bg section-padding">
+        <div class="container">
+            {{-- <h2 class="wow fadeInUp" data-wow-delay=".3s">Vision and Mission </h2> --}}
+            <div class="contact-wrapper">
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="contact-right">
+                            <center>
+                                <h3 class="wow fadeInUp">Why we are Gold Partner?
+                                </h3>
+                            </center>
+                            <p style="font-size: 20px; font-weight: 500;color: black;">
+                                Being a Gold Partner signifies that we have met the highest standards of excellence set
+                                by respond.io. It reflects our deep knowledge of the platform, our ability to implement
+                                advanced solutions, and our proven track record of successful projects. Here’s what it
+                                means for you:
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section Start -->
+    <section class="feature-hosting-section fix section-padding section-bg">
+        <div class="container">
+            <div class="feature-content-warpper style-2">
+                <div class="row g-4 justify-content-between align-items-center">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="feature-hosting-content">
+                            <div class="section-title">
+                                <span class="wow fadeInUp">Why we are...</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Expertise and Experience</h2>
+                            </div>
+                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                Our team is highly trained and experienced in using respond.io to its fullest potential.
+                                We can help you leverage the platform to enhance your customer engagement strategies.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="feature-hosting-image-2">
+                            <div class="icon-box-1">
+                                <img src="assets/img/hosting/icon-1.png" alt="img">
+                            </div>
+                            <div class="icon-box-2">
+                                <img src="assets/img/hosting/icon-3.png" alt="img">
+                            </div>
+                            <div class="thumb">
+                                <img src="assets/img/gym-man.png" alt="img">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Testimonia Section Start -->
-        <section class="testimonial-section fix section-padding">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="style-border wow fadeInUp">Testimonials</span>
-                    <h2 class="mb-3 wow fadeInUp" data-wow-delay=".3s">Impressions & Feedback</h2>
-                    <p class="wow fadeInUp" data-wow-delay=".5s">Aliquam viverra accumsan lectus in dignissim ante interdum eu Sed odio massa </p>
+    <!-- panner -->
+    {{-- 3 --}}
+    <!-- Feature Section Start -->
+    <section class="feature-hosting-section fix section-padding">
+        <div class="container">
+            <div class="feature-content-warpper margin-top-60">
+                <div class="row g-4 justify-content-between align-items-center">
+                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="feature-hosting-image">
+                            <img src="assets/img/hosting-boy.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="feature-hosting-content">
+                            <div class="section-title">
+                                <span class="wow fadeInUp">Why We are...</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Advanced Solutions</h2>
+                            </div>
+                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                As a Gold Partner, we have access to exclusive tools, resources, and support from
+                                respond.io. This enables us to provide you with cutting-edge solutions tailored to your
+                                specific needs.
+
+                            </p>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper testimonial-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items-2">
-                                <div class="icon">
-                                    <i class="fa-solid fa-quote-right"></i>
-                                </div>
-                                <div class="client-info">
-                                    <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/client-5.jpg');"></div>
-                                    <div class="content">
-                                        <h4>Ronald Richards</h4>
-                                        <span>Web Designer</span>
-                                    </div>
-                                </div>
-                                <p>
-                                    Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan felis sed.
-                                </p>
-                                <div class="client-bottom">
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
-                                    <img src="assets/img/testimonial/wpbeginner-dark.png" alt="img">
-                                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section Start -->
+    <section class="feature-hosting-section fix section-padding section-bg">
+        <div class="container">
+            <div class="feature-content-warpper style-2">
+                <div class="row g-4 justify-content-between align-items-center">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="feature-hosting-content">
+                            <div class="section-title">
+                                <span class="wow fadeInUp">Why we are...</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Proven Success</h2>
                             </div>
+                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                Our Gold Partner status is a recognition of our successful implementations and satisfied
+                                clients. You can trust us to deliver results that drive your business forward.
+                            </p>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items-2">
-                                <div class="icon">
-                                    <i class="fa-solid fa-quote-right"></i>
-                                </div>
-                                <div class="client-info">
-                                    <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/client-6.jpg');"></div>
-                                    <div class="content">
-                                        <h4>Esther Howard</h4>
-                                        <span>President of Sales</span>
-                                    </div>
-                                </div>
-                                <p>
-                                    Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan felis sed.
-                                </p>
-                                <div class="client-bottom">
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
-                                    <img src="assets/img/testimonial/hostadvice-dark.png" alt="img">
-                                </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="feature-hosting-image-2">
+                            <div class="icon-box-1">
+                                <img src="assets/img/hosting/icon-1.png" alt="img">
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items-2">
-                                <div class="icon">
-                                    <i class="fa-solid fa-quote-right"></i>
-                                </div>
-                                <div class="client-info">
-                                    <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/client-7.jpg');"></div>
-                                    <div class="content">
-                                        <h4>Courtney Henry</h4>
-                                        <span>Nursing Assistant</span>
-                                    </div>
-                                </div>
-                                <p>
-                                    Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan felis sed.
-                                </p>
-                                <div class="client-bottom">
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
-                                    <img src="assets/img/testimonial/capterra.png" alt="img">
-                                </div>
+                            <div class="icon-box-2">
+                                <img src="assets/img/hosting/icon-3.png" alt="img">
+                            </div>
+                            <div class="thumb">
+                                <img src="assets/img/gym-man.png" alt="img">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-click-text wow fadeInUp" data-wow-delay=".3s">
-                    <p>Explore more testimonials by</p>
-                    <a href="contact.html"> Click Here</a>
-                </div>
             </div>
-        </section>
-
-        <!--<< Footer Section Start >>-->
-        @include('layouts.footer')
+        </div>
+    </section>
+    <!--<< Footer Section Start >>-->
+    @include('layouts.footer')

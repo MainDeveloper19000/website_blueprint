@@ -938,29 +938,7 @@
             </div>
         </section> --}}
 
-    <!-- Client Success Stories -->
-    <section class="cta-contact-section">
-        <div class="container">
-            <div class="cta-contact-wrapper mb-0">
-                <div class="cta-contact-image wow fadeInUp">
-                    <img src="{{ asset('assets/img/bitrix24/icon_userstory.png') }}">
-                </div>
-                <div class="section-title mb-0">
-                    <span class="white-text wow fadeInUp">Client Success</span>
-                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">Client Success Stories</h2>
-                    <span class="white-text wow fadeInUp">Our clients have seen significant improvements in their
-                        operations and customer relationships after working with us. For example, a retail company we
-                        worked with was able to streamline their inventory management and improve customer satisfaction
-                        by implementing our CRM solution. Another client, a financial services firm, saw a 20% increase
-                        in productivity after automating their internal processes.</span>
-                </div>
-
-                {{-- <a href="contact.html" class="theme-btn bg-color-2 mt-xl-5 wow fadeInUp" data-wow-delay=".5s">Talk to a Specialist <i class="fas 
-                        fa-long-arrow-alt-right"></i></a> --}}
-            </div>
-        </div>
-    </section>
-    <br>
+    
     <!-- Get Started Today -->
     <section class="feature-hosting-section fix section-padding">
         <div class="container">
