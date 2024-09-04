@@ -276,7 +276,8 @@
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">
                             Respond.io Chat with Leads, Make More Money
                         </h1>
-                        <a href="https://app.respond.io/user/register?_gl=1*vzkgg5*_gcl_au*NzMzNDU2OTEuMTcxNzY2NjI4MA..*_ga*NTkxNDYzNzEyLjE3MDk4OTAyNzY.*_ga_0EZ318H868*MTcyNTI0NjMyNC4yMjcuMS4xNzI1MjQ2MzQ4LjM2LjAuMA" class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
+                        <a href="https://app.respond.io/user/register?_gl=1*vzkgg5*_gcl_au*NzMzNDU2OTEuMTcxNzY2NjI4MA..*_ga*NTkxNDYzNzEyLjE3MDk4OTAyNzY.*_ga_0EZ318H868*MTcyNTI0NjMyNC4yMjcuMS4xNzI1MjQ2MzQ4LjM2LjAuMA"
+                            class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
                             Start For Free<i class="fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
@@ -1107,4 +1108,156 @@
         </div>
     </div>
     <br>
+
+
+    <!-- Faq Section Start -->
+    <section class="faq-section fix section-padding">
+        <div class="container">
+            <div class="faq-wrapper">
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="faq-image">
+                            <img src="https://motopress.com/wp-content/uploads/2020/05/FAQ-plugins-915x524.jpg" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="faq-content">
+                            <div class="section-title">
+                                <span class="wow fadeInUp">FAQ’S</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                    Frequently Asked Questions
+                                </h2>
+                            </div>
+                            <div class="faq-accordion mt-4 mt-md-0">
+                                <div class="accordion" id="accordion">
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true"
+                                                aria-controls="faq1">
+                                                Are WhatsApp fees included in the respond.io subscription?
+                                            </button>
+                                        </h5>
+                                        <div id="faq1" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                WhatsApp fees are not included in the respond.io subscription, however,
+                                                you'll be able to top up your WhatsApp credit through our platform. If
+                                                you exceed 1,000 monthly WhatsApp service conversations, Meta will
+                                                deduct your WhatsApp credit for any additional conversations that month.
+                                                Check out our WhatsApp Business API Pricing Calculator for an estimate
+                                                of how much it can cost.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                                What is a Monthly Active Contact?
+                                            </button>
+                                        </h5>
+                                        <div id="faq2" class="accordion-collapse show"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Monthly Active Contacts are contacts that have sent or received a
+                                                message (excluding broadcasts) over the billing month. We charge based
+                                                on Monthly Active Contacts to align more closely with your success and
+                                                provide a transparent, value-driven service. Our approach is designed to
+                                                support your growth: as you succeed and expand, we grow alongside you,
+                                                ensuring that our services scale effectively to meet your evolving
+                                                needs.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq3"
+                                                aria-expanded="false" aria-controls="faq3">
+                                                What if I reach my Monthly Active Contact limit?
+                                            </button>
+                                        </h5>
+                                        <div id="faq3" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                If you exceed your Monthly Active Contact limit, your operations will
+                                                not be interrupted. Instead, you will be billed on demand for any
+                                                additional contacts in increments of 100 Monthly Active Contacts. You
+                                                will be charged $12 per 100 MACs on Growth and $15 per 100 MACs on
+                                                Advanced. This charge will be applied at the end of your billing
+                                                cycle.Please note on-demand Monthly Active Contacts are intended for
+                                                temporary, seasonal usage spikes. If you require a permanent increase,
+                                                upgrading your plan is more cost-effective.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq4"
+                                                aria-expanded="false" aria-controls="faq4">
+                                                How does the free trial work?
+                                            </button>
+                                        </h5>
+                                        <div id="faq4" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Our 7-day free trial provides immediate access to all features of the
+                                                Growth plan for 5 users and 1,000 Monthly Active Contacts, except for
+                                                broadcasts. Please note that certain features, such as topping up your
+                                                WhatsApp Business Account, require a subscription. If you need more time
+                                                to explore respond.io, please contact our support team to discuss
+                                                extending your trial.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq4"
+                                                aria-expanded="false" aria-controls="faq4">
+                                                Can I upgrade or cancel my plan at any time?
+                                            </button>
+                                        </h5>
+                                        <div id="faq4" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Yes, you can cancel or upgrade your subscription at any time. To cancel,
+                                                go to the Billing section of the Platform, and click Cancel
+                                                Subscription. You will continue to receive the features and limits of
+                                                your plan until the end of the billing cycle. To upgrade, go to the
+                                                billing section of the Platform, select a plan and click Subscribe or
+                                                you can talk to sales.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq4"
+                                                aria-expanded="false" aria-controls="faq4">
+                                                How does respond.io protect my data?
+                                            </button>
+                                        </h5>
+                                        <div id="faq4" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Respond.io prioritizes your data security through a combination of
+                                                encryption, access controls and security audits. Our ISO 27001
+                                                certification further highlights our commitment to maintaining top-tier
+                                                information security standards. For more insights into our security
+                                                measures, visit our security page.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     @include('layouts.footer')

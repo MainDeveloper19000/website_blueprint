@@ -844,24 +844,31 @@
         });
     </script>
 
-    
+
 
     @include('layouts.bitrix_solu')
     <div class="footer-bottom">
-        <br>    
-        <center><p style="font-size: 30px;font-weight: 500;">See why Customers Love Bitrix 24</p></center>
+        <br>
+        <center>
+            <p style="font-size: 30px;font-weight: 500;">See why Customers Love Bitrix 24</p>
+        </center>
         <div class="container">
             <div class="footer-wrapper d-flex align-items-center justify-content-between">
-                <img src="assets/img/bitrix24_G2_awards_2024/BusinessInstantMessaging_HighPerformer_Asia_HighPerformer.png" alt="Business Instant Messaging High Performer Asia" height="120px">
+                <img src="assets/img/bitrix24_G2_awards_2024/BusinessInstantMessaging_HighPerformer_Asia_HighPerformer.png"
+                    alt="Business Instant Messaging High Performer Asia" height="120px">
 
-                <img src="assets/img/bitrix24_G2_awards_2024/CloudContentCollaboration_HighPerformer_Enterprise_HighPerformer.png" alt="Cloud Content Collaboration High Performer Enterprise" height="120px">
-                
-                <img src="assets/img/bitrix24_G2_awards_2024/CRM_HighPerformer_Mid-Market_AsiaPacific_HighPerformer.png" alt="CRM High Performer Mid-Market Asia Pacific" height="120px">
-                
-                <img src="assets/img/bitrix24_G2_awards_2024/ProjectManagement_EasiestToUse_Enterprise_EaseOfUse.png" alt="Project Management Easiest To Use Enterprise" height="120px">
-                
-                <img src="assets/img/bitrix24_G2_awards_2024/VideoConferencing_UsersMostLikelyToRecommend_Enterprise_Nps.png" alt="Video Conferencing Users Most Likely To Recommend Enterprise" height="120px">
-                
+                <img src="assets/img/bitrix24_G2_awards_2024/CloudContentCollaboration_HighPerformer_Enterprise_HighPerformer.png"
+                    alt="Cloud Content Collaboration High Performer Enterprise" height="120px">
+
+                <img src="assets/img/bitrix24_G2_awards_2024/CRM_HighPerformer_Mid-Market_AsiaPacific_HighPerformer.png"
+                    alt="CRM High Performer Mid-Market Asia Pacific" height="120px">
+
+                <img src="assets/img/bitrix24_G2_awards_2024/ProjectManagement_EasiestToUse_Enterprise_EaseOfUse.png"
+                    alt="Project Management Easiest To Use Enterprise" height="120px">
+
+                <img src="assets/img/bitrix24_G2_awards_2024/VideoConferencing_UsersMostLikelyToRecommend_Enterprise_Nps.png"
+                    alt="Video Conferencing Users Most Likely To Recommend Enterprise" height="120px">
+
             </div>
         </div>
     </div>
@@ -2209,6 +2216,152 @@
             </div>
         </div>
     </div>
+
+
+    <!-- Faq Section Start -->
+    <section class="faq-section fix section-padding">
+        <div class="container">
+            <div class="faq-wrapper">
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="faq-image">
+                            <img src="assets/img/bitrix24/faqimg.jpg" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="faq-content">
+                            <div class="section-title">
+                                <span class="wow fadeInUp">FAQ’S</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                    Frequently Asked Questions
+                                </h2>
+                            </div>
+                            <div class="faq-accordion mt-4 mt-md-0">
+                                <div class="accordion" id="accordion">
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true"
+                                                aria-controls="faq1">
+                                                Is the 'free forever' plan really free?
+                                            </button>
+                                        </h5>
+                                        <div id="faq1" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Yes, it is! The free plan is a default account state, in which you can
+                                                add an unlimited number of users and enjoy the available tools
+                                                completely free of charge for as long as you wish. Please note that some
+                                                tools like Telephony and apps from Bitrix24 Market are available only on
+                                                the paid plans.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                                Does Bitrix24 have a trial period?
+                                            </button>
+                                        </h5>
+                                        <div id="faq2" class="accordion-collapse show"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Yes, Bitrix24 features a free 15-day trial period that allows you to
+                                                test out most of the features available on our high-tier plans. The
+                                                trial mode can be activated on the Subscription > Activate trial page in
+                                                your cloud account. No credit card is required. Learn more
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq3"
+                                                aria-expanded="false" aria-controls="faq3">
+                                                What’s the difference between annual and monthly billing?
+                                            </button>
+                                        </h5>
+                                        <div id="faq3" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                The difference is how often you pay your subscription fee. The annual
+                                                subscription has a 12-month billing cycle, which means that you pay a
+                                                full subscription price every 12 months (please note that there are no
+                                                installments available).
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq4"
+                                                aria-expanded="false" aria-controls="faq4">
+                                                Can I change my plan?
+                                            </button>
+                                        </h5>
+                                        <div id="faq4" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Yes, you can. Learn more about cloud subscription upgrades and
+                                                downgrades here.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq4"
+                                                aria-expanded="false" aria-controls="faq4">
+                                                How do I cancel the automatic subscription renewal option?
+                                            </button>
+                                        </h5>
+                                        <div id="faq4" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Once you purchase a subscription, the auto-renewal option will be
+                                                enabled by default. You can cancel the automatic renewal at any time on
+                                                the Subscription > Purchase History page in your Bitrix24 account. This
+                                                action will not affect your subscription expiration date. Learn more
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq4"
+                                                aria-expanded="false" aria-controls="faq4">
+                                                How can I get assistance with my project implementation?
+                                            </button>
+                                        </h5>
+                                        <div id="faq4" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                Bitrix24 partners will make your Bitrix24 experience more pleasant and
+                                                productive: from free product demo to advanced implementation,
+                                                customization, and employee training. Bitrix24 partners can also help
+                                                you set up an integration with a third-party app or service. Local
+                                                partners will provide you support in your local language and timezone.
+                                                Just fill in the form and get a personal offer from up to 5 partners.
+                                                You can also browse our partner’s directory and hand-pick the right
+                                                partner.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!--<< Footer Section Start >>-->
-   
+
+
+
+
+
     @include('layouts.footer')
