@@ -845,6 +845,7 @@
     </script>
 
 
+@include('layouts.bitrix24service')
 
     @include('layouts.bitrix_solu')
     <div class="footer-bottom">
