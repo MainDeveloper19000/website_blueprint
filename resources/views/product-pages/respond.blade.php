@@ -276,6 +276,8 @@
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">
                             Respond.io Chat with Leads, Make More Money
                         </h1>
+                        <h6 class="wow fadeInUp" data-wow-delay=".5s">Capture leads, automate chats and converse to
+                            convert with the leading customer conversation management software</h6>
                         <a href="https://app.respond.io/user/register?_gl=1*vzkgg5*_gcl_au*NzMzNDU2OTEuMTcxNzY2NjI4MA..*_ga*NTkxNDYzNzEyLjE3MDk4OTAyNzY.*_ga_0EZ318H868*MTcyNTI0NjMyNC4yMjcuMS4xNzI1MjQ2MzQ4LjM2LjAuMA"
                             class="theme-btn bg-color-2 wow fadeInUp" data-wow-delay=".5s">
                             Start For Free<i class="fas fa-long-arrow-alt-right"></i>
@@ -291,9 +293,12 @@
         </div>
     </section>
     <!-- Feature Section Start -->
+    <br>
+    <br>
+   <center><h5 style="font-size: 50px;color: rgb(46, 46, 126)">Industry Specific</h5></center> 
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide">              
                 <section class="feature-hosting-section fix section-padding">
                     <div class="container">
                         <div class="feature-content-warpper margin-top-60">
@@ -306,16 +311,33 @@
                                 <div class="col-lg-6">
                                     <div class="feature-hosting-content">
                                         <div class="section-title">
-                                            <span class="wow fadeInUp">RETAIL</span>
-                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">From Clicks to Bricks:
-                                                Enhancing Retail
-                                                with Online Chat</h2>
+                                            {{-- <span class="wow fadeInUp">RETAIL</span> --}}
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">RETAIL</h2>
+                                        </div>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Electronic
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Fashion & Apparel
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Furniture
+                                                </li>
+                                                <li><i class="far fa-check"></i>
+                                                    Jewelry
+                                                </li>
+                                            </ul>
                                         </div>
                                         <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                            Whether you sell apparel, fine jewelry, electronics or furniture, respond.io
-                                            helps
-                                            businesses like yours market and sell at scale from any channel on a single
-                                            platform.
+                                            retailing is all about Customer Relationship Management. Bitrix24 helps
+                                            create seamless and personalized shopping experiences that lead to better
+                                            sales, increase brand loyalty, and boost sales conversions. Win customers
+                                            over by revealing hidden needs and building deeper connections.
                                         </p>
                                     </div>
                                 </div>
@@ -333,10 +355,25 @@
                                 <div class="col-lg-6">
                                     <div class="feature-hosting-content">
                                         <div class="section-title">
-                                            <span class="wow fadeInUp">EDUCATION</span>
-                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">3X Your Student Intake with
-                                                Respond.io
+                                            {{-- <span class="wow fadeInUp">EDUCATION</span> --}}
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">EDUCATION
                                             </h2>
+                                        </div>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Academic Tutoring
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Afterschool Activities
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Sport & Fitness
+                                                </li>
+                                            </ul>
                                         </div>
                                         <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                                             Don’t lose out on leads because of late replies or lack of visibility.
@@ -375,10 +412,28 @@
                                 <div class="col-lg-6">
                                     <div class="feature-hosting-content">
                                         <div class="section-title">
-                                            <span class="wow fadeInUp">HEALTHCARE</span>
-                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Healthier Patient
-                                                Engagements Over Chat
+                                            {{-- <span class="wow fadeInUp">HEALTHCARE</span> --}}
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">HEALTHCARE
                                             </h2>
+                                        </div>
+
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Beauty Center
+
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Dental Clinic
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Medical Clinic
+                                                </li>
+
+                                            </ul>
                                         </div>
                                         <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                                             Switch appointment bookings, inquiries and teleconsultations over to instant
@@ -404,11 +459,22 @@
                                 <div class="col-lg-6">
                                     <div class="feature-hosting-content">
                                         <div class="section-title">
-                                            <span class="wow fadeInUp">PROFESSIONAL SERVICES</span>
-                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Transform Your Professional
-                                                Services
-                                                with Online Chat
+                                            {{-- <span class="wow fadeInUp">PROFESSIONAL SERVICES</span> --}}
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">PROFESSIONAL SERVICES
                                             </h2>
+                                        </div>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Home Cleaning & Maid Services
+
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Photography & Videography
+                                                </li>
+                                            </ul>
                                         </div>
                                         <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                                             From photography and videography services to home cleaning and maid
@@ -447,10 +513,24 @@
                                 <div class="col-lg-6">
                                     <div class="feature-hosting-content">
                                         <div class="section-title">
-                                            <span class="wow fadeInUp">AUTOMOTIVE</span>
-                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Shift Customer Journeys Into
-                                                High Gear
+                                            {{-- <span class="wow fadeInUp">AUTOMOTIVE</span> --}}
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">AUTOMOTIVE
                                             </h2>
+                                        </div>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Auto Part Retailer
+
+                                                </li>
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Car Dealership
+                                                </li>
+
+
+                                            </ul>
                                         </div>
                                         <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                                             Manage all automotive chats on one platform. Make respond.io a part of your
@@ -474,16 +554,27 @@
                                 <div class="col-lg-6">
                                     <div class="feature-hosting-content">
                                         <div class="section-title">
-                                            <span class="wow fadeInUp">TRAVEL</span>
-                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">Driving Travel Sales with
-                                                Online Chat
+                                            {{-- <span class="wow fadeInUp">TRAVEL</span> --}}
+                                            <h2 class="wow fadeInUp" data-wow-delay=".3s">TRAVEL
                                             </h2>
                                         </div>
+                                        <div class="list-items">
+                                            <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                                <li>
+                                                    <i class="far fa-check"></i>
+                                                    Travel Agency & Tour Operator
+
+                                                </li>
+                                            </ul>
+                                        </div>
                                         <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                            From photography and videography services to home cleaning and maid
-                                            services, respond.io
-                                            helps businesses deliver their services at scale from any channel on a
-                                            single platform.
+                                            Are you struggling to organize all those tiny details about your clients and
+                                            their trips, flights, and cruises? Is the workflow so challenging that your
+                                            agents have started to lose their edge? Are there leaks in your lead
+                                            pipeline? Bitrix24 has a perfect solution for all your travel management
+                                            problems. Collect, store, and manage client and vendor data, build long-term
+                                            relationships, automate tasks, encourage productivity, and streamline your
+                                            sales process, all from a single platform.
                                         </p>
 
                                     </div>
@@ -528,6 +619,16 @@
             },
         });
     </script>
+
+
+
+
+    {{-- banefit service provide --}}
+    
+    @include('layouts.respondservice')
+    {{-- banefit service provide --}}
+
+
     <!--  Section Start Pricing-->
     <section class="pricing-section fix section-padding section-bg" id="pricing-section">
         <div class="pricing-shape">
@@ -1033,9 +1134,9 @@
         <div class="container">
             <div class="swiper brand-slider bor-bottom pb-100 pt-0">
                 <div class="section-title text-center">
-                    <span class="wow fadeInUp">Respond.io integrations</span>
-                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Connect to the Tools <br> You Love</h2>
-                    <p>Powerful apps and integrations to acquire, engage and retain more customers with respond.io.</p>
+                    {{-- <span class="wow fadeInUp">Respond.io integrations</span> --}}
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">integrations</h2>
+                    {{-- <p>Powerful apps and integrations to acquire, engage and retain more customers with respond.io.</p> --}}
                 </div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -1104,6 +1205,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -1117,7 +1219,8 @@
                 <div class="row g-4">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="faq-image">
-                            <img src="https://motopress.com/wp-content/uploads/2020/05/FAQ-plugins-915x524.jpg" alt="img">
+                            <img src="https://motopress.com/wp-content/uploads/2020/05/FAQ-plugins-915x524.jpg"
+                                alt="img">
                         </div>
                     </div>
                     <div class="col-lg-6">

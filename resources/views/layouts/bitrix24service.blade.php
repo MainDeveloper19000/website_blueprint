@@ -15,7 +15,7 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
-            padding: 20px;
+            /* padding: 20px; */
         }
 
         .container {
@@ -92,60 +92,59 @@
 
 
         * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
 
-.stats-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #00aaff, #00ccee);
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: white;
-}
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #00aaff, #00ccee);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
 
-.stat-item {
-    display: flex;
-    align-items: center;
-    margin: 0 20px;
-}
+        .stat-item {
+            display: flex;
+            align-items: center;
+            margin: 0 20px;
+        }
 
-.icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-}
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
 
-.stat-number {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-right: 5px;
-}
+        .stat-number {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-right: 5px;
+        }
 
-.stat-text {
-    font-size: 1.2em;
-}
+        .stat-text {
+            font-size: 1.2em;
+        }
 
-@media (max-width: 768px) {
-    .stats-bar {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .stat-item {
-        margin: 10px 0;
-    }
-}
+        @media (max-width: 768px) {
+            .stats-bar {
+                flex-direction: column;
+                text-align: center;
+            }
 
+            .stat-item {
+                margin: 10px 0;
+            }
+        }
     </style>
 </head>
 
@@ -233,16 +232,70 @@ body {
         <br>
         <div class="stats-bar">
             <div class="stat-item">
-                <img src="{{asset('assets\img\bitrix24\cloud1.png')}}" alt="Cloud Icon" class="icon"> 
+                <img src="{{ asset('assets\img\bitrix24\cloud1.png') }}" alt="Cloud Icon" class="icon">
                 <span class="stat-number">15,000,000</span>
                 <span class="stat-text">organizations have chosen Bitrix24</span>
             </div>
             <div class="stat-item">
-                <img src="{{asset('assets\img\bitrix24\globe-icon.png')}}" alt="Globe Icon" class="icon">
+                <img src="{{ asset('assets\img\bitrix24\globe-icon.png') }}" alt="Globe Icon" class="icon">
                 <span class="stat-text">available in <span class="stat-number">18</span> languages</span>
             </div>
         </div>
 
+
+
+        <div class="swiper-slide" style="background-color: rgb(255, 255, 255)">
+            <section class="feature-hosting-section fix section-padding">
+                <div class="container">
+                    <div class="feature-content-warpper margin-top-60">
+                        <div class="row g-4 justify-content-between align-items-center">
+                            <div class="col-lg-6">
+                                <div class="feature-hosting-content">
+                                    <div class="section-title">
+                                        {{-- <span class="wow fadeInUp">CRM</span> --}}
+                                        <h2 class="wow fadeInUp" data-wow-delay=".3s">What makes Bitrix24 better <br>
+                                            than 99% of other solutions <br>on the market?
+                                        </h2>
+                                    </div>
+
+                                    <div class="list-items">
+                                        <ul class="wow fadeInUp" data-wow-delay=".3s">
+                                            <li>
+                                                <i class="far fa-check"></i>
+                                                Replaces all your current SaaS solutions
+                                            </li>
+                                            <li>
+                                                <i class="far fa-check"></i>
+                                                Free forever for unlimited users
+                                            </li>
+                                            <li>
+                                                <i class="far fa-check"></i>
+                                                Easy to migrate your data from other systems or CRMs
+                                            </li>
+                                            <li><i class="far fa-check"></i>
+                                                Integrated with all your favorite services and apps
+                                            </li>
+                                            <li><i class="far fa-check"></i>
+                                                Used, loved, and trusted by 15,000,000 + users worldwide
+                                            </li>
+                                            <li><i class="far fa-check"></i>
+                                                100% flat fee: predictable costs, no per-user pricing
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="feature-hosting-image">
+                                    <img src="https://www.bitrix24.com/upload/optimizer/converted/images/content_en/solutions/why-img.jpg.webp?1725521592525"
+                                        alt="bitrix24crm">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
 </body>
 
