@@ -23,7 +23,7 @@
             margin: 0 auto;
         }
 
-        h2 {
+        h12 {
             text-align: left;
             margin-bottom: 20px;
             font-size: 1.8em;
@@ -77,7 +77,7 @@
                 grid-template-columns: 1fr;
             }
 
-            h2 {
+            h12 {
                 font-size: 1.5em;
             }
 
@@ -177,9 +177,9 @@
                 </div>
             </div>
         </section>
-
+        <br>
         <section class="specialized-services">
-            <h2></h2>
+            <h12></h12>
             <div class="services-grid">
                 <div class="service-box">
                     <h3>CRM Implementation and Optimization</h3>
@@ -207,9 +207,9 @@
                     </div> --}}
             </div>
         </section>
-
+        <br>
         <section class="additional-services">
-            <h2> </h2>
+            <h12> </h12>
             <div class="services-grid">
                 <div class="service-box">
                     <h3>Bitrix24 Licensing</h3>
@@ -241,10 +241,7 @@
                 <span class="stat-text">available in <span class="stat-number">18</span> languages</span>
             </div>
         </div>
-
-
-
-        <div class="swiper-slide" style="background-color: rgb(255, 255, 255)">
+        <div class="swiper-slide" style="background-color: rgb(255, 255, 255);overflow: hidden">
             <section class="feature-hosting-section fix section-padding">
                 <div class="container">
                     <div class="feature-content-warpper margin-top-60">
@@ -253,9 +250,9 @@
                                 <div class="feature-hosting-content">
                                     <div class="section-title">
                                         {{-- <span class="wow fadeInUp">CRM</span> --}}
-                                        <h2 class="wow fadeInUp" data-wow-delay=".3s">What makes Bitrix24 better <br>
-                                            than 99% of other solutions <br>on the market?
-                                        </h2>
+                                        <h12 class="wow fadeInUp" data-wow-delay=".3s"><b>What makes Bitrix24 better <br>
+                                            than 99% of other solutions <br>on the market?</b>
+                                        </h12>
                                     </div>
 
                                     <div class="list-items">

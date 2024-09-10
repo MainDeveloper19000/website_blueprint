@@ -296,7 +296,7 @@
     <br>
     <br>
    <center><h5 style="font-size: 50px;color: rgb(46, 46, 126)">Industry Specific</h5></center> 
-    <div class="swiper-container">
+    <div class="swiper-container" style="overflow: hidden">
         <div class="swiper-wrapper">
             <div class="swiper-slide">              
                 <section class="feature-hosting-section fix section-padding">
@@ -625,7 +625,7 @@
 
     {{-- banefit service provide --}}
     
-    @include('layouts.respondservice')
+    {{-- @include('layouts.respondservice') --}}
     {{-- banefit service provide --}}
 
 

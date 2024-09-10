@@ -390,11 +390,13 @@
     </section>
     <!-- Feature Section Start -->
     <!-- Swiper -->
-    <div class="swiper-container">
+
+    <div class="swiper-container"​ style="overflow: hidden">
         <div class="swiper-wrapper">
             <!-- COLABORATION Section -->
             <div class="swiper-slide">
                 <section class="feature-hosting-section fix section-padding">
+				
                     <div class="container">
                         <div class="feature-content-warpper margin-top-60">
                             <div class="row g-4 justify-content-between align-items-center">
@@ -844,8 +846,8 @@
         });
     </script>
 
-
-@include('layouts.bitrix24service')
+    {{-- ======================================================== --}}
+    @include('layouts.bitrix24service')
 
     @include('layouts.bitrix_solu')
     <div class="footer-bottom">
@@ -924,7 +926,8 @@
                                 </div>
 
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=17920951&ga=GA1.1.728590792.1724894287&bx_fbp=fb.1.1724894287546.857504256541115124&bx_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36"
+                                        class="pricing-btn">
                                         Register free
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -935,14 +938,12 @@
                                             <i class="fa-solid fa-check"></i>
                                             5 GB
                                         </span>
-
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Unlimited
                                         </span>
-
                                     </li>
                                     <li>
                                         <span>
@@ -956,42 +957,36 @@
                                             <i class="fa-solid fa-check"></i>
                                             Tasks & projects
                                         </span>
-
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             CRM
                                         </span>
-
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Bitrix24 Sign
                                         </span>
-
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Drive
                                         </span>
-
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Contact Center
                                         </span>
-
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Website builder
                                         </span>
-
                                     </li>
                                     <br>
                                     <br>
@@ -1020,7 +1015,8 @@
                                     <span class="style-bg wow fadeInUp">includes 5 users</span>
                                 </div>
                                 <div class="pricing-button">
-                                    <a href="#" class="pricing-btn">
+                                    <a href="https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=17920951&ga=GA1.1.728590792.1724894287&bx_fbp=fb.1.1724894287546.857504256541115124&bx_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36"
+                                        class="pricing-btn">
                                         Buy
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -1125,7 +1121,8 @@
                                     <span class="style-bg wow fadeInUp">includes 50 users</span>
                                 </div>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=17920951&ga=GA1.1.728590792.1724894287&bx_fbp=fb.1.1724894287546.857504256541115124&bx_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36"
+                                        class="pricing-btn">
                                         Buy
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -1235,7 +1232,8 @@
                                     <span class="style-bg wow fadeInUp">includes 100 users</span>
                                 </div>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=17920951&ga=GA1.1.728590792.1724894287&bx_fbp=fb.1.1724894287546.857504256541115124&bx_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36"
+                                        class="pricing-btn">
                                         Buy
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -1380,7 +1378,8 @@
                                     <span class="style-bg wow fadeInUp">includes 250 users</span>
                                 </div>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=17920951&ga=GA1.1.728590792.1724894287&bx_fbp=fb.1.1724894287546.857504256541115124&bx_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36"
+                                        class="pricing-btn">
                                         Buy
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -1538,7 +1537,8 @@
                                 </div>
 
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=17920951&ga=GA1.1.728590792.1724894287&bx_fbp=fb.1.1724894287546.857504256541115124&bx_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36"
+                                        class="pricing-btn">
                                         Register free
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -1631,7 +1631,8 @@
                                     <span class="style-bg wow fadeInUp">includes 5 users</span>
                                 </div>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=17920951&ga=GA1.1.728590792.1724894287&bx_fbp=fb.1.1724894287546.857504256541115124&bx_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36"
+                                        class="pricing-btn">
                                         get Started Now
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -1734,7 +1735,8 @@
                                     <span class="style-bg wow fadeInUp">includes 50 users</span>
                                 </div>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=17920951&ga=GA1.1.728590792.1724894287&bx_fbp=fb.1.1724894287546.857504256541115124&bx_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36"
+                                        class="pricing-btn">
                                         get Started Now
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -1844,7 +1846,8 @@
                                     <span class="style-bg wow fadeInUp">includes 100 users</span>
                                 </div>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=17920951&ga=GA1.1.728590792.1724894287&bx_fbp=fb.1.1724894287546.857504256541115124&bx_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36"
+                                        class="pricing-btn">
                                         get Started Now
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>
@@ -1988,7 +1991,8 @@
                                     <span class="style-bg wow fadeInUp">includes 250 users</span>
                                 </div>
                                 <div class="pricing-button">
-                                    <a href="contact.html" class="pricing-btn">
+                                    <a href="https://www.bitrix24.net/create/?user_lang=en&client_id=site.53889571c99248.40051848&referer=17920951&ga=GA1.1.728590792.1724894287&bx_fbp=fb.1.1724894287546.857504256541115124&bx_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36"
+                                        class="pricing-btn">
                                         get Started Now
                                         <i class="fa-solid fa-arrow-right-long"></i>
                                     </a>

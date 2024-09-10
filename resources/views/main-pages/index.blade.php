@@ -1,5 +1,4 @@
 @include('layouts.header')
-
 <body>
     <!-- Preloader Start -->
     @include('layouts.preload')
@@ -315,7 +314,6 @@
             </div>
         </div>
     </section>
-
     <section class="doming-name-area section-padding pt-0">
         <div class="container">
             {{-- <div class="doming-name-wrapper">
@@ -367,7 +365,6 @@
                 </div> --}}
         </div>
     </section>
-
     <!-- About Company -->
     <section class="hosting-section fix section-padding pt-0">
         <div class="container">
@@ -390,7 +387,6 @@
             </div>
         </div>
     </section>
-
     {{-- Mission and Vision --}}
     <section class="contact-section fix section-bg section-padding">
         <div class="container">
@@ -433,9 +429,6 @@
             </div>
         </div>
     </section>
-
-    
-
     {{-- End Mission and Vision --}}
     <!-- Hosting Section Start -->
     <br>
@@ -448,12 +441,12 @@
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Services</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row g-4"> <!-- 'g-4' adds gap between columns -->
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <!-- Optional icon or image -->
+                            <img src="{{asset('assets/img/Icon_home_Services/implementation_icon.png')}}" alt="implementation_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">Bitrix24 Implementation and Setup</a></h3>
@@ -466,12 +459,11 @@
                         </div>
                     </div>
                 </div>
-                <br>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <!-- Optional icon or image -->
+                            <img src="{{asset('assets/img/Icon_home_Services/Training_icon.png')}}" alt="Training_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">User Training and Support</a></h3>
@@ -480,16 +472,15 @@
                                 Bitrix24 and respond.io. Our training programs are designed to empower your team with
                                 the knowledge and skills needed to maximize the potential of these platforms. We provide
                                 continuous support to address any technical issues and ensure seamless operation.
-
                             </p>
                         </div>
                     </div>
-                </div><br>
+                </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <!-- Optional icon or image -->
+                            <img src="{{asset('assets/img/Icon_home_Services/Customize_icon.png')}}" alt="Customize_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">Customization and Development</a></h3>
@@ -501,12 +492,12 @@
                             </p>
                         </div>
                     </div>
-                </div><br>
+                </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <!-- Optional icon or image -->
+                            <img src="{{asset('assets/img/Icon_home_Services/omnichannel_icon.png')}}" alt="omnichannel_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#"> Omnichannel Customer Engagement</a></h3>
@@ -515,16 +506,15 @@
                                 help businesses build a cohesive customer engagement strategy that leverages various
                                 communication channels, ensuring consistent and personalized interactions with
                                 customers.
-
                             </p>
                         </div>
                     </div>
-                </div><br>
+                </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <!-- Optional icon or image -->
+                            <img src="{{asset('assets/img/Icon_home_Services/chat-bot-icon.png')}}" alt="chat-bot-icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#"> Chatbot Development</a></h3>
@@ -536,12 +526,12 @@
                             </p>
                         </div>
                     </div>
-                </div><br>
+                </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <!-- Optional icon or image -->
+                            <img src="{{asset('assets/img/Icon_home_Services/hardware-icon.png')}}" alt="hardware-icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">Hardware</a></h3>
@@ -556,7 +546,7 @@
             </div>
         </div>
     </section>
-
+    
     <div class="brand-section pt-100 pb-0" id="brandsection">
         <div class="container">
             <div class="swiper brand-slider bor-bottom pb-100 pt-0">
@@ -635,8 +625,6 @@
             </div>
         </div>
     </div>
-
-
     <br>
     {{-- <link rel="stylesheet" href="{{ 'assets/css/custom.css' }}"> --}}
     <section class="hosting-section fix section-padding pt-0">
@@ -651,7 +639,7 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <!-- Optional icon or image -->
+                            <img src="{{asset('assets\img\Icon_home_ChooseUs\comprehensive_icon.png')}}" alt="comprehensive_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">Comprehensive Services</a></h3>
@@ -667,7 +655,7 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <!-- Optional icon or image -->
+                            <img src="{{asset('assets/img/Icon_home_ChooseUs/Tailored_icon.png')}}" alt="Tailored_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">Tailored Strategies</a></h3>
@@ -682,7 +670,7 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <!-- Optional icon or image -->
+                            <img src="{{asset('assets\img\Icon_home_ChooseUs\Continuous_icon.png')}}" alt="Continuous_icon.png" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#"> Continuous Improvement</a></h3>
@@ -696,7 +684,6 @@
             </div>
         </div>
     </section>
-
     {{-- Mission and Vision --}}
     <section class="contact-section fix section-bg section-padding">
         <div class="container">
@@ -720,7 +707,6 @@
         </div>
     </section>
     {{-- End Mission and Vision --}}
-
     <!-- Client Success Stories -->
     <section class="cta-contact-section">
         <div class="container">
@@ -746,5 +732,4 @@
         </div>
     </section>
     <br>
-
     @include('layouts.footer')

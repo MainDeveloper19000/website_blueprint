@@ -51,6 +51,8 @@
     color: black;
 }
 
+
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .hosting-inner-items {

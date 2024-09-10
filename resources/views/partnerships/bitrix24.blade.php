@@ -940,7 +940,7 @@
 
     
     <!-- Get Started Today -->
-    <section class="feature-hosting-section fix section-padding">
+    {{-- <section class="feature-hosting-section fix section-padding">
         <div class="container">
             <div class="feature-content-warpper style-2">
                 <div class="row g-4 justify-content-between align-items-center">
@@ -977,7 +977,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- Testimonia Section Start -->
     {{-- <section class="testimonial-section fix section-padding">
