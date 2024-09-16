@@ -1,4 +1,5 @@
 @include('layouts.header')
+
 <body>
     <!-- Preloader Start -->
     @include('layouts.preload')
@@ -13,7 +14,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="{{ url('/') }}">
-                                <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                <img src="{{ asset('assets\img\logo\logogogogo.png') }}" alt="">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -23,8 +24,9 @@
                         </div>
                     </div>
                     <p class="text d-none d-xl-block">
-                        Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
-                        feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                        Blueprint Technology is offers solutions for business process optimization and digital
+                        transformation, enhancing customer engagement, streamlining workflows, and improving efficiency
+                        through platform implementation and customization
                     </p>
                     <div class="mobile-menu fix mb-3"></div>
                     <div class="offcanvas__contact">
@@ -286,23 +288,6 @@
                         <h6 class="wow fadeInUp" data-wow-delay=".5s">Simplify Your Operations and Boost Efficiency
                         </h6>
                         <div class="hero-author">
-                            {{-- <a href="{{ url('/') }}" class="theme-btn bg-color-2 wow fadeInUp"
-                                data-wow-delay=".7s">
-                                Start Free <i class="fas fa-long-arrow-alt-right"></i>
-                            </a> --}}
-                            {{-- <div class="author-content wow fadeInUp" data-wow-delay=".9s;">
-                                <img src="assets/img/hero/author-img.png" alt="author-img">
-                                <div class="content">
-                                    <div class="star">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </div>
-                                    <p class="text-white">450+ reviews</p>
-                                </div>
-                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -316,55 +301,10 @@
     </section>
     <section class="doming-name-area section-padding pt-0">
         <div class="container">
-            {{-- <div class="doming-name-wrapper">
-                    <h3 class="text-white wow fadeInUp" data-wow-delay=".3s">Find Your Perfect Domain Name</h3>
-                    <form action="#" class="doming-input-form wow fadeInUp" data-wow-delay=".5s">
-                        <div class="doming-input">
-                            <input type="text" placeholder="domain.com">
-                            <button class="theme-btn bg-color-2" type="submit">Search Now</button>
-                            <div class="select-area">
-                                <select name="cate" class="category">
-                                    <option value="1">
-                                        .com
-                                    </option>
-                                    <option value="1">
-                                        .net
-                                    </option>
-                                    <option value="1">
-                                        .info
-                                    </option>
-                                    <option value="1">
-                                        .store
-                                    </option>
-                                </select>
-                            </div>
-                        </div>
-                    </form>
-                    <ul class="doming-list">
-                        <li class="wow fadeInUp" data-wow-delay=".2s">
-                            <span>.com</span>
-                            $9.95
-                        </li>
-                        <li class="wow fadeInUp" data-wow-delay=".4s">
-                            <span>.Info</span>
-                            $11.99
-                        </li>
-                        <li class="wow fadeInUp" data-wow-delay=".6s">
-                            <span>.Net</span>
-                            $8.95
-                        </li>
-                        <li class="wow fadeInUp" data-wow-delay=".8s">
-                            <span>.Store</span>
-                            $10.50
-                        </li>
-                        <li class="wow fadeInUp" data-wow-delay=".9s">
-                            <span>.ORG</span>
-                            $11.95
-                        </li>
-                    </ul>
-                </div> --}}
         </div>
     </section>
+    <br id="aboutmission">
+    <br><br><br>
     <!-- About Company -->
     <section class="hosting-section fix section-padding pt-0">
         <div class="container">
@@ -374,9 +314,6 @@
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">About Our Company
                     </h2>
                 </div>
-                {{-- <a href="vps-hosting.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Explore More <i
-                        class="fas fa-long-arrow-alt-right"></i>
-                </a> --}}
             </div>
             <div class="row">
                 <p style="font-size: 24px">Blueprint Technology is offers solutions for business process optimization
@@ -446,7 +383,8 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="{{asset('assets/img/Icon_home_Services/implementation_icon.png')}}" alt="implementation_icon" width="50px">
+                            <img src="{{ asset('assets/img/Icon_home_Services/implementation_icon.png') }}"
+                                alt="implementation_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">Bitrix24 Implementation and Setup</a></h3>
@@ -463,7 +401,8 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="{{asset('assets/img/Icon_home_Services/Training_icon.png')}}" alt="Training_icon" width="50px">
+                            <img src="{{ asset('assets/img/Icon_home_Services/Training_icon.png') }}"
+                                alt="Training_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">User Training and Support</a></h3>
@@ -480,7 +419,8 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="{{asset('assets/img/Icon_home_Services/Customize_icon.png')}}" alt="Customize_icon" width="50px">
+                            <img src="{{ asset('assets/img/Icon_home_Services/Customize_icon.png') }}"
+                                alt="Customize_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">Customization and Development</a></h3>
@@ -497,7 +437,8 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="{{asset('assets/img/Icon_home_Services/omnichannel_icon.png')}}" alt="omnichannel_icon" width="50px">
+                            <img src="{{ asset('assets/img/Icon_home_Services/omnichannel_icon.png') }}"
+                                alt="omnichannel_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#"> Omnichannel Customer Engagement</a></h3>
@@ -514,7 +455,8 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="{{asset('assets/img/Icon_home_Services/chat-bot-icon.png')}}" alt="chat-bot-icon" width="50px">
+                            <img src="{{ asset('assets/img/Icon_home_Services/chat-bot-icon.png') }}"
+                                alt="chat-bot-icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#"> Chatbot Development</a></h3>
@@ -531,14 +473,19 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="{{asset('assets/img/Icon_home_Services/hardware-icon.png')}}" alt="hardware-icon" width="50px">
+                            <img src="{{ asset('assets/img/Icon_home_Services/hardware-icon.png') }}"
+                                alt="hardware-icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">Hardware</a></h3>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley of type and scrambled it to make a type specimen book.
+                                Provides a comprehensive solution for managing IT infrastructure. The provider begins by
+                                evaluating your existing hardware to identify what needs replacing or upgrading. They
+                                then match your needs with their available hardware, creating a plan that aligns with
+                                your business goals and security standards. New hardware is delivered and installed,
+                                with the provider also handling the return and disposal of old equipment. Regular
+                                maintenance, updates, and repairs, including warranty issues, are managed by the
+                                provider.
                             </p>
                         </div>
                     </div>
@@ -546,7 +493,6 @@
             </div>
         </div>
     </section>
-    
     <div class="brand-section pt-100 pb-0" id="brandsection">
         <div class="container">
             <div class="swiper brand-slider bor-bottom pb-100 pt-0">
@@ -639,11 +585,12 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="{{asset('assets\img\Icon_home_ChooseUs\comprehensive_icon.png')}}" alt="comprehensive_icon" width="50px">
+                            <img src="{{ asset('assets\img\Icon_home_ChooseUs\comprehensive_icon.png') }}"
+                                alt="comprehensive_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">Comprehensive Services</a></h3>
-                            <p>
+                            <p style="text-align: justify; font-size: 16px">
                                 From initial setup and customization to ongoing support and optimization, we offer a
                                 full range of services to ensure you get the most out of respond.io.
                             </p>
@@ -655,11 +602,12 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="{{asset('assets/img/Icon_home_ChooseUs/Tailored_icon.png')}}" alt="Tailored_icon" width="50px">
+                            <img src="{{ asset('assets/img/Icon_home_ChooseUs/Tailored_icon.png') }}"
+                                alt="Tailored_icon" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#">Tailored Strategies</a></h3>
-                            <p>
+                            <p style="text-align: justify; font-size: 16px">
                                 We understand that every business is unique. We work closely with you to develop
                                 strategies that align with your goals and enhance your customer interactions.
                             </p>
@@ -670,11 +618,12 @@
                     <div class="hosting-inner-items responsive-style"
                         style="background-image: url('assets/img/hosting/card-bg.png');">
                         <div class="icon">
-                            <img src="{{asset('assets\img\Icon_home_ChooseUs\Continuous_icon.png')}}" alt="Continuous_icon.png" width="50px">
+                            <img src="{{ asset('assets\img\Icon_home_ChooseUs\Continuous_icon.png') }}"
+                                alt="Continuous_icon.png" width="50px">
                         </div>
                         <div class="content">
                             <h3><a href="#"> Continuous Improvement</a></h3>
-                            <p>
+                            <p style="text-align: justify; font-size: 16px">
                                 Our partnership with respond.io means we stay updated with the latest features and best
                                 practices, ensuring your solutions are always ahead of the curve.
                             </p>
@@ -718,10 +667,13 @@
                     <span class="white-text wow fadeInUp">Client Success</span>
                     <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">Client Success Stories</h2>
                     <span class="white-text wow fadeInUp">
-                        <P>- Client A : An e-commerce leader saw a 30% increase in sales conversions after implementing our customized CRM and marketing automation solutions.</P>
-                        <P>- Client B: A healthcare provider reduced appointment no-shows by 25% through our automated scheduling and follow-up system.</P>
-                        <P>- Client C: A financial services firm improved client satisfaction scores by 20% after optimizing their customer engagement strategies with our help.</P>
-                        
+                        <P>- Client A : An e-commerce leader saw a 30% increase in sales conversions after implementing
+                            our customized CRM and marketing automation solutions.</P>
+                        <P>- Client B: A healthcare provider reduced appointment no-shows by 25% through our automated
+                            scheduling and follow-up system.</P>
+                        <P>- Client C: A financial services firm improved client satisfaction scores by 20% after
+                            optimizing their customer engagement strategies with our help.</P>
+
 
                     </span>
                 </div>

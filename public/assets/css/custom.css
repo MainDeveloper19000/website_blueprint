@@ -2,12 +2,12 @@
 .hosting-inner-items {
     background-size: cover;
     background-position: center;
-    padding: 20px; /* Space inside the box */
     border-radius: 8px; /* Rounded corners */
+    position: absolute;
     color: #333; /* Darker text color for better readability */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     height: 100%; /* Ensures the box takes full height of its container */
     box-sizing: border-box; /* Includes padding and border in element's total width and height */
     overflow: hidden; /* Hide any overflow text */
@@ -35,7 +35,6 @@
 /* Heading styling */
 .hosting-inner-items h3 {
     font-size: 18px; /* Adjust size as needed */
-    margin-bottom: 10px;
 }
 
 .hosting-inner-items h3 a {
@@ -45,9 +44,10 @@
 
 /* Paragraph styling */
 .hosting-inner-items p {
-    font-size: 14px; /* Adjust size as needed */
+    font-size: 16px; /* Adjust size as needed */
     line-height: 1.6; /* Better readability */
     margin: 0; /* Remove default margin */
+    text-align: justify;
     color: black;
 }
 

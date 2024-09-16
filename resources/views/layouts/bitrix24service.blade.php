@@ -213,7 +213,7 @@
             <div class="services-grid">
                 <div class="service-box">
                     <h3>Bitrix24 Licensing</h3>
-                    <p>Offering licensing options and pricing for various Bitrix24 packages.</p>
+                    <p>- Offering licensing options and pricing for various Bitrix24 packages.</p>
                 </div>
                 <div class="service-box">
                     <h3>App Development</h3>
@@ -221,7 +221,7 @@
                 </div>
                 <div class="service-box">
                     <h3>Web Development</h3>
-                    <p>Building and scaling websites and web applications tailored to client needs.</p>
+                    <p>- Building and scaling websites and web applications tailored to client needs.</p>
                 </div>
                 <div class="service-box">
                     <h3>Consulting Services</h3>

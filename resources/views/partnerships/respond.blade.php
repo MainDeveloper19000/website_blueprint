@@ -396,7 +396,7 @@
                                 <img src="assets/img/hosting/icon-3.png" alt="img">
                             </div>
                             <div class="thumb">
-                                <img src="assets/img/gym-man.png" alt="img">
+                                <img src="assets\img\respond\Teamwork_Create_Solution_generated.jpg" alt="img">
                             </div>
                         </div>
                     </div>
@@ -414,7 +414,7 @@
                 <div class="row g-4 justify-content-between align-items-center">
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
                         <div class="feature-hosting-image">
-                            <img src="assets/img/hosting-boy.png" alt="img">
+                            <img src="assets\img\respond\vecteezy_a-group-of-business-professionals-work-together-on-a_47783299.jpg" alt="img">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -463,7 +463,7 @@
                                 <img src="assets/img/hosting/icon-3.png" alt="img">
                             </div>
                             <div class="thumb">
-                                <img src="assets/img/gym-man.png" alt="img">
+                                <img src="assets\img\respond\vecteezy_businessman-walking-on-a-bar-chart-planning-each-step-to_19848516.jpg" alt="img">
                             </div>
                         </div>
                     </div>

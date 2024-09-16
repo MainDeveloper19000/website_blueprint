@@ -65,8 +65,13 @@
                                                 <li><a href="{{ route('partnerships.bitrix24') }}">Bitirx24 
                                                         Partner</a></li>
                                                 <li><a href="{{ route('partnerships.respond') }}">Respond.io
-                                                        Partner</a></li>
+                                                        Partner</a></li>                                   
                                             </ul>
+                                        </li>
+                                        <li>
+                                            <a href="{{url('/')}}#aboutmission">
+                                                About Us           
+                                            </a>   
                                         </li>
                                         <li>
                                             <a href="#">
@@ -74,8 +79,7 @@
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                {{-- <li><a href="{{ route('help_center.faq') }}">Faq</a></li> --}}
-                                                <li><a href="{{ route('help_center.about') }}">About</a></li>
+                                                {{-- <li><a href="{{ route('help_center.faq') }}">Faq</a></li> --}}                                             
                                                 <li><a href="{{ route('help_center.support') }}">Support</a></li>
                                                 <li><a href="{{ route('help_center.contact') }}">Contact Us</a></li>
                                             </ul>

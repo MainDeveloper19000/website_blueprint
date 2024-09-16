@@ -485,10 +485,9 @@
 
                                     </div>
                                 </div>
-
                                 <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="feature-hosting-image">
-                                        <img src="assets/img/education_respond.jpg" alt="img"
+                                        <img src="https://cdn.prod.website-files.com/6030eb20edb26744961d31ee/66a3027664f58437e88743ca_Professional-Services-Photography-Videography-p-800.png" alt="img"
                                             style="border-radius: 12px">
                                     </div>
                                 </div>
@@ -498,7 +497,6 @@
                     </div>
                 </section>
             </div>
-
             <div class="swiper-slide">
                 <section class="feature-hosting-section fix section-padding">
                     <div class="container">
@@ -522,14 +520,11 @@
                                                 <li>
                                                     <i class="far fa-check"></i>
                                                     Auto Part Retailer
-
                                                 </li>
                                                 <li>
                                                     <i class="far fa-check"></i>
                                                     Car Dealership
                                                 </li>
-
-
                                             </ul>
                                         </div>
                                         <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
@@ -582,7 +577,7 @@
 
                                 <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="feature-hosting-image">
-                                        <img src="assets/img/Travel.jpg" alt="img" style="border-radius: 12px">
+                                        <img src="https://cdn.prod.website-files.com/6030eb20edb26744961d31ee/66a311b811c8222c5702c42e_Travel-1-p-800.png" alt="img" style="border-radius: 12px">
                                     </div>
                                 </div>
 
@@ -637,7 +632,9 @@
         <div class="container">
             <div class="section-title text-center">
                 <span class="wow fadeInUp">Pricing Plans</span>
-                <h2 class="wow fadeInUp" data-wow-delay=".3s">Plans Built to Scale <br>Your Business</h2>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">Plans Built to Scale
+                   <br>Your Business</h2>
+                   <p style="font-size: 20px">Pay only for the contacts you message each month.</p>
             </div>
             <div class="pricing-tab-header">
                 <div class="arrow-shape">
@@ -666,13 +663,13 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                             <div class="pricing-items style-2 active">
-                                <h6 class="top-text">Starter Plans</h6>
+                                <h6 class="top-text">Starter</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
                                         {{-- <del>120.99</del>s --}}
                                         <center><span>Starting at</span></center>
                                     </div>
-                                    <h2>$99 <sub>/mo</sub></h2>
+                                    <h2>$99 <sub>/month</sub></h2>
                                 </div>
 
                                 <p class="text-center">
@@ -689,49 +686,49 @@
                                             <i class="fa-solid fa-check"></i>
                                             Team & Custom Inboxes
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Mobile App
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Respond AI: AI Prompt
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Respond AI: AI Assist
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Basic Reports
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Two-Factor Authentication (2FA)
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Growth Widgets
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
@@ -748,10 +745,10 @@
                                 <h6 class="top-text">Growth</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        <b>Most Popular</b>
+                                        <b style="background-color: rgb(243, 255, 74);border-radius: 10px;padding: 3px;">Most Popular</b>
                                         <span>Starting at</span>
                                     </div>
-                                    <h2>$199<sub>/mo</sub></h2>
+                                    <h2>$199<sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
                                     5 Users Included
@@ -768,49 +765,49 @@
                                             <i class="fa-solid fa-check"></i>
                                             Broadcasts
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Workflows
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Respond AI: AI Agent
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Advanced Reports
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Data Export
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Zapier & Make Integratio
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Developer API
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
@@ -830,7 +827,7 @@
                                         {{-- <del>120.99</del> --}}
                                         <center><span>Starting at</span></center>
                                     </div>
-                                    <h2>$349<sub>/mo</sub></h2>
+                                    <h2>$349<sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
                                     5 Users Included,
@@ -845,42 +842,42 @@
                                             <i class="fa-solid fa-check"></i>
                                             Mask Phone Number & Email Address
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Multiple Workspaces
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             HTTP Requests in Workflows
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Incoming & Outgoing Webhooks
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Single Sign-On (SSO)
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Custom Channels
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
@@ -898,13 +895,13 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay=".4s">
                             <div class="pricing-items style-2 active">
-                                <h6 class="top-text">Starter Plans</h6>
+                                <h6 class="top-text">Starter</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
                                         {{-- <del>120.99</del>s --}}
                                         <center><span>Starting at</span></center>
                                     </div>
-                                    <h2>$79 <sub>/mo</sub></h2>
+                                    <h2>$79 <sub>/month</sub></h2>
                                 </div>
 
                                 <p class="text-center">
@@ -921,49 +918,49 @@
                                             <i class="fa-solid fa-check"></i>
                                             Team & Custom Inboxes
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Mobile App
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Respond AI: AI Prompt
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Respond AI: AI Assist
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Basic Reports
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Two-Factor Authentication (2FA)
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Growth Widgets
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
@@ -980,10 +977,10 @@
                                 <h6 class="top-text">Growth</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        <b>Most Popular</b>
+                                        <b style="background-color: rgb(243, 255, 74);border-radius: 10px;padding: 3px;">Most Popular</b>
                                         <span>Starting at</span>
                                     </div>
-                                    <h2>$159<sub>/mo</sub></h2>
+                                    <h2>$159<sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
                                     5 Users Included
@@ -1000,49 +997,49 @@
                                             <i class="fa-solid fa-check"></i>
                                             Broadcasts
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Workflows
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Respond AI: AI Agent
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Advanced Reports
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Data Export
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Zapier & Make Integratio
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Developer API
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                 </ul>
                                 <div class="pricing-button">
@@ -1062,7 +1059,7 @@
                                         {{-- <del>120.99</del> --}}
                                         <center><span>Starting at</span></center>
                                     </div>
-                                    <h2>$279<sub>/mo</sub></h2>
+                                    <h2>$279<sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
                                     5 Users Included,
@@ -1077,42 +1074,42 @@
                                             <i class="fa-solid fa-check"></i>
                                             Mask Phone Number & Email Address
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Multiple Workspaces
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             HTTP Requests in Workflows
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Incoming & Outgoing Webhooks
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Single Sign-On (SSO)
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                     <li>
                                         <span>
                                             <i class="fa-solid fa-check"></i>
                                             Custom Channels
                                         </span>
-                                        <i class="fa-light fa-circle-question"></i>
+                                        
                                     </li>
                                 </ul>
                                 <div class="pricing-button">

@@ -15,7 +15,7 @@
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <a href="{{ url('/') }}">
-                                <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                <img src="{{ asset('assets\img\logo\logogogogo.png') }}" alt="logo-img">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -361,30 +361,6 @@
                                 we have successfully completed over 30 projects in various business sectors. We also
                                 integrate Bitrix24 with third-party systems based on our clients' requirements.
                             </p>
-                            {{-- <div class="list-items">
-                                    <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Branding and design Identity 
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Web site Marketing Solutions
-                                        </li>
-                                    </ul>
-                                    <ul class="wow fadeInUp" data-wow-delay=".5s">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Unlimited Application Installation
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            24/7 system Monitoring
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Explore More <i class="fas fa-long-arrow-alt-right"></i> 
-                                </a> --}}
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".4s">
@@ -397,7 +373,7 @@
                             </div>
                             Achieving
                             <div class="thumb">
-                                <img src="{{ asset('assets/img/bitrix24/Flying.webp') }}">
+                                <img src="{{ asset('assets\img\Bitrix_Partnership_pic_icon\Partner_pic_icon\new_office_moc.png') }}">
                                 {{-- <img src="assets/img/Flying.webp" alt="img"> --}}
                             </div>
                         </div>
@@ -416,8 +392,7 @@
                 <div class="row g-4 justify-content-between align-items-center">
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
                         <div class="feature-hosting-image">
-                            <img src="{{ asset('assets/img/bitrix24/Automation.jpg') }}">
-
+                            <img src="{{ asset('assets\img\Bitrix_Partnership_pic_icon\Partner_pic_icon\cloudman-10.png') }}">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -432,31 +407,7 @@
                                 errors, allowing your team to focus on more strategic activities. Our tailored solutions
                                 are designed to meet the unique needs of each client, ensuring maximum efficiency and
                                 productivity.
-                            </p>
-                            {{-- <div class="list-items">
-                                    <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            30-day money back guarantee
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Web site Marketing Solutions
-                                        </li>
-                                    </ul>
-                                    <ul class="wow fadeInUp" data-wow-delay=".5s">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Unlimited Application Installation
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            24/7 system Monitoring
-                                        </li>
-                                    </ul>
-                                </div> --}}
-                            {{-- <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i class="fas fa-long-arrow-alt-right"></i> 
-                                </a> --}}
+                            </p>                       
                         </div>
                     </div>
                 </div>
@@ -479,8 +430,8 @@
                             </div>
                             <div class="hosting-items wow fadeInUp mt-4 mt-md-0" data-wow-delay=".5s">
                                 <div class="icon">
-                                    <img src="{{ asset('assets/img/bitrix24/icon_crm.png') }}">
-                                    {{-- <img src="assets/img/hosting/icon-9.png" alt="img">                                           --}}
+                                    
+                                    <img src="assets/img/hosting/icon-9.png" alt="img">
                                 </div>
                                 <div class="content">
                                     <h4>Customer Relationship Management (CRM)</h4>
@@ -491,20 +442,11 @@
                                         long-lasting relationships with your clients.</p>
                                 </div>
                             </div>
-                            {{-- <div class="hosting-items wow fadeInUp" data-wow-delay=".7s">
-                                    <div class="icon">
-                                        <img src="assets/img/hosting/icon-10.png" alt="img">                                          
-                                    </div>
-                                    <div class="content">
-                                        <h4>Better Security and faster Server</h4>
-                                        <p>Cursus libero sit amet ultrices. Nullam sit amet ornare neque duis vitae congue ante, nec tempus quam. Donec non.</p>
-                                    </div>
-                                </div> --}}
                         </div>
                     </div>
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
                         <div class="hosting-image">
-                            <img src="{{ asset('assets/img/bitrix24/crm.webp') }}">
+                            <img src="{{ asset('assets\img\Bitrix_Partnership_pic_icon\Partner_pic_icon\cloudman-13.png') }}">
                         </div>
                     </div>
                 </div>
@@ -519,8 +461,7 @@
                 <div class="row g-4 justify-content-between align-items-center">
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
                         <div class="feature-hosting-image">
-                            <img src="{{ asset('assets/img/bitrix24/Proven.jpg') }}">
-
+                            <img src="{{ asset('assets\img\Bitrix_Partnership_pic_icon\Partner_pic_icon\cloudman-04.png') }}">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -535,31 +476,7 @@
                                 have helped them achieve their goals through our innovative solutions. Our experience
                                 and expertise make us the go-to partner for organizations looking to enhance their
                                 operations and customer relationships.
-                            </p>
-                            {{-- <div class="list-items">
-                                    <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            30-day money back guarantee
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Web site Marketing Solutions
-                                        </li>
-                                    </ul>
-                                    <ul class="wow fadeInUp" data-wow-delay=".5s">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Unlimited Application Installation
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            24/7 system Monitoring
-                                        </li>
-                                    </ul>
-                                </div> --}}
-                            {{-- <a href="pricing.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">See Pricing <i class="fas fa-long-arrow-alt-right"></i> 
-                                </a> --}}
+                            </p>                    
                         </div>
                     </div>
                 </div>
@@ -594,16 +511,7 @@
                                         providing you with a unified platform to manage your business.
                                     </p>
                                 </div>
-                            </div>
-                            {{-- <div class="hosting-items wow fadeInUp" data-wow-delay=".7s">
-                                    <div class="icon">
-                                        <img src="assets/img/hosting/icon-10.png" alt="img">                                          
-                                    </div>
-                                    <div class="content">
-                                        <h4>Better Security and faster Server</h4>
-                                        <p>Cursus libero sit amet ultrices. Nullam sit amet ornare neque duis vitae congue ante, nec tempus quam. Donec non.</p>
-                                    </div>
-                                </div> --}}
+                            </div>                       
                         </div>
                     </div>
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
@@ -615,8 +523,6 @@
             </div>
         </div>
     </section>
-
-
     <!-- Why Choose Us? -->
     <section class="faq-section fix section-padding pt-0">
         <div class="container">
@@ -625,7 +531,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="faq-image">
 
-                            <img src="{{ asset('assets/img/bitrix24/question-icon.png') }}">
+                            <img src="{{ asset('assets\img\Bitrix_Partnership_pic_icon\Partner_pic_icon\cloudman-16.png') }}" style="width: 600px">
                             {{-- <img src="assets/img/faq.png" alt="img"> --}}
                         </div>
                     </div>
@@ -709,375 +615,4 @@
             </div>
         </div>
     </section>
-
-    <!-- Choose Us Section Start -->
-    {{-- <section class="choose-us-section-2 pt-100 pb-100 margin-top-5">
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="choose-us-card-items mt-0">
-                            <div class="icon">
-                                <img src="assets/img/choose/safe-icon.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Safe and Secured</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="choose-us-card-items mt-0">
-                            <div class="icon">
-                                <img src="assets/img/choose/bank-icon.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Money-Back Guarantee</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                        <div class="choose-us-card-items mt-0">
-                            <div class="icon">
-                                <img src="assets/img/choose/secured-icon.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Safe and Secured</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                        <div class="choose-us-card-items mt-0">
-                            <div class="icon">
-                                <img src="assets/img/choose/support-icon.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Dedicated Support</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-
-    <!-- Team Section Start -->
-
-
-    {{-- <section class="team-section fix section-padding">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="style-border wow fadeInUp">Our Expart</span>
-                    <h2 class="mb-3 wow fadeInUp" data-wow-delay=".3s">Our expert team</h2>
-                    <p class="wow fadeInUp" data-wow-delay=".5s">Aliquam viverra accumsan lectus in dignissim ante interdum eu Sed odio massa</p>
-                </div>
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="team-card-item">
-                            <div class="team-image">
-                                <img src="assets/img/team/01.jpg" alt="img">
-                            </div>
-                            <div class="team-content bg-cover" style="background-image: url('assets/img/team/team-shape.png');">
-                               <h5><a href="team-details.html">Darlene Robertson</a></h5>
-                               <p>Web Designer</p>
-                                <div class="social-profile">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    </ul>
-                                    <span class="plus-btn"><i class="fa-light fa-share-nodes"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="team-card-item">
-                            <div class="team-image">
-                                <img src="assets/img/team/02.jpg" alt="img">
-                            </div>
-                            <div class="team-content bg-cover" style="background-image: url('assets/img/team/team-shape.png');">
-                               <h5><a href="team-details.html">Leslie Alexander</a></h5>
-                               <p>Nursing Assistant</p>
-                                <div class="social-profile">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    </ul>
-                                    <span class="plus-btn"><i class="fa-light fa-share-nodes"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                        <div class="team-card-item">
-                            <div class="team-image">
-                                <img src="assets/img/team/03.jpg" alt="img">
-                            </div>
-                            <div class="team-content bg-cover" style="background-image: url('assets/img/team/team-shape.png');">
-                               <h5><a href="team-details.html">Ralph Edwards</a></h5>
-                               <p>President of Sales</p>
-                                <div class="social-profile">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    </ul>
-                                    <span class="plus-btn"><i class="fa-light fa-share-nodes"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                        <div class="team-card-item">
-                            <div class="team-image">
-                                <img src="assets/img/team/04.jpg" alt="img">
-                            </div>
-                            <div class="team-content bg-cover" style="background-image: url('assets/img/team/team-shape.png');">
-                               <h5><a href="team-details.html">Kristin Watson</a></h5>
-                               <p>Software Tester</p>
-                                <div class="social-profile">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    </ul>
-                                    <span class="plus-btn"><i class="fa-light fa-share-nodes"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-
-    <!-- Choose Us Section Start -->
-    {{-- <section class="choose-us-section fix section-padding bg-cover" style="background-image: url('assets/img/feature-bg.jpg');">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="style-border-white text-white wow fadeInUp">Why choose uS</span>
-                    <h2 class="mb-3 text-white wow fadeInUp" data-wow-delay=".3s">Why Choose Hostech</h2>
-                    <p class="text-white wow fadeInUp" data-wow-delay=".5s">Aliquam viverra accumsan lectus in dignissim ante interdum eu Sed odio massa </p>
-                </div>
-                <div class="choose-us-top-inner style-2">
-                    <ul>
-                        <li class="wow fadeInUp" data-wow-delay=".2s">Step One</li>
-                        <li class="wow fadeInUp" data-wow-delay=".4s">Step Two</li>
-                        <li class="wow fadeInUp" data-wow-delay=".6s">Step Three</li>
-                        <li class="wow fadeInUp" data-wow-delay=".8s">Step Four</li>
-                    </ul>
-                </div>
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="choose-us-card-items style-2">
-                            <div class="icon">
-                                <img src="assets/img/feature-icon/icon-5.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Bay a Domain</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="choose-us-card-items style-2">
-                            <div class="icon">
-                                <img src="assets/img/feature-icon/icon-6.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Find the Right Hosting</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                        <div class="choose-us-card-items style-2">
-                            <div class="icon">
-                                <img src="assets/img/feature-icon/icon-7.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Add Professional Email</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                        <div class="choose-us-card-items style-2">
-                            <div class="icon">
-                                <img src="assets/img/feature-icon/icon-8.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h3>Boost Performance</h3>
-                                <p>
-                                    Collaboratively formulate principle capital. Progressively evolve user revolutionary hosting services.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-
-    
-    <!-- Get Started Today -->
-    {{-- <section class="feature-hosting-section fix section-padding">
-        <div class="container">
-            <div class="feature-content-warpper style-2">
-                <div class="row g-4 justify-content-between align-items-center">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="feature-hosting-content">
-                            <div class="section-title">
-                                <span class="wow fadeInUp">Get Started Today</span>
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">Get Started Today</h2>
-                            </div>
-                            <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                Ready to take your business to the next level? Contact us today to learn more about our
-                                services and how we can help you achieve your goals. Our team of experts is here to
-                                provide you with the solutions you need to succeed in today's competitive market.
-                            </p>
-                            <br>
-                            <a href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">Get Started <i
-                                    class="fas fa-long-arrow-alt-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="feature-hosting-image-2">
-                            <div class="icon-box-1">
-                                <img src="assets/img/hosting/icon-1.png" alt="img">
-                            </div>
-                            <div class="icon-box-2">
-                                <img src="assets/img/hosting/icon-3.png" alt="img">
-                            </div>
-                            <div class="thumb">
-                                <img src="assets/img/gym-man.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
-    <!-- Testimonia Section Start -->
-    {{-- <section class="testimonial-section fix section-padding">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="style-border wow fadeInUp">Testimonials</span>
-                    <h2 class="mb-3 wow fadeInUp" data-wow-delay=".3s">Impressions & Feedback</h2>
-                    <p class="wow fadeInUp" data-wow-delay=".5s">Aliquam viverra accumsan lectus in dignissim ante interdum eu Sed odio massa </p>
-                </div>
-                <div class="swiper testimonial-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items-2">
-                                <div class="icon">
-                                    <i class="fa-solid fa-quote-right"></i>
-                                </div>
-                                <div class="client-info">
-                                    <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/client-5.jpg');"></div>
-                                    <div class="content">
-                                        <h4>Ronald Richards</h4>
-                                        <span>Web Designer</span>
-                                    </div>
-                                </div>
-                                <p>
-                                    Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan felis sed.
-                                </p>
-                                <div class="client-bottom">
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
-                                    <img src="assets/img/testimonial/wpbeginner-dark.png" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items-2">
-                                <div class="icon">
-                                    <i class="fa-solid fa-quote-right"></i>
-                                </div>
-                                <div class="client-info">
-                                    <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/client-6.jpg');"></div>
-                                    <div class="content">
-                                        <h4>Esther Howard</h4>
-                                        <span>President of Sales</span>
-                                    </div>
-                                </div>
-                                <p>
-                                    Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan felis sed.
-                                </p>
-                                <div class="client-bottom">
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
-                                    <img src="assets/img/testimonial/hostadvice-dark.png" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items-2">
-                                <div class="icon">
-                                    <i class="fa-solid fa-quote-right"></i>
-                                </div>
-                                <div class="client-info">
-                                    <div class="client-img bg-cover" style="background-image: url('assets/img/testimonial/client-7.jpg');"></div>
-                                    <div class="content">
-                                        <h4>Courtney Henry</h4>
-                                        <span>Nursing Assistant</span>
-                                    </div>
-                                </div>
-                                <p>
-                                    Praesent ut lacus a velit tincidunt aliquam a eget urna. Sed ullamcorper tristique nisl at pharetra turpis accumsan et etiam eu sollicitudin eros. In imperdiet accumsan felis sed.
-                                </p>
-                                <div class="client-bottom">
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
-                                    <img src="assets/img/testimonial/capterra.png" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-click-text wow fadeInUp" data-wow-delay=".3s">
-                    <p>Explore more testimonials by</p>
-                    <a href="contact.html"> Click Here</a>
-                </div>
-            </div>
-        </section> --}}
-
-    <!--<< Footer Section Start >>-->
     @include('layouts.footer')

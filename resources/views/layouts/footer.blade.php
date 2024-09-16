@@ -258,7 +258,7 @@
                         </ul> --}}
                     </div>
                 </div>
-                <a href="" id="scrollUp" class="scroll-icon">
+                <a href="#" id="scrollUp" class="scroll-icon">
                     <i class="far fa-arrow-up"></i>
                 </a>
             </div>
