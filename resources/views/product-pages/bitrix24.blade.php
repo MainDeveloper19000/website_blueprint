@@ -7,248 +7,11 @@
     @include('layouts.preload')
     <!-- Preloader Start -->
     <!-- Offcanvas Area Start -->
-    <div class="fix-area">
-        <div class="offcanvas__info">
-            <div class="offcanvas__wrapper">
-                <div class="offcanvas__content">
-                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
-                        <div class="offcanvas__logo">
-                            <a href="{{ url('/') }}">
-                                <img src="assets/img/logo/black-logo.svg" alt="logo-img">
-                            </a>
-                        </div>
-                        <div class="offcanvas__close">
-                            <button>
-                                <i class="fas fa-times"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <p class="text d-none d-xl-block">
-                        Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
-                        feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                    </p>
-                    <div class="mobile-menu fix mb-3"></div>
-                    <div class="offcanvas__contact">
-                        <h4>Contact Info</h4>
-                        <ul>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon">
-                                    <i class="fal fa-map-marker-alt"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh
-                                        120209</a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="info@masterchat.iom"><span
-                                            class="info@masterchat.io">info@masterchat.io</span></a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-clock"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="far fa-phone"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="tel: +85516415111"> +85516415111</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="header-button mt-4">
-                            <a href="{{ route('help_center.contact') }}" class="theme-btn text-center">
-                                Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
-                            </a>
-                        </div>
-                        <div class="social-icon d-flex align-items-center">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('layouts.snacknav')
     <div class="offcanvas__overlay"></div>
     <!-- Header Section Start -->
     @include('layouts.navigation')
-    <!-- Modal Version 1 -->
-    <div class="modal modal-common-wrap fade" id="exampleModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-md-flex d-grid gap-md-0 gap-5 align-items-center">
-                    <div class="modal-common-content">
-                        <div class="box">
-                            <h2>
-                                welcome back!
-                            </h2>
-                            <form action="#" class="login-from">
-                                <div class="form-grp cmn-mb">
-                                    <input type="email" placeholder="Email Address">
-                                </div>
-                                <div class="form-grp">
-                                    <input type="text" placeholder="Enter Password">
-                                </div>
-                                <div
-                                    class="d-flex forgot-inner-area cmn-mb justify-content-between gap-2 flex-wrap align-items-center">
-                                    <div class="form-check checkmark-inner">
-                                        <input class="form-check-input" type="checkbox" value=""
-                                            id="flexCheckChecked" checked>
-                                        <label class="form-check-label" for="flexCheckChecked">
-                                            Remember me
-                                        </label>
-                                    </div>
-                                    <a href="#" class="forgot">
-                                        Forgot Your password?
-                                    </a>
-                                </div>
-                                <button type="button" class="theme-btn w-100">
-                                    <span>
-                                        Log in
-                                    </span>
-                                </button>
-                            </form>
-                            <span class="orting-badge">
-                                Or
-                            </span>
-                            <div class="d-grid gap-3">
-                                <a href="#" class="cmn-social">
-                                    <img src="assets/img/sign/google.png" alt="img">
-                                    Continue With Google
-                                </a>
-                                <a href="#" class="cmn-social">
-                                    <img src="assets/img/sign/fb.png" alt="img">
-                                    continue with facebook
-                                </a>
-                            </div>
-                            <div class="form-check d-flex align-items-center gap-2 from-customradio">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
-                                    i accept your terms & conditions
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-right-thumb position-relative">
-                        <img src="assets/img/sign/login.png" alt="img">
-                        <div class="signlogin-btnwrap">
-                            <button class="theme-create style-border" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                create account
-                            </button>
-                            <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                                Log In
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Version 2 -->
-    <div class="modal modal-common-wrap fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-md-flex d-grid gap-md-0 gap-5 align-items-center">
-                    <div class="modal-common-content">
-                        <div class="box">
-                            <h2>
-                                Create account
-                            </h2>
-                            <form action="#" class="login-from">
-                                <div class="form-grp cmn-mb">
-                                    <input type="text" placeholder="User name">
-                                </div>
-                                <div class="form-grp cmn-mb">
-                                    <input type="email" placeholder="Email Address">
-                                </div>
-                                <div class="form-grp cmn-mb">
-                                    <input type="text" placeholder="Enter Password">
-                                </div>
-                                <div class="form-grp">
-                                    <input type="text" placeholder="Enter Confirm password">
-                                </div>
-                            </form>
-                            <span class="orting-badge">
-                                Or
-                            </span>
-                            <div class="d-grid gap-3">
-                                <a href="#" class="cmn-social">
-                                    <img src="assets/img/sign/google.png" alt="img">
-                                    Continue With Google
-                                </a>
-                                <a href="#" class="cmn-social">
-                                    <img src="assets/img/sign/fb.png" alt="img">
-                                    continue with facebook
-                                </a>
-                            </div>
-                            <div class="pb-xxl-3">
-                                <div class="form-check d-flex align-items-center gap-2 from-customradio">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                        id="flexRadioDefault11">
-                                    <label class="form-check-label" for="flexRadioDefault11">
-                                        i accept your terms & conditions
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="mt-4">
-                                <button type="button" class="theme-btn w-100">
-                                    <span>
-                                        Log in
-                                    </span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-right-thumb position-relative">
-                        <img src="assets/img/sign/create.png" alt="img">
-                        <div class="signlogin-btnwrap">
-                            <button class="theme-create style-border" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                create account
-                            </button>
-                            <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                                Log In
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Search Area Start -->
-    <div class="search-wrap">
-        <div class="search-inner">
-            <i class="fas fa-times search-close" id="search-close"></i>
-            <div class="search-cell">
-                <form method="get">
-                    <div class="search-field-holder">
-                        <input type="search" class="main-search-input" placeholder="Search...">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+
     <!-- Hero Section Start -->
     <section class="hero-section hero-1 style-affiliate bg-cover fix"
         style="background-image: url('assets/img/hero/hero-bg-1.jpg');">
@@ -905,7 +668,7 @@
                     </li>
                 </ul>
                 <div class="save-text">
-                    Save up to 35%
+                    Save up to 20%
                 </div>
             </div>
             <div class="tab-content">
@@ -1524,7 +1287,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay=".4s">
                             <div class="pricing-items style-2 active">
-                                <h6 class="top-text">Free</h6>
+                               <h6 class="top-text">Free</h6>
                                 <div class="pricing-header-2">
                                     {{-- <div class="price-list">
                                         <del>120.99</del>
@@ -1619,10 +1382,10 @@
                                 <h6 class="top-text">Basic</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        <del>$40</del>
-                                        <span>SAVE 35%</span>
+                                        {{-- <del>$49</del> --}}
+                                        {{-- <span>SAVE 35%</span> --}}
                                     </div>
-                                    <h2>$40 <sub>/month</sub></h2>
+                                    <h2>$49<sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
                                     / organization / month / billed monthly
@@ -1723,10 +1486,10 @@
                                 <h6 class="top-text">Standard</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        <del>$124</del>
-                                        <span>SAVE 35%</span>
+                                        {{-- <del>$124</del> --}}
+                                        {{-- <span>SAVE 35%</span> --}}
                                     </div>
-                                    <h2>$81 <sub>/month</sub></h2>
+                                    <h2>$99 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
                                     / organization / month / billed monthly
@@ -1834,10 +1597,10 @@
                                 <h6 class="top-text">Professional</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        <del>$249</del>
-                                        <span>SAVE 35%</span>
+                                        {{-- <del>$249</del> --}}
+                                        {{-- <span>SAVE 35%</span> --}}
                                     </div>
-                                    <h2>$162 <sub>/month</sub></h2>
+                                    <h2>$199 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
                                     / organization / month / billed monthly
@@ -1979,10 +1742,10 @@
                                 <h6 class="top-text">Enterprise</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        <del>$499</del>
-                                        <span>SAVE 35%</span>
+                                        {{-- <del>$499</del>
+                                        <span>SAVE 35%</span> --}}
                                     </div>
-                                    <h2>$325 <sub>/month</sub></h2>
+                                    <h2>$399 <sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
                                     / organization / month / billed monthly

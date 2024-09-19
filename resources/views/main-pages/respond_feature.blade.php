@@ -1,7 +1,7 @@
 @include('layouts.header')
 
     <body>
-
+        @include('layouts.snacknav')
         @include('layouts.navigation')
   
 

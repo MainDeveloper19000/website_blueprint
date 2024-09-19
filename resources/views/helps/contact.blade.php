@@ -4,80 +4,7 @@
 @include('layouts.preload')
 
 <!-- Offcanvas Area Start -->
-<div class="fix-area">
-    <div class="offcanvas__info">
-        <div class="offcanvas__wrapper">
-            <div class="offcanvas__content">
-                <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
-                    <div class="offcanvas__logo">
-                        <a href="{{ url('/') }}">
-                            <img src="assets/img/logo/black-logo.svg" alt="logo-img">
-                        </a>
-                    </div>
-                    <div class="offcanvas__close">
-                        <button>
-                            <i class="fas fa-times"></i>
-                        </button>
-                    </div>
-                </div>
-                <p class="text d-none d-xl-block">
-                    Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
-                    feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                </p>
-                <div class="mobile-menu fix mb-3"></div>
-                <div class="offcanvas__contact">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li class="d-flex align-items-center">
-                            <div class="offcanvas__contact-icon">
-                                <i class="fal fa-map-marker-alt"></i>
-                            </div>
-                            <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh 120209</a>
-                            </div>
-                        </li>
-                        <li class="d-flex align-items-center">
-                            <div class="offcanvas__contact-icon mr-15">
-                                <i class="fal fa-envelope"></i>
-                            </div>
-                            <div class="offcanvas__contact-text">
-                                <a href="info@masterchat.iom"><span
-                                        class="info@masterchat.io">info@masterchat.io</span></a>
-                            </div>
-                        </li>
-                        <li class="d-flex align-items-center">
-                            <div class="offcanvas__contact-icon mr-15">
-                                <i class="fal fa-clock"></i>
-                            </div>
-                            <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
-                            </div>
-                        </li>
-                        <li class="d-flex align-items-center">
-                            <div class="offcanvas__contact-icon mr-15">
-                                <i class="far fa-phone"></i>
-                            </div>
-                            <div class="offcanvas__contact-text">
-                                <a href="tel: +85516415111"> +85516415111</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="header-button mt-4">
-                        <a href="{{route('help_center.contact')}}" class="theme-btn text-center">
-                            Get A Quote <i class="fa-solid fa-arrow-right-long"></i>
-                        </a>
-                    </div>
-                    <div class="social-icon d-flex align-items-center">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@include('layouts.snacknav')
 <div class="offcanvas__overlay"></div>
 
 <!-- Header Section Start -->
@@ -148,8 +75,7 @@
                 <div class="modal-right-thumb position-relative">
                     <img src="assets/img/sign/login.png" alt="img">
                     <div class="signlogin-btnwrap">
-                        <button class="theme-create style-border" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                        <button class="theme-create style-border" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             create account
                         </button>
                         <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
@@ -361,7 +287,8 @@
                 <div class="col-lg-6">
                     <div class="contact-right">
                         <h3 class="wow fadeInUp">Get in Touch</h3>
-                        <form action="{{route('send')}}" id="contact-form" method="POST" class="contact-form-items">
+                        <form action="{{ route('send') }}" id="contact-form" method="POST"
+                            class="contact-form-items">
                             @csrf
                             <div class="row g-4">
                                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
