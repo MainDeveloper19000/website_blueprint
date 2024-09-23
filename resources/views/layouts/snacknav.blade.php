@@ -64,10 +64,17 @@
                         </a>
                     </div>
                     <div class="social-icon d-flex align-items-center">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/MasterChat.io" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/masterchatio/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/masterchattalk" target="_blank"><i
+                                class="fab fa-telegram"></i></a>
+                        {{-- <a href="#"><i class="fab fa-tiktok"></i></a> --}}
+                        <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFD_WmOPLc-PgAAAZGnSkxwXvK-z5JPmQWOM_ITt_WR6kYmyEHWZUJwCXvmlftvcx_wf3ptYKti8ZFiJsZgVJQLbo6aGP3ndX2ju7C-p5GBPth0G-fpHf9I8BIS7hf8DjlKBqo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmasterchat-io-618641252%2F"
+                            target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.youtube.com/@masterchatio" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>

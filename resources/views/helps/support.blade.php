@@ -198,9 +198,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
+            {{-- <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
                 <img src="assets/img/breadcrumb.png" alt="img">
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
@@ -211,8 +211,7 @@
         <div class="section-title text-center">
             <span class="style-border wow fadeInUp">our Support</span>
             <h2 class="wow fadeInUp" data-wow-delay=".3s">our Premium Support</h2>
-            <p class="wow fadeInUp" data-wow-delay=".5s">Aliquam viverra accumsan lectus in dignissim ante interdum eu
-                Sed odio massa</p>
+            <p class="wow fadeInUp" data-wow-delay=".5s"></p>
         </div>
         <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
@@ -262,6 +261,7 @@
 
 <!--<< Contact Section Start >>-->
 <section class="contact-section fix section-padding">
+    <br>
     <div class="container">
         <div class="contact-wrapper">
             <div class="row g-4">
@@ -269,7 +269,7 @@
                     <div class="contact-left">
                         <h2 class="wow fadeInUp" data-wow-delay=".3s">Request a <br> Consultation</h2>
                         <div class="contact-image wow fadeInUp" data-wow-delay=".5s">
-                            <img src="assets/img/contact.png" alt="contact-img">
+                            <img src="assets/img/supportrequest.jpg" alt="contact-img">
                         </div>
                     </div>
                 </div>

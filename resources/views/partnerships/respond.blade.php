@@ -187,7 +187,7 @@
                     <h1 class="wow fadeInUp" data-wow-delay=".3s">Respond.io Gold Partner</h1>
                     <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                         <li>
-                            <a href="index.html">
+                            <a href="/">
                                 Home
                             </a>
                         </li>

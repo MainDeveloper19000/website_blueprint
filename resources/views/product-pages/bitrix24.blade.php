@@ -4,14 +4,13 @@
 
 <body>
     <!-- Preloader Start -->
-    @include('layouts.preload')
+    {{-- @include('layouts.preload') --}}
     <!-- Preloader Start -->
     <!-- Offcanvas Area Start -->
     @include('layouts.snacknav')
     <div class="offcanvas__overlay"></div>
     <!-- Header Section Start -->
     @include('layouts.navigation')
-
     <!-- Hero Section Start -->
     <section class="hero-section hero-1 style-affiliate bg-cover fix"
         style="background-image: url('assets/img/hero/hero-bg-1.jpg');">
@@ -153,7 +152,6 @@
     </section>
     <!-- Feature Section Start -->
     <!-- Swiper -->
-
     <div class="swiper-container"​ style="overflow: hidden">
         <div class="swiper-wrapper">
             <!-- COLABORATION Section -->
@@ -608,11 +606,9 @@
             },
         });
     </script>
-
     {{-- ======================================================== --}}
     @include('layouts.bitrix24service')
-
-    @include('layouts.bitrix_solu')
+    {{-- @include('layouts.bitrix_solu') --}}
     <div class="footer-bottom">
         <br>
         <center>
@@ -1984,8 +1980,6 @@
             </div>
         </div>
     </div>
-
-
     <!-- Faq Section Start -->
     <section class="faq-section fix section-padding">
         <div class="container">
@@ -2124,12 +2118,5 @@
             </div>
         </div>
     </section>
-
-
     <!--<< Footer Section Start >>-->
-
-
-
-
-
     @include('layouts.footer')

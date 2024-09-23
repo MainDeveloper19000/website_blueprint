@@ -601,7 +601,7 @@
                                 <p class="text-center">
                                     5 Users Included <br>
                                     Additional Users at $15/month
-                                    __________________________________
+                                    _____________________________________________
                                     <br>
                                     For sales teams to manage conversations and achieve sales goals across multiple
                                     channels
@@ -680,7 +680,7 @@
                                 <p class="text-center">
                                     5 Users Included <br>
                                     Additional Users at $25/month
-                                    __________________________________
+                                    _____________________________________________
                                     <br>Starts at 1,000 Monthly Active Contacts
                                     <br>
                                     For marketing and sales teams looking to maximize conversions over conversations
@@ -760,7 +760,7 @@
                                 <p class="text-center">
                                     5 Users Included <br>
                                     Additional Users at $30/month  
-                                    __________________________________ 
+                                    _____________________________________________
                                    <br> Starts at 1,000 Monthly Active Contacts <br>For marketing and sales teams needing
                                     advanced integrations, multiple workspaces, and security enhancements
                                 </p>
@@ -836,7 +836,7 @@
                                 <p class="text-center">
                                     5 Users Included <br>
                                     Additional Users at $12/month
-                                    __________________________________
+                                    _____________________________________________
                                     <br>
                                     For sales teams to manage conversations and achieve sales goals across multiple
                                     channels
@@ -915,7 +915,7 @@
                                 <p class="text-center">
                                     5 Users Included <br>
                                     Additional Users at $20/month
-                                    __________________________________ 
+                                    _____________________________________________ 
                                     <br>
                                     Starts at 1,000 Monthly Active Contacts
                                     <br>
@@ -996,7 +996,7 @@
                                 <p class="text-center">
                                     5 Users Included <br>
                                     Additional Users at $24/month
-                                    __________________________________
+                                    _____________________________________________
                                     <br>
                                     Starts at 1,000 Monthly Active Contacts <br>For marketing and sales teams needing
                                     advanced integrations, multiple workspaces, and security enhancements

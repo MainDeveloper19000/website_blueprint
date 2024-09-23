@@ -3,7 +3,7 @@
 use App\Http\Controllers\backend\TelegramController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Fronted\MasterController;
-
+// use App\Http\Controllers\backend\TelegramController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -50,6 +50,7 @@ route::controller(MasterController::class)->group(function(){
     route::get('/software_consultant','software_consultant')->name('service.software_consultantes');
     route::get('/service_center','service_center')->name('service.service_centers');
     route::get('/it_maintanance','it_maintanance')->name('service.it_maintanances');
+
     route::get('/crm_training','crm_training')->name('service.crm_train');
     route::get('/onboarding_program','onboarding_program')->name('service.onboarding_programe');
     route::get('/other_service','other_service')->name('service.other_servic');
@@ -68,5 +69,9 @@ Route::fallback(function () {
     return response()->view('main-pages.error404', [], 404);
 });
 
-Route::post('/sendToTelegram',[TelegramController::class,'sendToTelegram'])->name('send');
+Route::middleware(['web'])->group(function () {
+    Route::post('/sendToTelegram', [TelegramController::class, 'sendToTelegram'])->name('send');
+    Route::post('/sendToTelegramContact', [TelegramController::class, 'sendToTelegramContact'])->name('contact.send');
+});
+
 

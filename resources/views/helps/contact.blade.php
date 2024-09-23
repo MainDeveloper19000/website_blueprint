@@ -197,9 +197,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
+            {{-- <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
                 <img src="assets/img/breadcrumb.png" alt="img">
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
@@ -287,7 +287,7 @@
                 <div class="col-lg-6">
                     <div class="contact-right">
                         <h3 class="wow fadeInUp">Get in Touch</h3>
-                        <form action="{{ route('send') }}" id="contact-form" method="POST"
+                        <form action="{{ route('contact.send')}}" id="contact-form" method="POST"
                             class="contact-form-items">
                             @csrf
                             <div class="row g-4">
