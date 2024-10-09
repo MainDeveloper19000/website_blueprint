@@ -24,6 +24,7 @@
                         <h2>
                             welcome back!
                         </h2>
+                        {{--  --}}
                         <form action="#" class="login-from">
                             <div class="form-grp cmn-mb">
                                 <input type="email" placeholder="Email Address">
@@ -87,6 +88,8 @@
         </div>
     </div>
 </div>
+
+{{-- this 2 modal can hiiden because we don't have login and register --}}
 
 <!-- Modal Version 2 -->
 <div class="modal modal-common-wrap fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
@@ -208,8 +211,8 @@
 <section class="choose-us-section fix section-padding">
     <div class="container">
         <div class="section-title text-center">
-            <span class="style-border wow fadeInUp">our Support</span>
-            <h2 class="wow fadeInUp" data-wow-delay=".3s">our Premium Support</h2>
+            <span class="style-border wow fadeInUp">Our Contact</span>
+            <h2 class="wow fadeInUp" data-wow-delay=".3s">our Premium Contact</h2>
             <p class="wow fadeInUp" data-wow-delay=".5s">
         </div>
         <div class="row">
@@ -253,20 +256,6 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                <div class="choose-us-card-items">
-                    <div class="icon">
-                        <img src="assets/img/support/account.png" alt="img">
-                    </div>
-                    <div class="content">
-                        <h3>Opening Hour </h3>
-                        <p>
-                            Sunday-Fri: 9 AM – 6 PM <br>
-                            Saturday: 9 AM – 4 PM
-                        </p>
-                    </div>
-                </div>
-            </div> --}}
         </div>
     </div>
 </section>
@@ -287,7 +276,7 @@
                 <div class="col-lg-6">
                     <div class="contact-right">
                         <h3 class="wow fadeInUp">Get in Touch</h3>
-                        <form action="{{ route('contact.send')}}" id="contact-form" method="POST"
+                        <form action="{{ route('contact.send') }}" id="contact-form" method="POST"
                             class="contact-form-items">
                             @csrf
                             <div class="row g-4">
@@ -322,6 +311,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div>
+                                    <b>
+                                        <p style="color: red">Notice in Message</p>how can i help you?
+                                    </b>
+                                </div>
                                 <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                     <div class="form-clt">
                                         <textarea name="message" id="message" placeholder="Messages"></textarea>
@@ -333,7 +327,7 @@
                                             id="flexRadioDefault12">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             Collaboratively formulate principle capital. Progressively evolve user
-                                        </label>
+                                        </label
                                     </div>
                                     <button type="submit" class="theme-btn">
                                         Submit Now <i class="fa-solid fa-arrow-right-long"></i>
@@ -345,15 +339,15 @@
                         {{-- Alert after Send --}}
 
                         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
                         <script>
                             document.addEventListener('DOMContentLoaded', function() {
                                 const form = document.querySelector('.contact-form-items');
-
+                                // handle section 
                                 form.addEventListener('submit', function(event) {
                                     event.preventDefault();
 
                                     // Show SweetAlert confirmation
+                                    
                                     Swal.fire({
                                         title: 'Thank you!',
                                         text: 'We have received your information.We will contact you soon',
@@ -361,7 +355,6 @@
                                     }).then((result) => {
                                         // If the user clicks "OK", proceed with form submission
                                         if (result.isConfirmed) {
-
                                             form.submit();
                                             form.reset();
                                         }

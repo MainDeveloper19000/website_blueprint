@@ -33,7 +33,7 @@ class TelegramController extends Controller
         }
         $message .= "Message: " . $request->input('message');
 
-        $telegramBotToken = '7124501996:AAF667Ww1sLpkmcnhwdZYp5DtW6NrqwlAzs';
+        $telegramBotToken = '7124501996:AAHSZmvB-4P3g8VfHFD0Wt1o_aKC9feuDII';
         $chatId = 1204310951;
 
         $response = Http::post("https://api.telegram.org/bot{$telegramBotToken}/sendMessage", [
@@ -76,7 +76,7 @@ class TelegramController extends Controller
         }
         $message .= "Message: " . $request->input('message');
 
-        $telegramBotToken = '7124501996:AAF667Ww1sLpkmcnhwdZYp5DtW6NrqwlAzs';
+        $telegramBotToken = '7124501996:AAHSZmvB-4P3g8VfHFD0Wt1o_aKC9feuDII';
         $chatId = 1204310951;
 
         $response = Http::post("https://api.telegram.org/bot{$telegramBotToken}/sendMessage", [

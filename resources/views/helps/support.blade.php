@@ -1,14 +1,9 @@
 @include('layouts.header')
-
 <!-- Preloader Start -->
 @include('layouts.preload')
-
-
-
 <!-- Offcanvas Area Start -->
 @include('layouts.snacknav')
 <div class="offcanvas__overlay"></div>
-
 <!-- Header Section Start -->
 @include('layouts.navigation')
 <!-- Modal Version 1 -->
@@ -34,8 +29,8 @@
                             <div
                                 class="d-flex forgot-inner-area cmn-mb justify-content-between gap-2 flex-wrap align-items-center">
                                 <div class="form-check checkmark-inner">
-                                    <input class="form-check-input" type="checkbox" value=""
-                                        id="flexCheckChecked" checked>
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked>
                                     <label class="form-check-label" for="flexCheckChecked">
                                         Remember me
                                     </label>
@@ -75,8 +70,7 @@
                 <div class="modal-right-thumb position-relative">
                     <img src="assets/img/sign/login.png" alt="img">
                     <div class="signlogin-btnwrap">
-                        <button class="theme-create style-border" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                        <button class="theme-create style-border" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             create account
                         </button>
                         <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
@@ -88,7 +82,6 @@
         </div>
     </div>
 </div>
-
 <!-- Modal Version 2 -->
 <div class="modal modal-common-wrap fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -163,7 +156,6 @@
         </div>
     </div>
 </div>
-
 <!-- Search Area Start -->
 <div class="search-wrap">
     <div class="search-inner">
@@ -177,7 +169,6 @@
         </div>
     </div>
 </div>
-
 <!--<< Breadcrumb Section Start >>-->
 <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-1.jpg');">
     <div class="container">
@@ -204,7 +195,6 @@
         </div>
     </div>
 </div>
-
 <!-- Choose Us Section Start -->
 <section class="choose-us-section fix section-padding">
     <div class="container">
@@ -253,12 +243,9 @@
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
 </section>
-
-
 <!--<< Contact Section Start >>-->
 <section class="contact-section fix section-padding">
     <br>
@@ -276,7 +263,8 @@
                 <div class="col-lg-6">
                     <div class="contact-right">
                         <h3 class="wow fadeInUp">Get in Touch</h3>
-                        <form action="{{route('send')}}" id="contact-form" method="POST" class="contact-form-items">
+                        <form action="{{ route('send') }}" id="contact-form" method="POST"
+                            class="contact-form-items">
                             @csrf
                             <div class="row g-4">
                                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
@@ -296,26 +284,25 @@
                                             placeholder="Phone Number">
                                     </div>
                                 </div>
-                                {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
                                     <div class="form-clt">
                                         <div class="category-oneadjust">
                                             <select name="cate" class="category">
                                                 <option value="1">
-                                                    Subject
+                                                    Bitrix 24
                                                 </option>
-                                                <option value="1">
-                                                    Doming
-                                                </option>
-                                                <option value="1">
-                                                    Hosting
-                                                </option>
-                                                <option value="1">
-                                                    VPS Hosting
+                                                <option value="2">
+                                                    Respond.io
                                                 </option>
                                             </select>
                                         </div>
                                     </div>
-                                </div> --}}
+                                </div>
+                                <div>
+                                    <b>
+                                        <p style="color: red">Notice in Message</p>how can i help you?
+                                    </b>
+                                </div>
                                 <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                     <div class="form-clt">
                                         <textarea name="message" id="message" placeholder="Messages"></textarea>
@@ -337,33 +324,33 @@
 
                         </form>
 
-                            {{-- Alert after Send --}}
+                        {{-- Alert after Send --}}
 
-                            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-                            <script>
-                                document.addEventListener('DOMContentLoaded', function() {
-                                    const form = document.querySelector('.contact-form-items');
-                       
-                                    form.addEventListener('submit', function(event) {
-                                        event.preventDefault();
-                        
-                                        // Show SweetAlert confirmation
-                                        Swal.fire({
-                                            title: 'Thank you!',
-                                            text: 'We have received your information.We will contact you soon',
-                                            icon: 'success',
-                                        }).then((result) => {
-                                            // If the user clicks "OK", proceed with form submission
-                                            if (result.isConfirmed) {
-                                                
-                                                form.submit();
-                                                form.reset();
-                                            }
-                                        });
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                const form = document.querySelector('.contact-form-items');
+
+                                form.addEventListener('submit', function(event) {
+                                    event.preventDefault();
+
+                                    // Show SweetAlert confirmation
+                                    Swal.fire({
+                                        title: 'Thank you!',
+                                        text: 'We have received your information.We will contact you soon',
+                                        icon: 'success',
+                                    }).then((result) => {
+                                        // If the user clicks "OK", proceed with form submission
+                                        if (result.isConfirmed) {
+
+                                            form.submit();
+                                            form.reset();
+                                        }
                                     });
                                 });
-                            </script>
+                            });
+                        </script>
 
 
                     </div>
@@ -372,11 +359,6 @@
         </div>
     </div>
 </section>
-
-
-
 <!-- Brand Section Start -->
-
-
 <!--<< Footer Section Start >>-->
 @include('layouts.footer')

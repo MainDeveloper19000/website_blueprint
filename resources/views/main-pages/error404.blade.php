@@ -613,7 +613,7 @@
                     <div class="col-lg-9">
                         <div class="error-items">
                             <div class="error-image wow fadeInUp" data-wow-delay=".3s">
-                                <img src="assets/img/404.png" alt="img">
+                                <img src="assets/img/6167023.webp" alt="img">
                             </div>
                             <h2 class="wow fadeInUp" data-wow-delay=".5s">
                                 <span>Oops!</span> Page not found
