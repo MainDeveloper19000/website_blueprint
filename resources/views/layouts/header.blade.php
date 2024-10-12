@@ -7,11 +7,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="gramentheme">
-        <meta name="description" content="Web hosting & WHMCS Html Template ">
+        {{-- <meta name="description" content="Web hosting & WHMCS Html Template "> --}}
         <!-- ======== Page title ============ -->
         <title>BluePrint Software & Technology</title>
         <!--<< Favcion >>-->
-        <link rel="shortcut icon" href="{{asset('assets/img/favicon.svg')}}">
+        {{-- <link rel="shortcut icon" href="{{asset('assets/img/favicon.svg')}}"> --}}
         <!--<< Bootstrap min.css >>-->
         <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
         <!--<< All Min Css >>-->
