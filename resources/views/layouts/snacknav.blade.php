@@ -46,7 +46,7 @@
                                 <i class="fal fa-clock"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Moday-Sunday, 24/7 hour</a>
+                                <a target="_blank" href="#">Moday-Saturday (Half Day) 8:00AM-5:00PM</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">
