@@ -17,10 +17,11 @@
                             <div class="header-left">
                                 <div class="logo">
                                     <a href="{{url('/')}}" class="header-logo">
-                                        <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                                        <img src="assets/img/logo/logogogogogoggogo.png" alt="logo-img" height="70px">
+
                                     </a>
                                     <a href="{{url('/')}}" class="header-logo-2">
-                                        <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                        <img src="assets/img/logo/logogogogo.png" alt="logo-img" height="70px">
                                     </a>
                                 </div>
                             </div>
@@ -600,7 +601,7 @@
                         </ul>
                     </div>
                     <div class="breadcrumb-image wow fadeInUp" data-wow-delay=".4s">
-                        <img src="assets/img/breadcrumb.png" alt="img">
+                        <img src="assets/img/breadcrumb.gif" alt="img">
                     </div>
                 </div>
             </div>
