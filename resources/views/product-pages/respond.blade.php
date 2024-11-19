@@ -587,239 +587,136 @@
             <div class="tab-content">
                 <div id="monthly" class="tab-pane fade show active" role="tabpanel">
                     <div class="row justify-content-center">
+                        <!-- Starter Card -->
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                             <div class="pricing-items style-2 active">
                                 <h6 class="top-text">Starter</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        {{-- <del>120.99</del>s --}}
                                         <center><span>Starting at</span></center>
                                     </div>
                                     <h2>$99 <sub>/month</sub></h2>
                                 </div>
-
                                 <p class="text-center">
                                     5 Users Included <br>
                                     Additional Users at $15/month
                                     __________________________
                                     <br>
-                                    For sales teams to manage conversations and achieve sales goals across multiple
-                                    channels
+                                    For sales teams to manage conversations and achieve sales goals across multiple channels
                                 </p>
                                 <b>Includes:</b>
                                 <ul class="pricing-list">
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Team & Custom Inboxes
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Mobile App
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Respond AI: AI Prompt
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Respond AI: AI Assist
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Basic Reports
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Two-Factor Authentication (2FA)
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Growth Widgets
-                                        </span>
-                                        
-                                    </li>
+                                    <li><span><i class="fa-solid fa-check"></i> Team & Custom Inboxes</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Mobile App</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Respond AI: AI Prompt</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Respond AI: AI Assist</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Basic Reports</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Two-Factor Authentication (2FA)</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Growth Widgets</span></li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ"
-                                        class="pricing-btn">
-                                        Start 7 Days Trial
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </a>
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">Start 7 Days Trial <i class="fa-solid fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
                         </div>
+                        
+                        <!-- Growth Card -->
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                             <div class="pricing-items style-2">
                                 <h6 class="top-text">Growth</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        <b style="background-color: rgb(243, 255, 74);border-radius: 10px;padding: 3px;">Most Popular</b>
+                                        <b style="background-color: rgb(243, 255, 74); border-radius: 10px; padding: 3px;">Most Popular</b>
                                         <span>Starting at</span>
                                     </div>
                                     <h2>$199<sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    5 Users Included <br>
+                                    10 Users Included <br>
                                     Additional Users at $25/month
                                     __________________________
                                     <br>Starts at 1,000 Monthly Active Contacts
                                     <br>
-                                    For marketing and sales teams looking to maximize conversions over conversations
-                                    with automation and AI
+                                    For marketing and sales teams looking to maximize conversions over conversations with automation and AI
                                 </p>
                                 <b>Everything in Starter, Plus:</b>
                                 <ul class="pricing-list">
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Broadcasts
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Workflows
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Respond AI: AI Agent
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Advanced Reports
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Data Export
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Zapier & Make Integratio
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Developer API
-                                        </span>
-                                        
-                                    </li>
+                                    <li><span><i class="fa-solid fa-check"></i> Broadcasts</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Workflows</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Respond AI: AI Agent</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Advanced Reports</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Data Export</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Zapier & Make Integration</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Developer API</span></li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ"
-                                        class="pricing-btn">
-                                        Start 7 Days Trial
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </a>
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">Start 7 Days Trial <i class="fa-solid fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
                         </div>
+                        
+                        <!-- Advanced Card -->
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                             <div class="pricing-items style-2">
                                 <h6 class="top-text">Advanced</h6>
                                 <div class="pricing-header-2">
                                     <div class="price-list">
-                                        {{-- <del>120.99</del> --}}
                                         <center><span>Starting at</span></center>
                                     </div>
                                     <h2>$349<sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    5 Users Included <br>
+                                    10 Users Included <br>
                                     Additional Users at $30/month  
                                     __________________________
-                                   <br> Starts at 1,000 Monthly Active Contacts <br>For marketing and sales teams needing
-                                    advanced integrations, multiple workspaces, and security enhancements
+                                    <br>Starts at 1,000 Monthly Active Contacts
+                                    <br>For marketing and sales teams needing advanced integrations, multiple workspaces, and security enhancements
                                 </p>
                                 <b>Everything in Growth, Plus:</b>
                                 <ul class="pricing-list">
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Mask Phone Number & Email Address
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Multiple Workspaces
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            HTTP Requests in Workflows
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Incoming & Outgoing Webhooks
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Single Sign-On (SSO)
-                                        </span>
-                                        
-                                    </li>
-                                    <li>
-                                        <span>
-                                            <i class="fa-solid fa-check"></i>
-                                            Custom Channels
-                                        </span>
-                                        
-                                    </li>
+                                    <li><span><i class="fa-solid fa-check"></i> Mask Phone Number & Email Address</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Multiple Workspaces</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> HTTP Requests in Workflows</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Incoming & Outgoing Webhooks</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Single Sign-On (SSO)</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Custom Channels</span></li>
                                 </ul>
                                 <div class="pricing-button">
-                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ"
-                                        class="pricing-btn">
-                                        Book a Demo
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                    </a>
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">Book a Demo <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Enterprise Card -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1s">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Enterprise</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <center><span>Starting at</span></center>
+                                    </div>
+                                    <h2>Talk to Us</h2>
+                                </div>
+                                <p class="text-center">
+                                    Unlimited Users<br>
+                                    Custom Monthly Active Contacts<br>
+                                    __________________________
+                                    <br>For marketing and sales teams requiring a large number of user seats, workspaces, and increased API rate limits
+                                </p>
+                                <b>Includes:</b>
+                                <ul class="pricing-list">
+                                    <li><span><i class="fa-solid fa-check"></i> Large Team Management</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Custom Features</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Enterprise Support</span></li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">Book a Demo <i class="fa-solid fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
                 <div id="yearly" class="tab-pane fade" role="tabpanel">
                     <div class="row justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay=".4s">
@@ -913,7 +810,7 @@
                                     <h2>$159<sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    5 Users Included <br>
+                                    10 Users Included <br>
                                     Additional Users at $20/month
                                     __________________________
                                     <br>
@@ -994,7 +891,7 @@
                                     <h2>$279<sub>/month</sub></h2>
                                 </div>
                                 <p class="text-center">
-                                    5 Users Included <br>
+                                    10 Users Included <br>
                                     Additional Users at $24/month
                                     __________________________
                                     <br>
@@ -1055,6 +952,32 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1s">
+                            <div class="pricing-items style-2">
+                                <h6 class="top-text">Enterprise</h6>
+                                <div class="pricing-header-2">
+                                    <div class="price-list">
+                                        <center><span>Starting at</span></center>
+                                    </div>
+                                    <h2>Talk to Us</h2>
+                                </div>
+                                <p class="text-center">
+                                    Unlimited Users<br>
+                                    Custom Monthly Active Contacts<br>
+                                    __________________________
+                                    <br>For marketing and sales teams requiring a large number of user seats, workspaces, and increased API rate limits
+                                </p>
+                                <b>Includes:</b>
+                                <ul class="pricing-list">
+                                    <li><span><i class="fa-solid fa-check"></i> Large Team Management</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Custom Features</span></li>
+                                    <li><span><i class="fa-solid fa-check"></i> Enterprise Support</span></li>
+                                </ul>
+                                <div class="pricing-button">
+                                    <a href="https://respond.io/?pscd=get.respond.io&ps_partner_key=Y2hhbmJvcGhhOTA2MQ&ps_xid=MnfBRO7AUm0Qa1&gsxid=MnfBRO7AUm0Qa1&gspk=Y2hhbmJvcGhhOTA2MQ" class="pricing-btn">Book a Demo <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>  
                     </div>
                 </div>
             </div>

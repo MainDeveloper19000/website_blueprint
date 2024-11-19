@@ -128,7 +128,7 @@
         <section class="core-services">
 
             <center>
-                <h21>Benefit Services Provid</h21>
+                <h21>Benefit Services Provide</h21>
             </center>
             <br>
             <div class="services-grid">

@@ -241,7 +241,7 @@
                 <div class="container">
                     <div class="footer-wrapper d-flex align-items-center justify-content-between">
                         <p class="wow fadeInLeft" data-wow-delay=".3s">
-                            © All Copyright 2024 by <a href="{{ url('/') }}">Blueprint computer Technology</a>
+                            © All Copyright 2024 by <a href="{{ url('/') }}">Blueprint Technology</a>
                         </p>
                         {{-- <ul class="brand-logo wow fadeInRight" data-wow-delay=".5s">
                             <li>
