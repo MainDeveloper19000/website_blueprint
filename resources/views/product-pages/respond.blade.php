@@ -1249,12 +1249,12 @@
                                     <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
                                         <h5 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                aria-expanded="false" aria-controls="faq4">
+                                                data-bs-toggle="collapse" data-bs-target="#faq5"
+                                                aria-expanded="false" aria-controls="faq5">
                                                 Can I upgrade or cancel my plan at any time?
                                             </button>
                                         </h5>
-                                        <div id="faq4" class="accordion-collapse collapse"
+                                        <div id="faq5" class="accordion-collapse collapse"
                                             data-bs-parent="#accordion">
                                             <div class="accordion-body">
                                                 Yes, you can cancel or upgrade your subscription at any time. To cancel,
@@ -1269,12 +1269,12 @@
                                     <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
                                         <h5 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                aria-expanded="false" aria-controls="faq4">
+                                                data-bs-toggle="collapse" data-bs-target="#faq6"
+                                                aria-expanded="false" aria-controls="faq6">
                                                 How does respond.io protect my data?
                                             </button>
                                         </h5>
-                                        <div id="faq4" class="accordion-collapse collapse"
+                                        <div id="faq6" class="accordion-collapse collapse"
                                             data-bs-parent="#accordion">
                                             <div class="accordion-body">
                                                 Respond.io prioritizes your data security through a combination of
