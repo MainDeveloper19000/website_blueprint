@@ -219,12 +219,12 @@
             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                 <div class="choose-us-card-items">
                     <div class="icon">
-                        <img src="assets/img/support/support.png" alt="img">
+                       <i class="fas fa-home"></i>
                     </div>
                     <div class="content">
                         <h3>Our Address</h3>
                         <p>
-                            Oknha Kleang Moeung St. (70), Phnom Penh 120209
+                            #Home C-229 St Boeung Torteung Thngai2, Chrouy Changva District, Khan Chrouy Changva, Phnom Penh
                         </p>
                     </div>
                 </div>
@@ -232,13 +232,12 @@
             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                 <div class="choose-us-card-items">
                     <div class="icon">
-                        <img src="assets/img/support/customization.png" alt="img">
+                         <i class="fas fa-comment"></i>
                     </div>
                     <div class="content">
-                        <h3><a href="info@masterchat.io">info@masterchat.io</a></h3>
+                        <h3>Email us for any kind of query</h3>
                         <p>
-                            Email us for any kind <br>
-                            of quety
+                            <a href="info@masterchat.io">info@masterchat.io</a>
                         </p>
                     </div>
                 </div>
@@ -246,12 +245,14 @@
             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                 <div class="choose-us-card-items">
                     <div class="icon">
-                        <img src="assets/img/support/technical.png" alt="img">
+                        <i class="fas fa-users-cog"></i>
                     </div>
                     <div class="content">
-                        <h3>Hot: <a href="tel: +85516415111">+85516 415 111</a></h3>
+                        <h3>Talk to sale team</h3>
                         <p>
-                            24/7/365 priority Live Chat and ticketing support.
+                            <a href="tel: +85516415111">+85516 415 111</a><br>
+                             <a href="tel: +85561888132">+85561888132
+</a>
                         </p>
                     </div>
                 </div>
@@ -269,7 +270,7 @@
                     <div class="contact-left">
                         <h2 class="wow fadeInUp" data-wow-delay=".3s">Request a <br> Consultation</h2>
                         <div class="contact-image wow fadeInUp" data-wow-delay=".5s">
-                            <img src="assets/img/respond/consultant.png" alt="contact-img">
+                            
                         </div>
                     </div>
                 </div>
@@ -301,6 +302,9 @@
                                     <div class="form-clt">
                                         <div class="category-oneadjust">
                                             <select name="cate" class="category">
+                                                 <option value="1">
+                                                    ---Please Select A Platform---
+                                                </option>
                                                 <option value="1">
                                                     Bitrix 24
                                                 </option>
@@ -313,22 +317,16 @@
                                 </div>
                                 <div>
                                     <b>
-                                        <p style="color: red">Notice in Message</p>how can i help you?
+                                        <p style="color: red">Detail in Comments</p>how can we help you?
                                     </b>
                                 </div>
                                 <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                     <div class="form-clt">
-                                        <textarea name="message" id="message" placeholder="Messages"></textarea>
+                                        <textarea name="message" id="message" placeholder="Comment:"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 wow fadeInUp" data-wow-delay=".9s">
-                                    <div class="form-check d-flex gap-2 from-customradio">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                            id="flexRadioDefault12">
-                                        <label class="form-check-label" for="flexRadioDefault1">
-                                            Collaboratively formulate principle capital. Progressively evolve user
-                                        </label
-                                    </div>
+                                    
                                     <button type="submit" class="theme-btn">
                                         Submit Now <i class="fa-solid fa-arrow-right-long"></i>
                                     </button>

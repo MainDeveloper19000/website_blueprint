@@ -1,3 +1,4 @@
+<p style="font-family: 'Nokora', sans-serif;">
 <div class="fix-area">
     <div class="offcanvas__info">
         <div class="offcanvas__wrapper">
@@ -28,8 +29,19 @@
                                 <i class="fal fa-map-marker-alt"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Oknha Kleang Moeung St. (70), Phnom Penh
-                                    120209</a>
+                                <a target="_blank" href="#">
+                                    
+                                    
+                                    
+                                    
+                                    <p style="font-family: 'Nokora', sans-serif;">
+    ផ្ទះលេខ C-299 ផ្លូវបឹងទទឹងថ្ងៃទី២ សង្កាត់ជ្រោយចង្វារ ខណ្ឌជ្រោយចង្វារ រាជធានីភ្នំពេញ
+</p>
+<p style="font-family: Arial, sans-serif;">
+    #Home C-299 St Boeung Torteung Thngai2, Chrouy Changva District, Khan Chrouy Changva, Phnom Penh
+</p>
+
+                                </a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">

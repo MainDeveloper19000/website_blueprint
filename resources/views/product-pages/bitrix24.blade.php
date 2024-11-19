@@ -2073,12 +2073,12 @@
                                     <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
                                         <h5 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                aria-expanded="false" aria-controls="faq4">
+                                                data-bs-toggle="collapse" data-bs-target="#faq5"
+                                                aria-expanded="false" aria-controls="faq5">
                                                 How do I cancel the automatic subscription renewal option?
                                             </button>
                                         </h5>
-                                        <div id="faq4" class="accordion-collapse collapse"
+                                        <div id="faq5" class="accordion-collapse collapse"
                                             data-bs-parent="#accordion">
                                             <div class="accordion-body">
                                                 Once you purchase a subscription, the auto-renewal option will be
@@ -2091,12 +2091,12 @@
                                     <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
                                         <h5 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#faq4"
-                                                aria-expanded="false" aria-controls="faq4">
+                                                data-bs-toggle="collapse" data-bs-target="#faq6"
+                                                aria-expanded="false" aria-controls="faq6">
                                                 How can I get assistance with my project implementation?
                                             </button>
                                         </h5>
-                                        <div id="faq4" class="accordion-collapse collapse"
+                                        <div id="faq6" class="accordion-collapse collapse"
                                             data-bs-parent="#accordion">
                                             <div class="accordion-body">
                                                 Bitrix24 partners will make your Bitrix24 experience more pleasant and

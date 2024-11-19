@@ -1,4 +1,7 @@
+       
         <!--<< Footer Section Start >>-->
+       <link href="https://fonts.googleapis.com/css2?family=Nokora&display=swap" rel="stylesheet">
+
         <footer class="footer-section fix bg-cover" style="background-image: url('assets/img/section-bg.jpg');">
             <div class="footer-widgets-wrapper">
                 <div class="container">
@@ -11,9 +14,13 @@
                                     </a>
                                 </div>
                                 <div class="footer-content">
-                                    <p>
-                                        Oknha Kleang Moeung St. (70), Phnom Penh 120209
-                                    </p>
+                                   <p style="font-family: 'Nokora', sans-serif;">
+    ផ្ទះលេខ C-299 ផ្លូវបឹងទទឹងថ្ងៃទី២ សង្កាត់ជ្រោយចង្វារ ខណ្ឌជ្រោយចង្វារ រាជធានីភ្នំពេញ
+</p>
+<p style="font-family: Arial, sans-serif;">
+    #Home C-299 St Boeung Torteung Thngai2, Chrouy Changva District, Khan Chrouy Changva, Phnom Penh
+</p>
+
                                     <ul class="contact-info">
                                         <li>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"

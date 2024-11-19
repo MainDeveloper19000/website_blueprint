@@ -196,49 +196,42 @@
     </div>
 </div>
 <!-- Choose Us Section Start -->
-<section class="choose-us-section fix section-padding">
+<section class="choose-us-section fix section-padding" style="text-align: center;">
     <div class="container">
         <div class="section-title text-center">
-            <span class="style-border wow fadeInUp">our Support</span>
-            <h2 class="wow fadeInUp" data-wow-delay=".3s">our Premium Support</h2>
-            <p class="wow fadeInUp" data-wow-delay=".5s"></p>
+            <span class="style-border wow fadeInUp">Our Support</span>
+            <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Premium Support</h2>
+            <p class="wow fadeInUp" data-wow-delay=".5s">Dedicated assistance to enhance your experience.</p>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                <div class="choose-us-card-items">
+                <div class="choose-us-card-items text-center">
                     <div class="icon">
-                        <img src="assets/img/support/support.png" alt="img">
+                        <img src="assets/img/support/support.png" alt="24/7 Support Icon" style="width: 50px;">
                     </div>
                     <div class="content">
                         <h3>24/7 Support</h3>
                         <p>
-                            24/7 priority Live Chat and ticketing support.
+                            <br>
+                           
+                            24/7 priority Live Chat and Support bot.
+                            
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                <div class="choose-us-card-items">
-                    <div class="icon">
-                        <img src="assets/img/support/customization.png" alt="img">
-                    </div>
-                    <div class="content">
-                        <h3>Site Customization</h3>
-                        <p>
-                            2Collaboratively formulate principle capital. Progressively evolve
-                        </p>
-                    </div>
-                </div>
-            </div>
+
             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                <div class="choose-us-card-items">
+                <div class="choose-us-card-items text-center">
                     <div class="icon">
-                        <img src="assets/img/support/technical.png" alt="img">
+                        <img src="assets/img/support/technical.png" alt="Technical Support Icon" style="width: 50px;">
                     </div>
                     <div class="content">
-                        <h3>Technical Support </h3>
+                        <h3>Technical Support !</h3>
                         <p>
-                            24/7/365 priority Live Chat and ticketing support.
+                            Moday-Saturday (Half Day) 8:00AM-5:00PM
+                            <br>
+                            Priority Support Via Telegram.
                         </p>
                     </div>
                 </div>
@@ -246,6 +239,7 @@
         </div>
     </div>
 </section>
+
 <!--<< Contact Section Start >>-->
 <section class="contact-section fix section-padding">
     <br>
@@ -254,7 +248,7 @@
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="contact-left">
-                        <h2 class="wow fadeInUp" data-wow-delay=".3s">Request a <br> Consultation</h2>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s">Request a <br> Support</h2>
                         <div class="contact-image wow fadeInUp" data-wow-delay=".5s">
                             <img src="assets/img/supportrequest.jpg" alt="contact-img">
                         </div>
@@ -284,10 +278,13 @@
                                             placeholder="Phone Number">
                                     </div>
                                 </div>
-                                <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
+                                 <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
                                     <div class="form-clt">
                                         <div class="category-oneadjust">
                                             <select name="cate" class="category">
+                                                 <option value="1">
+                                                    ---Please Select A Platform---
+                                                </option>
                                                 <option value="1">
                                                     Bitrix 24
                                                 </option>
@@ -300,22 +297,16 @@
                                 </div>
                                 <div>
                                     <b>
-                                        <p style="color: red">Notice in Message</p>how can i help you?
+                                        <p style="color: red">Detail in Comments</p>how can we help you?
                                     </b>
                                 </div>
                                 <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                     <div class="form-clt">
-                                        <textarea name="message" id="message" placeholder="Messages"></textarea>
+                                        <textarea name="message" id="message" placeholder="Comment"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 wow fadeInUp" data-wow-delay=".9s">
-                                    <div class="form-check d-flex gap-2 from-customradio">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                            id="flexRadioDefault1">
-                                        <label class="form-check-label" for="flexRadioDefault1">
-                                            Collaboratively formulate principle capital. Progressively evolve user
-                                        </label>
-                                    </div>
+                                    
                                     <button type="submit" class="theme-btn">
                                         Submit Now <i class="fa-solid fa-arrow-right-long"></i>
                                     </button>
