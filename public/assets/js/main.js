@@ -349,5 +349,6 @@ CSS TABLE OF CONTENTS
     loader();
    
 
-})(jQuery); // End jQuery
+})
+(jQuery); // End jQuery
 

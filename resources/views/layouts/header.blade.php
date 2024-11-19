@@ -11,7 +11,11 @@
         <!-- ======== Page title ============ -->
         <title>BluePrint Software & Technology</title>
         <!--<< Favcion >>-->
+<<<<<<< HEAD
          <link rel="shortcut icon" href="{{asset('assets/img/looo.svg')}}"> 
+=======
+        <link rel="shortcut icon" href="{{asset('assets/img/looo.svg')}}">
+>>>>>>> eef55cd475caf078f4ec32e8b821171acdc74970
         <!--<< Bootstrap min.css >>-->
         <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
         <!--<< All Min Css >>-->
