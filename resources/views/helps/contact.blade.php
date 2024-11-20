@@ -224,7 +224,7 @@
                     <div class="content">
                         <h3>Our Address</h3>
                         <p>
-                            #Home C-229 St Boeung Torteung Thngai2, Chrouy Changva District, Khan Chrouy Changva, Phnom Penh
+                            #Home C-299 St Boeung Torteung Thngai2, Chrouy Changva District, Khan Chrouy Changva, Phnom Penh
                         </p>
                     </div>
                 </div>
